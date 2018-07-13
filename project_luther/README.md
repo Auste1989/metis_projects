@@ -23,10 +23,10 @@ The data will be pulled from [Autoplius](https://en.autoplius.lt/)
 Aproved by Damien :thumbsup:
 
 ### 4.Scrape the website
-1. Small scale scraping using BeautifulSoup (provided a few html files) - DONE
-2. Use Selenium to retrieve all required html files
-3. Combine Selenium and BeautifulSoup functions to do the full scrape
-4. Pickle the results (to save time when cleaning and analysing)
+1. Small scale scraping using BeautifulSoup (provided a few html files) - :thumbsup:
+2. Use Selenium to retrieve all required html files - :thumbsup:
+3. Combine Selenium and BeautifulSoup functions to do the full scrape :thumbsup:
+4. Pickle the results (to save time when cleaning and analysing) :thumbsup:
 
 ### 5.Format the data into a pandas data-frame
 
