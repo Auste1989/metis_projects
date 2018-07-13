@@ -25,18 +25,18 @@ Aproved by Damien :thumbsup:
 2. Use Selenium to retrieve all required html files - :thumbsup:
 3. Combine Selenium and BeautifulSoup functions to do the full scrape :thumbsup:
 4. Pickle the results (to save time when cleaning and analysing) :thumbsup:
-5. Format the data into a pandas data-frame
+5. Format the data into a pandas data-frame :thumbsup:
 
 ### 5. Explore, clean and prepare the data
 
-1. Explore
-2. Clean
-3. Finalize the dataset
+1. Explore :thumbsup:
+2. Clean :thumbsup:
+3. Finalize the dataset :thumbsup:
 
 ### 6. Model chosen dataset
 
-1. Create OLS
-2. Fit the model
+1. Create OLS :thumbsup:
+2. Fit the model :thumbsup:
 3. Assess model summary and diagnostic plots
 4. Adjust the model and repeat 1, 2, 3
 
