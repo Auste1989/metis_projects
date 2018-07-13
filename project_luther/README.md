@@ -13,7 +13,7 @@
 11. Practice practice practice
 
 ### 1.Decide on the topic
-Predict second-hand car price :car: :red_car:
+Predict second-hand car price :oncoming_automobile:
 
 ### 2. Verify that the topic is reasonable and data is available
 The data will be pulled from [Autoplius](https://en.autoplius.lt/)   
