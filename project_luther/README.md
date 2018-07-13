@@ -1,19 +1,19 @@
 ## Project 2.
 ### To do list:
-1. Decide on the topic - DONE
-2. Verify that the topic is reasonable and data is available - DONE
-3. Get the idea approved - DONE
-4. Scrape the website - DONE
-5. Format the data into a pandas data-frame - DONE
-6. Explore and clean it - DONE
+1. Decide on the topic - :thumbsup:
+2. Verify that the topic is reasonable and data is available - :thumbsup:
+3. Get the idea approved - :thumbsup:
+4. Scrape the website - :thumbsup:
+5. Format the data into a pandas data-frame - :thumbsup:
+6. Explore and clean it - :thumbsup:
 7. Decide on the most applicable features
-8. Work on the modelling and linear regression - DONE
+8. Work on the modelling and linear regression - :thumbsup:
 9. Visualize the results - 
 10. Write up the presentation
 11. Practice practice practice
 
 ### 1.Decide on the topic
-Predict second-hand car price
+Predict second-hand car price :car: :red_car:
 
 ### 2. Verify that the topic is reasonable and data is available
 The data will be pulled from [Autoplius](https://en.autoplius.lt/)   
