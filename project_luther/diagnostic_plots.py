@@ -62,47 +62,11 @@ def diagnostic_plots(X, y, model_fit=None):
     plot_lm_1.axes[0].set_title('Residuals vs Fitted')
     plot_lm_1.axes[0].set_xlabel('Fitted values')
     plot_lm_1.axes[0].set_ylabel('Residuals');
-
-    # annotations
-#     abs_resid = model_abs_resid.sort_values(ascending=False)
-#     abs_resid_top_3 = abs_resid[:3]
-#     for i in abs_resid_top_3.index:
-#         plot_lm_1.axes[0].annotate(i,
-#                                    xy=(model_fitted_y[i],
-#                                        model_residuals[i]));
-
+    
     # Normal Q-Q Plot
     QQ = ProbPlot(model_norm_residuals)
     plot_lm_2 = QQ.qqplot(line='45', alpha=0.5, color='#4C72B0', lw=1)
     plot_lm_2.axes[0].set_title('Normal Q-Q')
     plot_lm_2.axes[0].set_xlabel('Theoretical Quantiles')
     plot_lm_2.axes[0].set_ylabel('Standardized Residuals');
-    
-    # annotations
-#     abs_norm_resid = np.flip(np.argsort(np.abs(model_norm_residuals)), 0)
-#     abs_norm_resid_top_3 = abs_norm_resid[:3]
-#     for r, i in enumerate(abs_norm_resid_top_3):
-#         plot_lm_2.axes[0].annotate(i,
-#                                    xy=(np.flip(QQ.theoretical_quantiles, 0)[r],
-#                                        model_norm_residuals[i]));
-
-    # Scale vs Location Plot
-    plot_lm_3 = plt.figure()
-    plt.scatter(model_fitted_y, model_norm_residuals_abs_sqrt, alpha=0.5);
-    sns.regplot(model_fitted_y, model_norm_residuals_abs_sqrt,
-                scatter=False,
-                ci=False,
-                lowess=True,
-                line_kws={'color': 'red', 'lw': 1, 'alpha': 0.8});
-    plot_lm_3.axes[0].set_title('Scale-Location')
-    plot_lm_3.axes[0].set_xlabel('Fitted values')
-    plot_lm_3.axes[0].set_ylabel('$\sqrt{|Standardized Residuals|}$');
-
-#     #annotations
-#     abs_sq_norm_resid = np.flip(np.argsort(model_norm_residuals_abs_sqrt), 0)
-#     abs_sq_norm_resid_top_3 = abs_sq_norm_resid[:3]
-#     for i in abs_norm_resid_top_3:
-#         plot_lm_3.axes[0].annotate(i,
-#                                   xy=(model_fitted_y[i],
-#                                       model_norm_residuals_abs_sqrt[i]));
 
