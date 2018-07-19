@@ -63,10 +63,10 @@ def diagnostic_plots(X, y, model_fit=None):
     plot_lm_1.axes[0].set_xlabel('Fitted values')
     plot_lm_1.axes[0].set_ylabel('Residuals');
     
-    # Normal Q-Q Plot
-    QQ = ProbPlot(model_norm_residuals)
-    plot_lm_2 = QQ.qqplot(line='45', alpha=0.5, color='#4C72B0', lw=1)
-    plot_lm_2.axes[0].set_title('Normal Q-Q')
-    plot_lm_2.axes[0].set_xlabel('Theoretical Quantiles')
-    plot_lm_2.axes[0].set_ylabel('Standardized Residuals');
+#     # Normal Q-Q Plot
+#     QQ = ProbPlot(model_norm_residuals)
+#     plot_lm_2 = QQ.qqplot(line='45', alpha=0.5, color='#4C72B0', lw=1)
+#     plot_lm_2.axes[0].set_title('Normal Q-Q')
+#     plot_lm_2.axes[0].set_xlabel('Theoretical Quantiles')
+#     plot_lm_2.axes[0].set_ylabel('Standardized Residuals');
 
