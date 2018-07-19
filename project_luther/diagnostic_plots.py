@@ -97,40 +97,11 @@ def diagnostic_plots(X, y, model_fit=None):
     plot_lm_3.axes[0].set_xlabel('Fitted values')
     plot_lm_3.axes[0].set_ylabel('$\sqrt{|Standardized Residuals|}$');
 
-    # annotations
+    #annotations
     abs_sq_norm_resid = np.flip(np.argsort(model_norm_residuals_abs_sqrt), 0)
     abs_sq_norm_resid_top_3 = abs_sq_norm_resid[:3]
     for i in abs_norm_resid_top_3:
         plot_lm_3.axes[0].annotate(i,
-                                   xy=(model_fitted_y[i],
-                                       model_norm_residuals_abs_sqrt[i]));
+                                  xy=(model_fitted_y[i],
+                                      model_norm_residuals_abs_sqrt[i]));
 
-
-    # Residuals vs Leverage Plot
-    plot_lm_4 = plt.figure();
-    plt.scatter(model_leverage, model_norm_residuals, alpha=0.5);
-    sns.regplot(model_leverage, model_norm_residuals,
-                scatter=False,
-                ci=False,
-                lowess=True,
-                line_kws={'color': 'red', 'lw': 1, 'alpha': 0.8});
-    plot_lm_4.axes[0].set_xlim(0, max(model_leverage)+0.01)
-    plot_lm_4.axes[0].set_ylim(-3, 5)
-    plot_lm_4.axes[0].set_title('Residuals vs Leverage')
-    plot_lm_4.axes[0].set_xlabel('Leverage')
-    plot_lm_4.axes[0].set_ylabel('Standardized Residuals');
-
-    # annotations
-    leverage_top_3 = np.flip(np.argsort(model_cooks), 0)[:3]
-    for i in leverage_top_3:
-        plot_lm_4.axes[0].annotate(i,
-                                   xy=(model_leverage[i],
-                                       model_norm_residuals[i]));
-
-    p = len(model_fit.params) # number of model parameters
-    graph(lambda x: np.sqrt((0.5 * p * (1 - x)) / x),
-          np.linspace(0.001, max(model_leverage), 50),
-          'Cook\'s distance') # 0.5 line
-    graph(lambda x: np.sqrt((1 * p * (1 - x)) / x),
-          np.linspace(0.001, max(model_leverage), 50)) # 1 line
-    plot_lm_4.legend(loc='upper right');
