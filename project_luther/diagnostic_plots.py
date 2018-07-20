@@ -53,7 +53,7 @@ def diagnostic_plots(X, y, model_fit=None):
 
 
     # Residuals vs Fitted Plot
-    plot_lm_1 = plt.figure(figsize = (20, 10))
+    plot_lm_1 = plt.figure(figsize = (10, 5))
     plot_lm_1.axes[0] = sns.residplot(model_fitted_y, dataframe.columns[-1], data=dataframe,
                               lowess=True,
                               scatter_kws={'alpha': 0.5},
@@ -64,6 +64,7 @@ def diagnostic_plots(X, y, model_fit=None):
     plot_lm_1.axes[0].set_ylabel('Residuals');
     
     # Normal Q-Q Plot
+    plot_lm_2 = plt.figure(figsize = (10, 5))
     QQ = ProbPlot(model_norm_residuals)
     plot_lm_2 = QQ.qqplot(line='45', alpha=0.5, color='#4C72B0', lw=1)
     plot_lm_2.axes[0].set_title('Normal Q-Q')
