@@ -53,7 +53,7 @@ def diagnostic_plots(X, y, model_fit=None):
 
 
     # Residuals vs Fitted Plot
-    plot_lm_1 = plt.figure()
+    plot_lm_1 = plt.figure(figsize = (20, 10))
     plot_lm_1.axes[0] = sns.residplot(model_fitted_y, dataframe.columns[-1], data=dataframe,
                               lowess=True,
                               scatter_kws={'alpha': 0.5},
