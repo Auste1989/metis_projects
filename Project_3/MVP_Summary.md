@@ -4,7 +4,7 @@
 School student's math grade (Pass / Fail)
 
 #### Description:
-Predicting student's mathematics grade based on sex, age, relationship status and weekly alcohol consumption.
+Predicting student's mathematics grade based on sex, age, relationship status and weekly alcohol consumption.  
 *As a secondary task, could run the same model on the dataset for Portuguese language grade and compare the two.*
 
 ### Why?
