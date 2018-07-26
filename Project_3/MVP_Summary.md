@@ -1,11 +1,13 @@
 ## Minimal Viable Product (MVP) Summary
 
-## Topic: School student's math grade (or Pass / Fail)
-### Description:
-Predicting student's mathematics class grade based on gender, age, relationship status and weekly alcohol consumption.
+### Topic:
+School student's math grade (or Pass / Fail)
 
-### Why? *My domain knowledge*
-From personal experience, I think that drinking alcohol has a negative impact on grades, especially at school-age. It would be interesting to see if that is indeed the case.
+### Description:
+Predicting student's mathematics grade based on sex, age, relationship status and weekly alcohol consumption.
+
+### Why?
+In my opinion drinking alcohol has a negative impact on learning. It would be interesting to see if that is indeed the case in a more scientific way rather than just from personal experience.
 
 ### Plan of Action:
 
@@ -25,10 +27,10 @@ From personal experience, I think that drinking alcohol has a negative impact on
 
 ### Dataset
 
-| --- | --- | --- | --- | --- |
-| Sex | Age | Relationship Status | Alcohol Consumption / Week | Final Grade |
-| --- | --- | --- | --- | --- |
-| 1 | 14 | 1 | 2 | Pass |
-| 0 | 17 | 1 | 0 | Fail |
+| --- | --- | --- | --- | --- |   
+| Sex | Age | Relationship Status | Alcohol Consumption / Week | Final Grade |   
+| --- | --- | --- | --- | --- |   
+| 1 | 14 | 1 | 2 | Pass |   
+| 0 | 17 | 1 | 0 | Fail |   
 
 ### Currently no Known Unknowns
