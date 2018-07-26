@@ -30,7 +30,7 @@ I have a *(strong)* opinion that drinking alcohol has a negative impact on learn
 
 ### Dataset
 
-![What a Fail!]('https://github.com/mastaus/metis_projects/blob/master/Project_3/Student_Grades_dataset.png')
+![What a Fail!](Student_Grades_dataset.png)
 
 | Sex | Age | Relationship Status | Weekday Alcohol Consumption | Weekend Alcohol Consumption | Final Grade |   
 | --- | --- | --- | --- | --- | --- |   
