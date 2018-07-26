@@ -5,6 +5,7 @@ School student's math grade (Pass / Fail)
 
 #### Description:
 Predicting student's mathematics grade based on sex, age, relationship status and weekly alcohol consumption.
+*As a secondary task, could run the same model on the dataset for Portuguese language grade and compare the two.*
 
 ### Why?
 In my opinion drinking alcohol has a negative impact on learning. It would be interesting to see if that is indeed the case in a more scientific way rather than just from personal experience.  
