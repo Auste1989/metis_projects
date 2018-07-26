@@ -17,11 +17,11 @@ Overall, This is not so much of a business problem, but rather a social responsi
 
 ### Dataset
 
-[Data source](http://archive.ics.uci.edu/ml/datasets/Student+Performance)   
 ![What a Fail!](Student_Grades_dataset.png)
 
-
 ### Known Unknowns
+
+[Data source](http://archive.ics.uci.edu/ml/datasets/Student+Performance)   
 
 * What relationship does alcohol consumption have on student's grades?
 * What impact does being in a relationship have on student's grades?
