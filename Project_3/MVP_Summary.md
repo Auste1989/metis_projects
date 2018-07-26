@@ -26,8 +26,7 @@ In my opinion drinking alcohol has a negative impact on learning. It would be in
 13. This time actually practice presenting
 
 ### Dataset
-
-| --- | --- | --- | --- | --- |   
+ 
 | Sex | Age | Relationship Status | Alcohol Consumption / Week | Final Grade |   
 | --- | --- | --- | --- | --- |   
 | 1 | 14 | 1 | 2 | Pass |   
