@@ -30,7 +30,7 @@ Overall, This is not so much of a business problem, but rather a social responsi
 * What relationship do extra-curricular activities have with alcohol consumption?
 * Many more...
 
-**Feedback**
+### Feedback
 Some questions and thoughts:
 - What is your *minimum* viable product? What are you simplifying in your model as a first iteration?
       *My minimum viable product is predicting a Fail or Pass, using the two datasets*
