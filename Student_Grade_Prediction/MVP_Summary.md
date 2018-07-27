@@ -29,3 +29,22 @@ Overall, This is not so much of a business problem, but rather a social responsi
 * How does the family size or parent cohabitation impact student's grades?
 * What relationship do extra-curricular activities have with alcohol consumption?
 * Many more...
+
+**Feedback**
+Some questions and thoughts:
+- What is your *minimum* viable product? What are you simplifying in your model as a first iteration?
+      *My minimum viable product is predicting a Fail or Pass, using the two datasets*
+- What is the label you are trying to predict?
+      *I will be transforming the G3 (Final grade column) into Pass / Fail and predicting that*
+- It looks like there are encoded values in your data, e.g., `famsize=GT3` do you have a dictionary lookup of what these actually mean?
+      *Yes, I have a dictionary for all the values at the location where I got the datasets*
+- How many observations are in the dataset?
+      *There are 460 observations for math score and another 650 for Portuguese score. I will be combining the two datasets*
+- What is the age range of the students?
+      *The age range is 15 to 22*
+- Do you have any information in the data regarding when they started drinking or dating?
+      *No, just how much they drink per weekday and per weekend (on the scale from 0 to 5)*
+- It is likely you will have to group certain similar professions together to reduce the number of categorical values in the data.
+      *I won't be using all the features in my modelling, but I will only know which ones I'll use after the analysis*
+- You have very few "real" numerical features to work with. Explore the data and make reasonable assumptions on which columns have hard numbers and which have been encoded to some numerical value.
+      *Do I have to have many numerical values? Is having encoded / dummified variables an issue? What could my problems be if I use many encoded values and only 2 or 3 numerical ones?*
