@@ -17,7 +17,7 @@ Overall, This is not so much of a business problem, but rather a social responsi
 
 ### Dataset
 
-[Data Source]([Data source](http://archive.ics.uci.edu/ml/datasets/Student+Performance#)
+[Data source](http://archive.ics.uci.edu/ml/datasets/Student+Performance#)
 ![What a Fail!](Student_Grades_dataset.png)
 
 ### Known Unknowns
