@@ -22,7 +22,7 @@ Overall, This is not so much of a business problem, but rather a social responsi
 
 ### Known Unknowns
 
-* What relationship does alcohol consumption have on student's grades?
+* What relationship does alcohol consumption have with student's grades?
 * What impact does being in a relationship have on student's grades?
 * Is there a difference between the impact features have on math grades versus those of language skills (Portuguese)?
 * How features like alcohol consumption correlate with age or relationship status?
@@ -39,7 +39,7 @@ Some questions and thoughts:
 **- It looks like there are encoded values in your data, e.g., `famsize=GT3` do you have a dictionary lookup of what these actually mean?**   
       *Yes, I have a dictionary for all the values at the location where I got the datasets*
 **- How many observations are in the dataset?**   
-      *There are 460 observations for math score and another 650 for Portuguese score. I will be combining the two datasets*
+      *There are 395 observations for math score and another 649 for Portuguese score. I will be combining the two datasets*
 **- What is the age range of the students?**   
       *The age range is 15 to 22*
 **- Do you have any information in the data regarding when they started drinking or dating?**   

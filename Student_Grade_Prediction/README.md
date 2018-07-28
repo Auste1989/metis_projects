@@ -19,23 +19,41 @@ Overall, This is not so much of a business problem, but rather a social responsi
 
 1. Clearly define the question - :thumbsup:
 2. Get a good quality dataset (ideally multiple) - :thumbsup: :thumbsup:
-3. Combine the two datasets
-4. Explore and analyse the dataset(s)
-5. Clean missing values, outliers (if any) and obvious mistakes
-6. Transform the variables (dummify, etc.)
-7. Store the data in an SQL database
-8. Select the features
-9. Model using different models (KNN, Logistic Regression, Decision Trees, Random Forest, etc.)
-10. Refine feature selection and repeat above step
-11. Verify which model performs the best and finalize it
-12. Create online interface using Flask
-13. Visualize the results
-14. Create the presentation
-15. This time actually practice presenting
+3. Transform the data to reflect the question
+4. Combine the two datasets
+5. Explore and analyse the dataset(s)
+6. Clean missing values, outliers (if any) and obvious mistakes
+7. Transform the variables (dummify, etc.)
+8. Store the data in an SQL database
+9. Select initial features
+10. Model using different models (KNN, Logistic Regression, Decision Trees, Random Forest, etc.)
+11. Refine feature selection and repeat above step
+12. Verify which model performs the best and finalize it
+13. Create online interface using Flask
+14. Visualize the results
+15. Create the presentation
+16. This time actually practice presenting
+
+### About The Dataset
+
+**Number of datasets:** 2
+**Format**: CSV
+**Total observations:** 395 + 649
+**Missing values:** N/A
+**Dataset makeup:** 33 variables: 9 categorical, 8 boolean, 10 encoded, 6 numerical
+**Target variable (label):** Transformed G3 (final grade) (Pass / Fail)
+**Features to be excluded:** G1 and G2 (first and second semester grades)
+**Added features:** Grade type (Maths / Portuguese)
+**Dummified features:**
+**Dropped features after Random Forest analysis:**
+
+
+[Data source](http://archive.ics.uci.edu/ml/datasets/Student+Performance#)
+![What a Fail!](Student_Grades_dataset.png)
 
 ### Known Unknowns:
 
-* What relationship does alcohol consumption have on student's grades?
+* What relationship does alcohol consumption have with student's grades?
 * What impact does being in a relationship have on student's grades?
 * Is there a difference between the impact features have on math grades versus those of language skills (Portuguese)?
 * How do features like alcohol consumption correlate with age or relationship status?
