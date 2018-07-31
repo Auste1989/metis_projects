@@ -19,12 +19,12 @@ Overall, This is not so much of a business problem, but rather a social responsi
 
 1. Clearly define the question - :thumbsup:
 2. Get a good quality dataset (ideally multiple) - :thumbsup: :thumbsup:
-3. Transform the data to reflect the question
-4. Combine the two datasets
+3. Transform the data to reflect the question (convert final grades to labels (Pass / Fail)) :thumbsup:
+4. Combine the two datasets (in SQL using UNION) :thumbsup:
 5. Explore and analyse the dataset(s)
 6. Clean missing values, outliers (if any) and obvious mistakes
-7. Transform the variables (dummify, etc.)
-8. Store the data in an SQL database
+7. Transform the variables (dummify, etc.) (should I dummify?)
+8. Store the data in an SQL database tables
 9. Select initial features
 10. Model using different models (KNN, Logistic Regression, Decision Trees, Random Forest, etc.)
 11. Refine feature selection and repeat above step
