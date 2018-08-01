@@ -63,4 +63,6 @@ Overall, This is not so much of a business problem, but rather a social responsi
 
 ### Data analysis
 
-* Potentially log the age features, since it's right-skewed
+* Potentially log the absences and failures features, since they're right-skewed
+* Tried oversampling (using SMOTE), but that make the accuracy score go down :confused:  
+* Next up - KNN and SVC
