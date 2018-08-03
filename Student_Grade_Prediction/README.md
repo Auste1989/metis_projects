@@ -65,8 +65,9 @@ Overall, This is not so much of a business problem, but rather a social responsi
 
 * Potentially log the absences and failures features, since they're right-skewed (*only applicable for LogisticRegression*)
 * Mother's and father's education are correlated (0.64), should combine into 1 *maybe avg. of the two**  
-* Alcohol consumption on weekdays and weekends are strongly correlated (0.62), should combine it into one (*avg. alcohol consumption*)  
+* Alcohol consumption on weekdays and weekends are strongly correlated (0.62), could combine it into one (*avg. alcohol consumption*)  
 * Travel time and address (U vs R) are highly correlated (logical), leave only travel time  
 * Freetime and going out variables are also relatively highly correlated, could combine them into 1 or remove going out, since alcohol consumption columns cover a large effect of going out  
-* Tried oversampling (using SMOTE), but that make the accuracy score go down :confused:  
-* Next up - KNN and SVC
+* Tried oversampling (using Random, SMOTE and ADASYN), but they made the accuracy score go down :confused:  
+* Figured out the hyper-parameters for 6 different models :thumbsup:  
+* Compared all the models with their best hyper-parameters 
