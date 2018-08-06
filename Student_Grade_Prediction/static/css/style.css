@@ -1,0 +1,52 @@
+body {
+  background-color: #f7f9f9;
+  color: #ff00a7;
+  margin: 10px;
+  font-size: 18pt;
+}
+
+.title{
+  color: #000080;
+  text-align: center;
+  font-size: 36pt;
+  padding: 10pt 30pt;
+  margin: 0 auto;
+}
+
+.instructions {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.personal_info {
+  text-align: left;
+  color: #660033;
+  font-size: 14pt;
+  margin-bottom: 20px;
+}
+
+.selection_space {
+  text-align: left;
+  background-color: #eef7fa;
+  color: #000080;
+  font-size: 14pt;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.encoded_features {
+  text-align: left;
+  background-color: #eef7fa;
+  color: #000080;
+  font-size: 14pt;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container{
+  background-color: #bdf9dc;
+  color: #000080;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

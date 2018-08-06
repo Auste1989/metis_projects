@@ -22,14 +22,14 @@ Overall, This is not so much of a business problem, but rather a social responsi
 3. Transform the data to reflect the question (convert final grades to labels (Pass / Fail)) :thumbsup:
 4. Store the data in SQL database tables :thumbsup:
 5. Combine the two datasets (using SQL UNION) :thumbsup:
-6. Explore and analyse the dataset(s)
-7. Clean missing values, outliers (if any) and obvious mistakes
-8. Transform the variables (dummify, etc.) (should I dummify?). *Because my dataset is imbalanced (0.8 vs 0.2, I should look into imblearn module to RandomOversampling or use SMOTE to oversample the minority class (Fail)) or undersample*
-9. Select initial features *using RandomForest*
-10. Model using different models (KNN, Logistic Regression, Decision Trees, Random Forest, SVM, etc.) *suggestion from Damien to try SVM / SVC, RandomForest and LogisticRegression. If there's time, try clustering for some of the features and then apply the above mentioned models)*
-11. Check accuracy, recall, precision, f1, roc_auc scores, draw roc_curve
-12. Refine feature selection and repeat above steps
-13. Verify which model performs the best and finalize it *to visualize use confusion matrix*
+6. Explore and analyse the dataset(s) :thumbsup:
+7. Clean missing values, outliers (if any) and obvious mistakes :thumbsup:  
+8. Transform the variables (dummify, etc.) *Because my dataset is imbalanced (0.8 vs 0.2, I should look into imblearn module to RandomOversampling or use SMOTE to oversample the minority class (Fail))* :thumbsdown: :confused:
+9. Select initial features *using RandomForest* :thumbsup:
+10. Model using different models (KNN, Logistic Regression, Decision Trees, Random Forest, SVC, etc.) *suggestion from Damien to try SVM / SVC, RandomForest and LogisticRegression. If there's time, try clustering for some of the features and then apply the above mentioned models)* :thumbsup:
+11. Check accuracy, recall, precision, f1
+12. Plot roc_curve and get roc_auc scores *(in progress)*
+13. Refine feature selection and repeat above steps
 14. Create online interface using Flask
 15. Visualize the results
 16. Create the presentation
@@ -63,11 +63,16 @@ Overall, This is not so much of a business problem, but rather a social responsi
 
 ### Data analysis
 
-* Potentially log the absences and failures features, since they're right-skewed (*only applicable for LogisticRegression*)
-* Mother's and father's education are correlated (0.64), should combine into 1 *maybe avg. of the two**  
-* Alcohol consumption on weekdays and weekends are strongly correlated (0.62), could combine it into one (*avg. alcohol consumption*)  
+* Figured out the hyper-parameters for 6 different models :thumbsup:  
+* Compared all the models with their best hyper-parameters (SGB did the best on Cross Validation comparing accuracy score) :thumbsup:  
+* Random Forest was showing signs of overfitting initially, but after adding min_samples_leaf limit to 3, the score improved.  
+* Tried oversampling (using Random, SMOTE and ADASYN), didn't help, need to look into it more :thumbsup:  
+* Need to do forward feature selection
+1. Only failures and higher yielded - roc_auc 0.675
+
+
+* Potentially log the absences and failures features, since they're right-skewed (*only applicable for LogisticRegression, and since it isn't my chosen model, I'll leave it*)
+* Mother's and father's education are correlated (0.64), should combine into 1 *(maybe avg. of the two)*  
+* Alcohol consumption on weekdays and weekends are strongly correlated (0.62) (*could combine it into one or take an avg. alcohol consumption*)  
 * Travel time and address (U vs R) are highly correlated (logical), leave only travel time  
 * Freetime and going out variables are also relatively highly correlated, could combine them into 1 or remove going out, since alcohol consumption columns cover a large effect of going out  
-* Tried oversampling (using Random, SMOTE and ADASYN), but they made the accuracy score go down :confused:  
-* Figured out the hyper-parameters for 6 different models :thumbsup:  
-* Compared all the models with their best hyper-parameters 
