@@ -14,11 +14,11 @@ def make_prediction(features):
                            features['goout'], features["Walc"], features['health'], features['absences'],
                            int(features['discipline'] == 'maths')]).reshape(1,-1)
 
-    prob_pass = round(Random_Forest.predict_proba(feat_space)[0, 1] * 100, 0)
+    prob_pass = round(Random_Forest.predict_proba(feat_space)[0, 1], 3)
 
     result = {
-        'prediction': int(prob_pass > 50),
-        'prob_pass': prob_pass
+        'prediction': int(prob_pass > 0.5),
+        'prob_pass': round(prob_pass * 100, 0)
     }
     return result
 
