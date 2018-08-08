@@ -1,4 +1,4 @@
-## Minimal Viable Product (MVP) Summary
+## Student Grade Classification
 
 ### Problem:
 Classifying students' grades into Pass / Fail
@@ -8,23 +8,23 @@ Predicting student's mathematics and Portuguese language grade based on various 
 sex, age, relationship status, alcohol consumption, etc. In total 30 different features are available, appropriate ones will be selected using data analysis.
 
 ### Why?
-Understanding how different characteristics, family situations and choices in life affect ones learning (through grades) can be very powerful. Especially when talking about youth education. If more schools did such data collection and analysis, we would probably have a much better education programs catered to different groups of students.
+Understanding how different characteristics, family situations and choices in life affect student's learning (through grades) can be very powerful. Especially when talking about youth education. If more schools did such data collection and analysis, we would likely have a much better education programs catered to different groups of students.
 Moreover, actual science based information could be passed on to the parents who could, in turn, make smarter decisions for their children / teenagers.
-As a side note, I have a *(strong)* opinion that drinking alcohol has a negative impact on learning. It would be interesting to see if that is, indeed, the case in a more scientific way rather than just from personal experience.
 
 Overall, This is not so much of a business problem, but rather a social responsibility question.  
-*In terms of domain knowledge, I don't have any specific knowledge other than my, my family's and friends' experience*
 
 ### About The Dataset
 
-**Number of datasets:** 2
-**Format**: CSV
-**Total observations:** 395 + 649
-**Missing values:** N/A
-**Dataset makeup:** 33 variables: 9 categorical, 8 boolean, 10 encoded, 6 numerical
-**Target variable (label):** Transformed G3 (final grade) (Pass / Fail)
-**Features to be excluded:** G1 and G2 (first and second semester grades)
-**Added features:** Grade type (Maths / Portuguese)
+**Number of datasets:** 2  
+**Format**: CSV  
+**Total observations:** 395 + 649  
+**Missing values:** N/A  
+**Dataset makeup:** 33 variables: 9 categorical, 8 boolean, 10 encoded, 6 numerical  
+**Target variable (label):** Transformed G3 (final grade) (Pass / Fail)  
+**Features to be excluded:** G1 and G2 (first and second semester grades)  
+**Added features:** Grade type (Maths / Portuguese)  
+**Dummified features:** 6  
+**Number of features remaining:** 15  
 
 [Data source](http://archive.ics.uci.edu/ml/datasets/Student+Performance#)
 ![What a Fail!](Student_Grades_dataset.png)
@@ -55,4 +55,33 @@ Overall, This is not so much of a business problem, but rather a social responsi
 **- It is likely you will have to group certain similar professions together to reduce the number of categorical values in the data.**   
 *I won't be using all the features in my modelling, but I will only know which ones I'll use after the analysis*   
 **- You have very few "real" numerical features to work with. Explore the data and make reasonable assumptions on which columns have hard numbers and which have been encoded to some numerical value.**   
-*Do I have to have many numerical values? Is having encoded / dummified variables an issue? What could my problems be if I use many encoded values and only 2 or 3 numerical ones?*   
+*Do I have to have many numerical values? Is having encoded / dummified variables an issue? What could my problems be if I use many encoded values and only 2 or 3 numerical ones?*  
+
+### Data analysis
+
+* Figured out the hyper-parameters for 7 different models :thumbsup:  
+* Compared all the models with their best hyper-parameters (Random Forest did the best on Cross Validation comparing AUC score and second best in precision) :thumbsup:  
+* Random Forest was showing signs of overfitting initially, but after adding min_samples_leaf limit to 3, the score improved.  
+* Need to do forward feature selection (**15 features left**) :thumbsup:
+  1. Failures
+  2. Discipline
+  3. Absences
+  4. Going out
+  5. Willingness to Pursue Higher Education
+  6. Father's education
+  7. Studying time
+  8. Family relationship
+  9. Weekend alcohol consumption
+  10. Mother's education
+  11. Health
+  12. Free time
+  13. Age
+  14. Whether paying for school or not
+  15. Living in the city or not
+* Oversamping (using Random, SMOTE and ADASYN) did not help (proved with Random Forest and Naive Bayes (Bernoulli)) :thumbsdown: :confused:
+* Final precision score on the test set was **~0.86**, final AUC score was **~0.67**   
+### The final analysis has shown that:
+  1. As the Study Time increases, ceteris paribus, so does the probability to Pass, but it does so with diminishing returns  
+  2. As the previous failures increase, ceteris paribus, the probability to Pass drops dramatically  
+  3. The better educated are student's parents, the more likely they are to Pass  
+  4. The most interesting finding was that the probability to Pass peaks at the average level of Free Time / Going Out / Weekend Alcohol consumption, ceteris paribus

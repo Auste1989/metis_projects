@@ -8,12 +8,10 @@ Predicting student's mathematics and Portuguese language grade based on various 
 sex, age, relationship status, alcohol consumption, etc. In total 30 different features are available, appropriate ones will be selected using data analysis.
 
 ### Why?
-Understanding how different characteristics, family situations and choices in life affect ones learning (through grades) can be very powerful. Especially when talking about youth education. If more schools did such data collection and analysis, we would probably have a much better education programs catered to different groups of students.
+Understanding how different characteristics, family situations and choices in life affect student's learning (through grades) can be very powerful. Especially when talking about youth education. If more schools did such data collection and analysis, we would likely have a much better education programs catered to different groups of students.
 Moreover, actual science based information could be passed on to the parents who could, in turn, make smarter decisions for their children / teenagers.
-As a side note, I have a *(strong)* opinion that drinking alcohol has a negative impact on learning. It would be interesting to see if that is, indeed, the case in a more scientific way rather than just from personal experience.
 
 Overall, This is not so much of a business problem, but rather a social responsibility question.  
-*I don't have any specific knowledge other than my, my family's and friends' experience*
 
 ### Plan of Action:
 
@@ -32,7 +30,7 @@ Overall, This is not so much of a business problem, but rather a social responsi
 13. Refine feature selection and repeat above steps :thumbsup:
 14. Create online interface using Flask :thumbsup:
 15. Visualize the results :thumbsup:
-16. Create the presentation *almost* :thumbsup:
+16. Create the presentation :thumbsup:
 17. This time actually practice presenting :smirk:
 
 ### About The Dataset
@@ -46,8 +44,7 @@ Overall, This is not so much of a business problem, but rather a social responsi
 **Features to be excluded:** G1 and G2 (first and second semester grades)  
 **Added features:** Grade type (Maths / Portuguese)  
 **Dummified features:**   
-**Dropped features after Random Forest analysis:**   
-
+**Dropped features after Random Forest analysis:**  
 
 [Data source](http://archive.ics.uci.edu/ml/datasets/Student+Performance#)
 ![What a Fail!](Student_Grades_dataset.png)
@@ -63,7 +60,7 @@ Overall, This is not so much of a business problem, but rather a social responsi
 
 ### Data analysis
 
-* Figured out the hyper-parameters for 6 different models :thumbsup:  
+* Figured out the hyper-parameters for 7 different models :thumbsup:  
 * Compared all the models with their best hyper-parameters (SGB did the best on Cross Validation comparing accuracy score) :thumbsup:  
 * Random Forest was showing signs of overfitting initially, but after adding min_samples_leaf limit to 3, the score improved.  
 * Tried oversampling (using Random, SMOTE and ADASYN), didn't help, need to look into it more :thumbsup:  
@@ -84,4 +81,9 @@ Overall, This is not so much of a business problem, but rather a social responsi
   14. Whether paying for school or not
   15. Living in the city or not
 * Oversamping did not help (proved with Random Forest and Naive Bayes (Bernoulli))
-* Final precision score on the test set was **~0.86**, final AUC score is **~0.67**
+* Final precision score on the test set was **~0.86**, final AUC score is **~0.67**   
+### The final analysis has shown that:
+  1. As the Study Time increases, ceteris paribus, so does the probability to Pass, but it does so with diminishing returns  
+  2. As the previous failures increase, ceteris paribus, the probability to Pass drops dramatically  
+  3. The better educated are student's parents, the more likely they are to Pass  
+  4. The most interesting finding was that the probability to Pass peaks at the average level of Free Time / Going Out / Weekend Alcohol consumption, ceteris paribus
