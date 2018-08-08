@@ -67,12 +67,21 @@ Overall, This is not so much of a business problem, but rather a social responsi
 * Compared all the models with their best hyper-parameters (SGB did the best on Cross Validation comparing accuracy score) :thumbsup:  
 * Random Forest was showing signs of overfitting initially, but after adding min_samples_leaf limit to 3, the score improved.  
 * Tried oversampling (using Random, SMOTE and ADASYN), didn't help, need to look into it more :thumbsup:  
-* Need to do forward feature selection
-1. Only failures and higher yielded - roc_auc 0.675
-
-
-* Potentially log the absences and failures features, since they're right-skewed (*only applicable for LogisticRegression, and since it isn't my chosen model, I'll leave it*)
-* Mother's and father's education are correlated (0.64), should combine into 1 *(maybe avg. of the two)*  
-* Alcohol consumption on weekdays and weekends are strongly correlated (0.62) (*could combine it into one or take an avg. alcohol consumption*)  
-* Travel time and address (U vs R) are highly correlated (logical), leave only travel time  
-* Freetime and going out variables are also relatively highly correlated, could combine them into 1 or remove going out, since alcohol consumption columns cover a large effect of going out  
+* Need to do forward feature selection (**15 features left**) :thumbsup:
+  1. Failures
+  2. Discipline
+  3. Absences
+  4. Going out
+  5. Willingness to Pursue Higher Education
+  6. Father's education
+  7. Studying time
+  8. Family relationship
+  9. Weekend alcohol consumption
+  10. Mother's education
+  11. Health
+  12. Free time
+  13. Age
+  14. Whether paying for school or not
+  15. Living in the city or not
+* Oversamping did not help (proved with Random Forest and Naive Bayes (Bernoulli))
+* Final precision score on the test set was **~0.86**, final AUC score is **~0.67**
