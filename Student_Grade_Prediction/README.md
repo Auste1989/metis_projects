@@ -27,13 +27,13 @@ Overall, This is not so much of a business problem, but rather a social responsi
 8. Transform the variables (dummify, etc.) *Because my dataset is imbalanced (0.8 vs 0.2, I should look into imblearn module to RandomOversampling or use SMOTE to oversample the minority class (Fail))* :thumbsdown: :confused:
 9. Select initial features *using RandomForest* :thumbsup:
 10. Model using different models (KNN, Logistic Regression, Decision Trees, Random Forest, SVC, etc.) *suggestion from Damien to try SVM / SVC, RandomForest and LogisticRegression. If there's time, try clustering for some of the features and then apply the above mentioned models)* :thumbsup:
-11. Check accuracy, recall, precision, f1
-12. Plot roc_curve and get roc_auc scores *(in progress)*
-13. Refine feature selection and repeat above steps
-14. Create online interface using Flask
-15. Visualize the results
-16. Create the presentation
-17. This time actually practice presenting
+11. Check accuracy, recall, precision, f1 :thumbsup:
+12. Plot roc_curve and get roc_auc scores :thumbsup:
+13. Refine feature selection and repeat above steps :thumbsup:
+14. Create online interface using Flask :thumbsup:
+15. Visualize the results :thumbsup:
+16. Create the presentation *almost* :thumbsup:
+17. This time actually practice presenting :smirk:
 
 ### About The Dataset
 
