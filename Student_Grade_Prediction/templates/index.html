@@ -13,8 +13,9 @@
 
   <body style="background-color: #e3faff;">
     <div class=title>
-    <div class="jumbotron text-center" style="padding: 40px; height:160px; text-align: center; background-color: #FFFF00">
+    <div class="jumbotron text-center" style="padding: 30px; height:180px; text-align: center; background-color: #FFFF00">
       <h1 style="font-size: 54pt">Will You Pass?</h1>
+      <img src="/static/images/icon.png" alt="Glasses">
     </div>
     </div>
 
@@ -223,13 +224,14 @@
           </div>
 
           <div class="button">
-          <button id="submit" style="height: 50; width: 150; margin-left: 80px; margin-top: 15px; margin-bottom: 15px;background-color: #03b4c8; color: white; font: ">PREDICT</button>
+          <button id="submit" style="height: 50; width: 150; margin-left: 80px; margin-top: 25px; margin-bottom: 15px;background-color: #03b4c8; color: white; font: ">PREDICT</button>
           </div>
 
         <div class="form-group" style="display: none; font-size: 18pt; border: 2px solid #03b4c8; padding: 5px;" id='the_result_div'>
 
           <div>
             You will likely <span id="hard_predict"></span>.
+            <img src='' id='img'>
           <div>
             Your chances of passing are <b><span id="soft_predict"></span>%</b>.
           </div>
@@ -247,7 +249,26 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script>
 
-  $('#submit').click( () => { predict();  });
+  $('#submit').click( () => { predict();
+                              render_image(); });
+
+  function render_image(prediction){
+
+        let img = document.getElementById('img');
+        console.log('the prediction is' + prediction);
+        switch (prediction === 1) {
+
+          case true:
+           console.log('this is true ' + prediction)
+           img.src='/static/images/content.png';
+           break;
+
+          case false:
+           console.log('this is false ' + prediction)
+           img.src='/static/images/saddened.png';
+           break;
+        }
+      };
 
   function predict(){
     let features = {
@@ -282,6 +303,8 @@
       $('#hard_predict').html(the_result_div['prediction'] ? '<b>Pass</b>' : '<b>Fail</b>' );
       $('#soft_predict').html(the_result_div['prob_pass']);
       $('#the_result_div').show();
+
+      render_image(the_result_div['prediction']);
     },
     error: (the_result_div) => {
       alert('You messed it up, BIG TIME!');
