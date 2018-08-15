@@ -19,12 +19,11 @@ Customer churn is often an overlooked metric in a sales oriented organization, w
 **Format**: csv / SQLite database   
 **Total observations:** 14,640   
 **Missing values:**   
-**Dataset makeup:**   
-**Target variable (label):**   
-**Features to be excluded:**   
-**Added features:**   
-**Dummified features:**   
-**Dropped features after Random Forest analysis:**  
+**Dataset makeup:** A column with the tweet (text), Airline column  
+**Target variable (label):** sentiment, category  
+**Features to be excluded:** airline_sentiment,	airline_sentiment_confidence,	negativereason,	negativereason_confidence,	airline_sentiment_gold  
+**Added features:** None  
+**Dummified features:** None  
 
 ### Known Unknowns
 * Number of categories
