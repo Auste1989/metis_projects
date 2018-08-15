@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="2">
+    <node id="401238.txt_2_0" modality="FALSE" explicit_context="401238.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>The kiosk food is overpriced</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="401238.txt_2_1" modality="FALSE" explicit_context="401238.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>The food is overpriced</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="401238.txt_2_0-401238.txt_2_1" source="401238.txt_2_0" target="401238.txt_2_1"/>
+</F_entailment_graph>

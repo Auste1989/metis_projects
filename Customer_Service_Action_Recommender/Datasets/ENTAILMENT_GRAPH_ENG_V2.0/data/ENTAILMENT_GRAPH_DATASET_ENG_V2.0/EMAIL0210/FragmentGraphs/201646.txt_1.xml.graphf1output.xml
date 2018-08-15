@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="2">
+    <node id="201646.txt_1_0" modality="FALSE" explicit_context="201646.txt" implicit_context="" focus="leg room" implicit_focus="">
+        <original_text>leg room on the trains is a lot less than the Quicksun service by Unigo</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="201646.txt_1_1" modality="FALSE" explicit_context="201646.txt" implicit_context="" focus="leg room" implicit_focus="">
+        <original_text>leg room on the trains is less than the Quicksun service by Unigo</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="201646.txt_1_0-201646.txt_1_1" source="201646.txt_1_0" target="201646.txt_1_1"/>
+</F_entailment_graph>

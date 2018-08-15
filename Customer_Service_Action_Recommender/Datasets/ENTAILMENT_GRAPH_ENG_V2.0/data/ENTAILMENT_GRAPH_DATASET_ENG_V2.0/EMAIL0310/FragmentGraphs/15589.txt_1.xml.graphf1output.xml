@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="2">
+    <node id="15589.txt_1_0" modality="FALSE" explicit_context="15589.txt" implicit_context="" focus="customer service" implicit_focus="">
+        <original_text>Complete lack of customer service between Stars Bridge and Sunnyport</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="15589.txt_1_1" modality="FALSE" explicit_context="15589.txt" implicit_context="" focus="customer service" implicit_focus="">
+        <original_text>Complete lack of customer service</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="15589.txt_1_0-15589.txt_1_1" source="15589.txt_1_0" target="15589.txt_1_1"/>
+</F_entailment_graph>

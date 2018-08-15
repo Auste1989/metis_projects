@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Fragments fragmentNum="19">
+    <fragment id="106746.txt_1_0" modality="TRUE" explicit_context="106746.txt" implicit_context="" focus="trains" implicit_focus="">
+        <original_text>
+            <text>trains could use some updating</text>
+            <token id="0">trains</token>
+            <token id="1">could</token>
+            <token id="2">use</token>
+            <token id="3">some</token>
+            <token id="4">updating</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="109435.txt_4_0" modality="FALSE" explicit_context="109435.txt" implicit_context="" focus="train" implicit_focus="">
+        <original_text>
+            <text>train too often delays</text>
+            <token id="0">train</token>
+            <token id="1">too</token>
+            <token id="2">often</token>
+            <token id="3">delays</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="1"/>
+                <token_anchor id="2"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="169586.txt_3_0" modality="FALSE" explicit_context="169586.txt" implicit_context="" focus="" implicit_focus="train">
+        <original_text>
+            <text>Zero value for money</text>
+            <token id="0">Zero</token>
+            <token id="1">value</token>
+            <token id="2">for</token>
+            <token id="3">money</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="169586.txt_4_0" modality="FALSE" explicit_context="169586.txt" implicit_context="" focus="" implicit_focus="train">
+        <original_text>
+            <text>Complete rip off</text>
+            <token id="0">Complete</token>
+            <token id="1">rip</token>
+            <token id="2">off</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="0"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="190617.txt_1_0" modality="FALSE" explicit_context="190617.txt" implicit_context="" focus="Quasigo" implicit_focus="">
+        <original_text>
+            <text>Quasigo is filthy</text>
+            <token id="0">Quasigo</token>
+            <token id="1">is</token>
+            <token id="2">filthy</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="190617.txt_2_0" modality="FALSE" explicit_context="190617.txt" implicit_context="" focus="Quasigo" implicit_focus="">
+        <original_text>
+            <text>Quasigo is horrible</text>
+            <token id="0">Quasigo</token>
+            <token id="1">is</token>
+            <token id="2">horrible</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="215790.txt_1_0" modality="FALSE" explicit_context="215790.txt" implicit_context="" focus="trains" implicit_focus="">
+        <original_text>
+            <text>Time for the trains to be updated</text>
+            <token id="0">Time</token>
+            <token id="1">for</token>
+            <token id="2">the</token>
+            <token id="3">trains</token>
+            <token id="4">to</token>
+            <token id="5">be</token>
+            <token id="6">updated</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="273791.txt_2_0" modality="FALSE" explicit_context="273791.txt" implicit_context="" focus="trains" implicit_focus="">
+        <original_text>
+            <text>trains are quite shabby</text>
+            <token id="0">trains</token>
+            <token id="1">are</token>
+            <token id="2">quite</token>
+            <token id="3">shabby</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="2"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="273791.txt_3_0" modality="TRUE" explicit_context="273791.txt" implicit_context="" focus="trains" implicit_focus="">
+        <original_text>
+            <text>trains need refurbishment</text>
+            <token id="0">trains</token>
+            <token id="1">need</token>
+            <token id="2">refurbishment</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="401238.txt_7_0" modality="TRUE" explicit_context="401238.txt" implicit_context="" focus="interior" implicit_focus="">
+        <original_text>
+            <text>The interior of the train could be modernised</text>
+            <token id="0">The</token>
+            <token id="1">interior</token>
+            <token id="2">of</token>
+            <token id="3">the</token>
+            <token id="4">train</token>
+            <token id="5">could</token>
+            <token id="6">be</token>
+            <token id="7">modernised</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="433561.txt_1_0" modality="TRUE" explicit_context="433561.txt" implicit_context="" focus="train" implicit_focus="">
+        <original_text>
+            <text>New updated train would be nice</text>
+            <token id="0">New</token>
+            <token id="1">updated</token>
+            <token id="2">train</token>
+            <token id="3">would</token>
+            <token id="4">be</token>
+            <token id="5">nice</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="440557.txt_1_0" modality="FALSE" explicit_context="440557.txt" implicit_context="" focus="trains" implicit_focus="">
+        <original_text>
+            <text>The trains are drab</text>
+            <token id="0">The</token>
+            <token id="1">trains</token>
+            <token id="2">are</token>
+            <token id="3">drab</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="440557.txt_2_0" modality="FALSE" explicit_context="440557.txt" implicit_context="" focus="trains" implicit_focus="">
+        <original_text>
+            <text>The trains are badly lit</text>
+            <token id="0">The</token>
+            <token id="1">trains</token>
+            <token id="2">are</token>
+            <token id="3">badly</token>
+            <token id="4">lit</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="440557.txt_5_0" modality="FALSE" explicit_context="440557.txt" implicit_context="" focus="decor" implicit_focus="">
+        <original_text>
+            <text>The decor is pretty depressing</text>
+            <token id="0">The</token>
+            <token id="1">decor</token>
+            <token id="2">is</token>
+            <token id="3">pretty</token>
+            <token id="4">depressing</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="3"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="440663.txt_9_0" modality="FALSE" explicit_context="440663.txt" implicit_context="" focus="coaches" implicit_focus="">
+        <original_text>
+            <text>have quiet coaches</text>
+            <token id="0">have</token>
+            <token id="1">quiet</token>
+            <token id="2">coaches</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="493530.txt_4_0" modality="FALSE" explicit_context="493530.txt" implicit_context="" focus="coach" implicit_focus="">
+        <original_text>
+            <text>consider an adults only quiet coach</text>
+            <token id="0">consider</token>
+            <token id="1">an</token>
+            <token id="2">adults</token>
+            <token id="3">only</token>
+            <token id="4">quiet</token>
+            <token id="5">coach</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="522350.txt_1_0" modality="FALSE" explicit_context="522350.txt" implicit_context="" focus="interior" implicit_focus="">
+        <original_text>
+            <text>Cleaner interior</text>
+            <token id="0">Cleaner</token>
+            <token id="1">interior</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="52781.txt_9_0" modality="FALSE" explicit_context="52781.txt" implicit_context="" focus="train" implicit_focus="">
+        <original_text>
+            <text>Appalling crush to board train</text>
+            <token id="0">Appalling</token>
+            <token id="1">crush</token>
+            <token id="2">to</token>
+            <token id="3">board</token>
+            <token id="4">train</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="72187.txt_1_0" modality="FALSE" explicit_context="72187.txt" implicit_context="" focus="train" implicit_focus="">
+        <original_text>
+            <text>modernize the train</text>
+            <token id="0">modernize</token>
+            <token id="1">the</token>
+            <token id="2">train</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+</Fragments>

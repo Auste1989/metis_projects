@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="3">
+    <node id="476365.txt_1_0" modality="FALSE" explicit_context="476365.txt" implicit_context="" focus="Food" implicit_focus="">
+        <original_text>Food in Standard Magnum is really poor</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="476365.txt_1_1" modality="FALSE" explicit_context="476365.txt" implicit_context="" focus="Food" implicit_focus="">
+        <original_text>Food in Standard Magnum is poor</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="476365.txt_1_2" modality="FALSE" explicit_context="476365.txt" implicit_context="" focus="Food" implicit_focus="">
+        <original_text>Food is poor</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="476365.txt_1_0-476365.txt_1_1" source="476365.txt_1_0" target="476365.txt_1_1"/>
+    <edge id="476365.txt_1_1-476365.txt_1_2" source="476365.txt_1_1" target="476365.txt_1_2"/>
+    <edge id="476365.txt_1_0-476365.txt_1_2" source="476365.txt_1_0" target="476365.txt_1_2"/>
+</F_entailment_graph>

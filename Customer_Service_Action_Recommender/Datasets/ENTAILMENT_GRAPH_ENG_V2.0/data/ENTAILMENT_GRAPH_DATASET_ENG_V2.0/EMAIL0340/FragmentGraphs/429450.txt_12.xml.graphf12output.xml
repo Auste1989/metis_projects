@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="3">
+    <node id="429450.txt_12_0" modality="FALSE" explicit_context="429450.txt" implicit_context="" focus="seating" implicit_focus="">
+        <original_text>expand the meager seating facilities St Peter</original_text>
+        <correct_text>expand the meager seating facilities at St.Peter</correct_text>
+    </node>
+    <node id="429450.txt_12_1" modality="FALSE" explicit_context="429450.txt" implicit_context="" focus="seating" implicit_focus="">
+        <original_text>expand the seating facilities St Peter</original_text>
+        <correct_text>expand the seating facilities at St Peter</correct_text>
+    </node>
+    <node id="429450.txt_12_2" modality="FALSE" explicit_context="429450.txt" implicit_context="" focus="seating" implicit_focus="">
+        <original_text>expand the seating facilities</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="429450.txt_12_0-429450.txt_12_1" source="429450.txt_12_0" target="429450.txt_12_1"/>
+    <edge id="429450.txt_12_1-429450.txt_12_2" source="429450.txt_12_1" target="429450.txt_12_2"/>
+    <edge id="429450.txt_12_0-429450.txt_12_2" source="429450.txt_12_0" target="429450.txt_12_2"/>
+</F_entailment_graph>

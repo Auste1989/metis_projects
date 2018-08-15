@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Fragments fragmentNum="4">
+    <fragment id="217842.txt_3_0" modality="FALSE" explicit_context="217842.txt" implicit_context="" focus="news papers" implicit_focus="">
+        <original_text>
+            <text>more news papers</text>
+            <token id="0">more</token>
+            <token id="1">news</token>
+            <token id="2">papers</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="217842.txt_4_0" modality="FALSE" explicit_context="217842.txt" implicit_context="" focus="magazines" implicit_focus="">
+        <original_text>
+            <text>more magazines</text>
+            <token id="0">more</token>
+            <token id="1">magazines</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="472607.txt_9_0" modality="FALSE" explicit_context="472607.txt" implicit_context="" focus="Magazines" implicit_focus="">
+        <original_text>
+            <text>Magazines for children</text>
+            <token id="0">Magazines</token>
+            <token id="1">for</token>
+            <token id="2">children</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="513560.txt_5_0" modality="FALSE" explicit_context="513560.txt" implicit_context="" focus="Magazine" implicit_focus="">
+        <original_text>
+            <text>Magazine selection too French</text>
+            <token id="0">Magazine</token>
+            <token id="1">selection</token>
+            <token id="2">too</token>
+            <token id="3">French</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+</Fragments>

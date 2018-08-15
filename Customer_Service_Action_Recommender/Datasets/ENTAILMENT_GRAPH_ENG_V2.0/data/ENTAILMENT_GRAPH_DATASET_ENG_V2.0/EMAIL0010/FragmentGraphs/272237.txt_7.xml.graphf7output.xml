@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="2">
+    <node id="272237.txt_7_0" modality="FALSE" explicit_context="272237.txt" implicit_context="" focus="meal" implicit_focus="">
+        <original_text>Expand the meal options in the cafe car</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="272237.txt_7_1" modality="FALSE" explicit_context="272237.txt" implicit_context="" focus="meal" implicit_focus="">
+        <original_text>Expand the meal options</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="272237.txt_7_0-272237.txt_7_1" source="272237.txt_7_0" target="272237.txt_7_1"/>
+</F_entailment_graph>

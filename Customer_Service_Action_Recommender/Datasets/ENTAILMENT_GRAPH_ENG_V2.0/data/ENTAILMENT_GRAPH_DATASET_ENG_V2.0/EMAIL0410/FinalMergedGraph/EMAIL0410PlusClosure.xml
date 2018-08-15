@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="12">
+    <node id="255958.txt_4_0">
+        <original_text>its overpriced</original_text>
+        <correct_text>it's overpriced</correct_text>
+    </node>
+    <node id="193730.txt_1_0">
+        <original_text>it is too expensive</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="137621.txt_4_0">
+        <original_text>This really has to be fixed</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="429450.txt_6_0">
+        <original_text>currently it is a disgrace</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="255958.txt_3_0">
+        <original_text>its limited</original_text>
+        <correct_text>it's limited</correct_text>
+    </node>
+    <node id="513573.txt_3_1">
+        <original_text>little of it</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="30724.txt_4_0">
+        <original_text>It was not sufficient</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="379399.txt_3_0">
+        <original_text>its boring</original_text>
+        <correct_text>it's boring</correct_text>
+    </node>
+    <node id="27.txt_3_0">
+        <original_text>they Are slow</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="513573.txt_3_0">
+        <original_text>very little of it</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="379399.txt_2_0">
+        <original_text>its cold</original_text>
+        <correct_text>it's cold</correct_text>
+    </node>
+    <node id="255958.txt_2_0">
+        <original_text>its poor</original_text>
+        <correct_text>it's poor</correct_text>
+    </node>
+    <edge id="193730.txt_1_0-255958.txt_4_0" source="255958.txt_4_0" target="193730.txt_1_0"/>
+    <edge id="513573.txt_3_1-30724.txt_4_0" source="30724.txt_4_0" target="513573.txt_3_1"/>
+    <edge id="255958.txt_3_0-513573.txt_3_1" source="513573.txt_3_1" target="255958.txt_3_0"/>
+    <edge id="255958.txt_2_0-255958.txt_3_0" source="255958.txt_3_0" target="255958.txt_2_0"/>
+    <edge id="513573.txt_3_1-513573.txt_3_0" source="513573.txt_3_0" target="513573.txt_3_1"/>
+    <edge id="255958.txt_2_0-137621.txt_4_0" source="137621.txt_4_0" target="255958.txt_2_0"/>
+    <edge id="30724.txt_4_0-255958.txt_3_0" source="255958.txt_3_0" target="30724.txt_4_0"/>
+    <edge id="255958.txt_4_0-193730.txt_1_0" source="193730.txt_1_0" target="255958.txt_4_0"/>
+    <edge id="429450.txt_6_0-137621.txt_4_0" source="137621.txt_4_0" target="429450.txt_6_0"/>
+    <edge id="255958.txt_2_0-429450.txt_6_0" source="429450.txt_6_0" target="255958.txt_2_0"/>
+    <edge id="255958.txt_2_0-513573.txt_3_0" source="513573.txt_3_0" target="255958.txt_2_0"/>
+    <edge id="255958.txt_2_0-513573.txt_3_1" source="513573.txt_3_1" target="255958.txt_2_0"/>
+    <edge id="137621.txt_4_0-429450.txt_6_0" source="429450.txt_6_0" target="137621.txt_4_0"/>
+    <edge id="255958.txt_2_0-379399.txt_3_0" source="379399.txt_3_0" target="255958.txt_2_0"/>
+    <edge id="30724.txt_4_0-513573.txt_3_0" source="513573.txt_3_0" target="30724.txt_4_0"/>
+    <edge id="255958.txt_2_0-30724.txt_4_0" source="30724.txt_4_0" target="255958.txt_2_0"/>
+    <edge id="27.txt_3_0-379399.txt_3_0" source="379399.txt_3_0" target="27.txt_3_0"/>
+    <edge id="30724.txt_4_0-513573.txt_3_1" source="513573.txt_3_1" target="30724.txt_4_0"/>
+    <edge id="513573.txt_3_1-255958.txt_3_0" source="255958.txt_3_0" target="513573.txt_3_1"/>
+    <edge id="255958.txt_3_0-513573.txt_3_0" source="513573.txt_3_0" target="255958.txt_3_0"/>
+    <edge id="255958.txt_2_0-27.txt_3_0" source="27.txt_3_0" target="255958.txt_2_0"/>
+    <edge id="255958.txt_3_0-30724.txt_4_0" source="30724.txt_4_0" target="255958.txt_3_0"/>
+</F_entailment_graph>

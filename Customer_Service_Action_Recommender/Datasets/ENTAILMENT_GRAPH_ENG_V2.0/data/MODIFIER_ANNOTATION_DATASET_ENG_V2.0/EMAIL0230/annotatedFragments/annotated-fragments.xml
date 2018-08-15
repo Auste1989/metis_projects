@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Fragments fragmentNum="5">
+    <fragment id="186628.txt_1_0" modality="FALSE" explicit_context="186628.txt" implicit_context="" focus="seats" implicit_focus="">
+        <original_text>
+            <text>seats in business class are quite shabby</text>
+            <token id="0">seats</token>
+            <token id="1">in</token>
+            <token id="2">business</token>
+            <token id="3">class</token>
+            <token id="4">are</token>
+            <token id="5">quite</token>
+            <token id="6">shabby</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="5"/>
+            </modifier>
+            <modifier id="1">
+                <token_anchor id="1"/>
+                <token_anchor id="2"/>
+                <token_anchor id="3"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="187987.txt_1_0" modality="TRUE" explicit_context="187987.txt" implicit_context="" focus="seats" implicit_focus="">
+        <original_text>
+            <text>seats needs to be repaired</text>
+            <token id="0">seats</token>
+            <token id="1">needs</token>
+            <token id="2">to</token>
+            <token id="3">be</token>
+            <token id="4">repaired</token>
+        </original_text>
+        <correct_text>seats need to be repaired</correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="427784.txt_3_0" modality="FALSE" explicit_context="427784.txt" implicit_context="" focus="seats" implicit_focus="">
+        <original_text>
+            <text>Reupholster seats</text>
+            <token id="0">Reupholster</token>
+            <token id="1">seats</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="427784.txt_5_0" modality="FALSE" explicit_context="427784.txt" implicit_context="" focus="they" implicit_focus="">
+        <original_text>
+            <text>they are looking taty</text>
+            <token id="0">they</token>
+            <token id="1">are</token>
+            <token id="2">looking</token>
+            <token id="3">taty</token>
+        </original_text>
+        <correct_text>they are looking tatty</correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="71011.txt_1_0" modality="TRUE" explicit_context="71011.txt" implicit_context="" focus="Seating" implicit_focus="">
+        <original_text>
+            <text>Seating can be improved</text>
+            <token id="0">Seating</token>
+            <token id="1">can</token>
+            <token id="2">be</token>
+            <token id="3">improved</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+</Fragments>

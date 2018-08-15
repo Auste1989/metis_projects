@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="1">
+    <node id="305036.txt_2_0" modality="TRUE" explicit_context="305036.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>I wished the food would be more consistant in terms of quantity</original_text>
+        <correct_text></correct_text>
+    </node>
+</F_entailment_graph>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="1">
+    <node id="13.txt_2_0" modality="FALSE" explicit_context="13.txt" implicit_context="" focus="tickets" implicit_focus="">
+        <original_text>Same day cheap standby tickets</original_text>
+        <correct_text></correct_text>
+    </node>
+</F_entailment_graph>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="1">
+    <node id="153220.txt_3_0" modality="FALSE" explicit_context="153220.txt" implicit_context="" focus="drink" implicit_focus="">
+        <original_text>no more pre - dinner drink</original_text>
+        <correct_text></correct_text>
+    </node>
+</F_entailment_graph>

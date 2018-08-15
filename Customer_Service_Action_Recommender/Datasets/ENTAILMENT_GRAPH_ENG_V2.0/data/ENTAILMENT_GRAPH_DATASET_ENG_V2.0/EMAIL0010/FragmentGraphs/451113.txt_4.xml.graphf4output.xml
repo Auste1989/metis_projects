@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="1">
+    <node id="451113.txt_4_0" modality="TRUE" explicit_context="451113.txt" implicit_context="" focus="meal" implicit_focus="">
+        <original_text>would be ready to pay higher price for full dinner with hot meal</original_text>
+        <correct_text></correct_text>
+    </node>
+</F_entailment_graph>

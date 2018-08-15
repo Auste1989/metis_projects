@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="2">
+    <node id="38058.txt_10_0" modality="FALSE" explicit_context="38058.txt" implicit_context="" focus="WiFi" implicit_focus="">
+        <original_text>have free WiFi on board</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="38058.txt_10_1" modality="FALSE" explicit_context="38058.txt" implicit_context="" focus="WiFi" implicit_focus="">
+        <original_text>have free WiFi</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="38058.txt_10_0-38058.txt_10_1" source="38058.txt_10_0" target="38058.txt_10_1"/>
+</F_entailment_graph>

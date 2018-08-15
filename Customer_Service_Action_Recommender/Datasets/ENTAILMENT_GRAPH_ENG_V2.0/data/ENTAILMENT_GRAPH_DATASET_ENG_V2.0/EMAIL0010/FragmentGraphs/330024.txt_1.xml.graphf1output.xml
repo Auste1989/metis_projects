@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="1">
+    <node id="330024.txt_1_0" modality="FALSE" explicit_context="330024.txt" implicit_context="" focus="meal" implicit_focus="">
+        <original_text>Hot meal on all trips</original_text>
+        <correct_text></correct_text>
+    </node>
+</F_entailment_graph>

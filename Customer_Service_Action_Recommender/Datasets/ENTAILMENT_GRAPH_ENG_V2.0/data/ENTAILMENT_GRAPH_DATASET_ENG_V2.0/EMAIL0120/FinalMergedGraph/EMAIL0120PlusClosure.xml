@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="36">
+    <node id="30.txt_1_0">
+        <original_text>Ticket was expensive</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="387881.txt_1_1">
+        <original_text>Prices are high on tickets</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="3.txt_1_0">
+        <original_text>Lower the price of the tickets</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="530848.txt_1_0">
+        <original_text>Ticket Prices are too high</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="18.txt_1_1">
+        <original_text>cheaper tickets</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="19.txt_3_3">
+        <original_text>cheaper tickets</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="36.txt_1_0">
+        <original_text>Reduce ticket prices</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="34.txt_1_0">
+        <original_text>tickets not cheap</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="24.txt_1_0">
+        <original_text>Selling cheaper tickets</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="25.txt_1_0">
+        <original_text>tickets are too expensive</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="513573.txt_1_0">
+        <original_text>The tickets are expensive</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="7.txt_1_0">
+        <original_text>lower the price of ticket</original_text>
+        <correct_text>lower the price of tickets</correct_text>
+    </node>
+    <node id="0.txt_1_1">
+        <original_text>Tickets are expensive</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="26.txt_1_1">
+        <original_text>you must make cheaper tickets available</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="35.txt_1_3">
+        <original_text>Tickets expensive</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="6.txt_7_0">
+        <original_text>decrease your prices</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="272237.txt_5_0">
+        <original_text>Lower the fares</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="35.txt_1_2">
+        <original_text>Tickets very expensive</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="387881.txt_1_0">
+        <original_text>Prices are quite high on tickets</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="0.txt_1_0">
+        <original_text>Tickets are way too expensive</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="35.txt_2_0">
+        <original_text>Not enough special deals</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="18.txt_1_0">
+        <original_text>Slightly cheaper tickets</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="19.txt_3_2">
+        <original_text>cheaper standard tickets</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="19.txt_3_1">
+        <original_text>cheaper tickets on friday</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="13.txt_1_0">
+        <original_text>Cheap flexible tickets</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="19.txt_3_0">
+        <original_text>cheaper standard tickets on friday</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="13.txt_2_0">
+        <original_text>Same day cheap standby tickets</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="26.txt_1_0">
+        <original_text>you must make cheaper tickets available at the last minute</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="35.txt_1_0">
+        <original_text>Tickets always very expensive</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="11.txt_3_1">
+        <original_text>price paid for a single journey at 200$</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="12.txt_1_1">
+        <original_text>semi - flexible tickets that are cheaper</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="12.txt_1_0">
+        <original_text>semi - flexible tickets that are much cheaper</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="2.txt_1_0">
+        <original_text>ticket prices can sometimes be too expensive</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="35.txt_1_1">
+        <original_text>Tickets always expensive</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="11.txt_3_0">
+        <original_text>price paid for a single journey Moonport - Stars Bridge at 200$</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="5.txt_1_0">
+        <original_text>make more offers for cheaper tickets</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="35.txt_1_3-26.txt_1_0" source="26.txt_1_0" target="35.txt_1_3"/>
+    <edge id="272237.txt_5_0-13.txt_2_0" source="13.txt_2_0" target="272237.txt_5_0"/>
+    <edge id="35.txt_1_3-35.txt_2_0" source="35.txt_2_0" target="35.txt_1_3"/>
+    <edge id="35.txt_1_3-7.txt_1_0" source="7.txt_1_0" target="35.txt_1_3"/>
+    <edge id="35.txt_1_3-513573.txt_1_0" source="513573.txt_1_0" target="35.txt_1_3"/>
+    <edge id="25.txt_1_0-19.txt_3_2" source="19.txt_3_2" target="25.txt_1_0"/>
+    <edge id="35.txt_1_3-3.txt_1_0" source="3.txt_1_0" target="35.txt_1_3"/>
+    <edge id="272237.txt_5_0-30.txt_1_0" source="30.txt_1_0" target="272237.txt_5_0"/>
+    <edge id="36.txt_1_0-35.txt_1_3" source="35.txt_1_3" target="36.txt_1_0"/>
+    <edge id="0.txt_1_1-7.txt_1_0" source="7.txt_1_0" target="0.txt_1_1"/>
+    <edge id="530848.txt_1_0-387881.txt_1_1" source="387881.txt_1_1" target="530848.txt_1_0"/>
+    <edge id="24.txt_1_0-36.txt_1_0" source="36.txt_1_0" target="24.txt_1_0"/>
+    <edge id="34.txt_1_0-18.txt_1_1" source="18.txt_1_1" target="34.txt_1_0"/>
+    <edge id="34.txt_1_0-19.txt_3_3" source="19.txt_3_3" target="34.txt_1_0"/>
+    <edge id="530848.txt_1_0-513573.txt_1_0" source="513573.txt_1_0" target="530848.txt_1_0"/>
+    <edge id="513573.txt_1_0-35.txt_1_0" source="35.txt_1_0" target="513573.txt_1_0"/>
+    <edge id="35.txt_1_2-35.txt_1_0" source="35.txt_1_0" target="35.txt_1_2"/>
+    <edge id="6.txt_7_0-7.txt_1_0" source="7.txt_1_0" target="6.txt_7_0"/>
+    <edge id="0.txt_1_1-18.txt_1_1" source="18.txt_1_1" target="0.txt_1_1"/>
+    <edge id="0.txt_1_1-19.txt_3_3" source="19.txt_3_3" target="0.txt_1_1"/>
+    <edge id="6.txt_7_0-387881.txt_1_0" source="387881.txt_1_0" target="6.txt_7_0"/>
+    <edge id="34.txt_1_0-12.txt_1_0" source="12.txt_1_0" target="34.txt_1_0"/>
+    <edge id="513573.txt_1_0-30.txt_1_0" source="30.txt_1_0" target="513573.txt_1_0"/>
+    <edge id="6.txt_7_0-12.txt_1_0" source="12.txt_1_0" target="6.txt_7_0"/>
+    <edge id="18.txt_1_1-530848.txt_1_0" source="530848.txt_1_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-530848.txt_1_0" source="530848.txt_1_0" target="19.txt_3_3"/>
+    <edge id="387881.txt_1_1-26.txt_1_0" source="26.txt_1_0" target="387881.txt_1_1"/>
+    <edge id="530848.txt_1_0-11.txt_3_1" source="11.txt_3_1" target="530848.txt_1_0"/>
+    <edge id="7.txt_1_0-3.txt_1_0" source="3.txt_1_0" target="7.txt_1_0"/>
+    <edge id="35.txt_1_3-35.txt_1_1" source="35.txt_1_1" target="35.txt_1_3"/>
+    <edge id="24.txt_1_0-35.txt_1_3" source="35.txt_1_3" target="24.txt_1_0"/>
+    <edge id="272237.txt_5_0-11.txt_3_1" source="11.txt_3_1" target="272237.txt_5_0"/>
+    <edge id="25.txt_1_0-387881.txt_1_1" source="387881.txt_1_1" target="25.txt_1_0"/>
+    <edge id="26.txt_1_1-24.txt_1_0" source="24.txt_1_0" target="26.txt_1_1"/>
+    <edge id="30.txt_1_0-11.txt_3_1" source="11.txt_3_1" target="30.txt_1_0"/>
+    <edge id="3.txt_1_0-35.txt_1_2" source="35.txt_1_2" target="3.txt_1_0"/>
+    <edge id="3.txt_1_0-12.txt_1_0" source="12.txt_1_0" target="3.txt_1_0"/>
+    <edge id="7.txt_1_0-11.txt_3_1" source="11.txt_3_1" target="7.txt_1_0"/>
+    <edge id="36.txt_1_0-5.txt_1_0" source="5.txt_1_0" target="36.txt_1_0"/>
+    <edge id="513573.txt_1_0-26.txt_1_1" source="26.txt_1_1" target="513573.txt_1_0"/>
+    <edge id="24.txt_1_0-530848.txt_1_0" source="530848.txt_1_0" target="24.txt_1_0"/>
+    <edge id="35.txt_1_3-26.txt_1_1" source="26.txt_1_1" target="35.txt_1_3"/>
+    <edge id="7.txt_1_0-34.txt_1_0" source="34.txt_1_0" target="7.txt_1_0"/>
+    <edge id="34.txt_1_0-387881.txt_1_1" source="387881.txt_1_1" target="34.txt_1_0"/>
+    <edge id="6.txt_7_0-34.txt_1_0" source="34.txt_1_0" target="6.txt_7_0"/>
+    <edge id="36.txt_1_0-11.txt_3_1" source="11.txt_3_1" target="36.txt_1_0"/>
+    <edge id="35.txt_1_3-34.txt_1_0" source="34.txt_1_0" target="35.txt_1_3"/>
+    <edge id="513573.txt_1_0-19.txt_3_1" source="19.txt_3_1" target="513573.txt_1_0"/>
+    <edge id="6.txt_7_0-18.txt_1_1" source="18.txt_1_1" target="6.txt_7_0"/>
+    <edge id="6.txt_7_0-19.txt_3_3" source="19.txt_3_3" target="6.txt_7_0"/>
+    <edge id="7.txt_1_0-13.txt_1_0" source="13.txt_1_0" target="7.txt_1_0"/>
+    <edge id="36.txt_1_0-30.txt_1_0" source="30.txt_1_0" target="36.txt_1_0"/>
+    <edge id="35.txt_1_3-19.txt_3_0" source="19.txt_3_0" target="35.txt_1_3"/>
+    <edge id="12.txt_1_1-12.txt_1_0" source="12.txt_1_0" target="12.txt_1_1"/>
+    <edge id="18.txt_1_1-19.txt_3_2" source="19.txt_3_2" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-19.txt_3_2" source="19.txt_3_2" target="19.txt_3_3"/>
+    <edge id="513573.txt_1_0-13.txt_2_0" source="13.txt_2_0" target="513573.txt_1_0"/>
+    <edge id="6.txt_7_0-12.txt_1_1" source="12.txt_1_1" target="6.txt_7_0"/>
+    <edge id="387881.txt_1_1-24.txt_1_0" source="24.txt_1_0" target="387881.txt_1_1"/>
+    <edge id="35.txt_1_3-0.txt_1_1" source="0.txt_1_1" target="35.txt_1_3"/>
+    <edge id="30.txt_1_0-3.txt_1_0" source="3.txt_1_0" target="30.txt_1_0"/>
+    <edge id="18.txt_1_1-13.txt_2_0" source="13.txt_2_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-13.txt_2_0" source="13.txt_2_0" target="19.txt_3_3"/>
+    <edge id="6.txt_7_0-19.txt_3_2" source="19.txt_3_2" target="6.txt_7_0"/>
+    <edge id="35.txt_1_3-11.txt_3_0" source="11.txt_3_0" target="35.txt_1_3"/>
+    <edge id="7.txt_1_0-12.txt_1_0" source="12.txt_1_0" target="7.txt_1_0"/>
+    <edge id="36.txt_1_0-19.txt_3_2" source="19.txt_3_2" target="36.txt_1_0"/>
+    <edge id="6.txt_7_0-19.txt_3_0" source="19.txt_3_0" target="6.txt_7_0"/>
+    <edge id="513573.txt_1_0-7.txt_1_0" source="7.txt_1_0" target="513573.txt_1_0"/>
+    <edge id="7.txt_1_0-2.txt_1_0" source="2.txt_1_0" target="7.txt_1_0"/>
+    <edge id="530848.txt_1_0-35.txt_1_0" source="35.txt_1_0" target="530848.txt_1_0"/>
+    <edge id="387881.txt_1_1-25.txt_1_0" source="25.txt_1_0" target="387881.txt_1_1"/>
+    <edge id="272237.txt_5_0-6.txt_7_0" source="6.txt_7_0" target="272237.txt_5_0"/>
+    <edge id="3.txt_1_0-387881.txt_1_0" source="387881.txt_1_0" target="3.txt_1_0"/>
+    <edge id="30.txt_1_0-12.txt_1_1" source="12.txt_1_1" target="30.txt_1_0"/>
+    <edge id="272237.txt_5_0-35.txt_1_1" source="35.txt_1_1" target="272237.txt_5_0"/>
+    <edge id="530848.txt_1_0-7.txt_1_0" source="7.txt_1_0" target="530848.txt_1_0"/>
+    <edge id="272237.txt_5_0-19.txt_3_0" source="19.txt_3_0" target="272237.txt_5_0"/>
+    <edge id="30.txt_1_0-26.txt_1_0" source="26.txt_1_0" target="30.txt_1_0"/>
+    <edge id="25.txt_1_0-18.txt_1_1" source="18.txt_1_1" target="25.txt_1_0"/>
+    <edge id="25.txt_1_0-19.txt_3_3" source="19.txt_3_3" target="25.txt_1_0"/>
+    <edge id="6.txt_7_0-0.txt_1_1" source="0.txt_1_1" target="6.txt_7_0"/>
+    <edge id="0.txt_1_1-26.txt_1_0" source="26.txt_1_0" target="0.txt_1_1"/>
+    <edge id="18.txt_1_1-7.txt_1_0" source="7.txt_1_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-7.txt_1_0" source="7.txt_1_0" target="19.txt_3_3"/>
+    <edge id="35.txt_1_2-387881.txt_1_0" source="387881.txt_1_0" target="35.txt_1_2"/>
+    <edge id="25.txt_1_0-35.txt_1_0" source="35.txt_1_0" target="25.txt_1_0"/>
+    <edge id="513573.txt_1_0-24.txt_1_0" source="24.txt_1_0" target="513573.txt_1_0"/>
+    <edge id="34.txt_1_0-11.txt_3_1" source="11.txt_3_1" target="34.txt_1_0"/>
+    <edge id="19.txt_3_1-19.txt_3_0" source="19.txt_3_0" target="19.txt_3_1"/>
+    <edge id="35.txt_1_3-2.txt_1_0" source="2.txt_1_0" target="35.txt_1_3"/>
+    <edge id="34.txt_1_0-19.txt_3_1" source="19.txt_3_1" target="34.txt_1_0"/>
+    <edge id="26.txt_1_1-30.txt_1_0" source="30.txt_1_0" target="26.txt_1_1"/>
+    <edge id="30.txt_1_0-35.txt_1_3" source="35.txt_1_3" target="30.txt_1_0"/>
+    <edge id="272237.txt_5_0-0.txt_1_1" source="0.txt_1_1" target="272237.txt_5_0"/>
+    <edge id="30.txt_1_0-387881.txt_1_1" source="387881.txt_1_1" target="30.txt_1_0"/>
+    <edge id="35.txt_1_3-18.txt_1_1" source="18.txt_1_1" target="35.txt_1_3"/>
+    <edge id="35.txt_1_3-19.txt_3_3" source="19.txt_3_3" target="35.txt_1_3"/>
+    <edge id="26.txt_1_1-35.txt_1_0" source="35.txt_1_0" target="26.txt_1_1"/>
+    <edge id="26.txt_1_1-12.txt_1_0" source="12.txt_1_0" target="26.txt_1_1"/>
+    <edge id="387881.txt_1_1-11.txt_3_1" source="11.txt_3_1" target="387881.txt_1_1"/>
+    <edge id="25.txt_1_0-30.txt_1_0" source="30.txt_1_0" target="25.txt_1_0"/>
+    <edge id="3.txt_1_0-35.txt_1_1" source="35.txt_1_1" target="3.txt_1_0"/>
+    <edge id="30.txt_1_0-13.txt_2_0" source="13.txt_2_0" target="30.txt_1_0"/>
+    <edge id="0.txt_1_1-36.txt_1_0" source="36.txt_1_0" target="0.txt_1_1"/>
+    <edge id="6.txt_7_0-387881.txt_1_1" source="387881.txt_1_1" target="6.txt_7_0"/>
+    <edge id="35.txt_1_3-18.txt_1_0" source="18.txt_1_0" target="35.txt_1_3"/>
+    <edge id="35.txt_1_2-0.txt_1_0" source="0.txt_1_0" target="35.txt_1_2"/>
+    <edge id="3.txt_1_0-5.txt_1_0" source="5.txt_1_0" target="3.txt_1_0"/>
+    <edge id="0.txt_1_0-387881.txt_1_0" source="387881.txt_1_0" target="0.txt_1_0"/>
+    <edge id="36.txt_1_0-513573.txt_1_0" source="513573.txt_1_0" target="36.txt_1_0"/>
+    <edge id="26.txt_1_1-26.txt_1_0" source="26.txt_1_0" target="26.txt_1_1"/>
+    <edge id="25.txt_1_0-35.txt_2_0" source="35.txt_2_0" target="25.txt_1_0"/>
+    <edge id="3.txt_1_0-13.txt_1_0" source="13.txt_1_0" target="3.txt_1_0"/>
+    <edge id="7.txt_1_0-26.txt_1_0" source="26.txt_1_0" target="7.txt_1_0"/>
+    <edge id="18.txt_1_1-30.txt_1_0" source="30.txt_1_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-30.txt_1_0" source="30.txt_1_0" target="19.txt_3_3"/>
+    <edge id="387881.txt_1_1-19.txt_3_1" source="19.txt_3_1" target="387881.txt_1_1"/>
+    <edge id="35.txt_1_3-36.txt_1_0" source="36.txt_1_0" target="35.txt_1_3"/>
+    <edge id="530848.txt_1_0-35.txt_1_3" source="35.txt_1_3" target="530848.txt_1_0"/>
+    <edge id="530848.txt_1_0-18.txt_1_1" source="18.txt_1_1" target="530848.txt_1_0"/>
+    <edge id="530848.txt_1_0-19.txt_3_3" source="19.txt_3_3" target="530848.txt_1_0"/>
+    <edge id="35.txt_1_3-24.txt_1_0" source="24.txt_1_0" target="35.txt_1_3"/>
+    <edge id="530848.txt_1_0-13.txt_2_0" source="13.txt_2_0" target="530848.txt_1_0"/>
+    <edge id="26.txt_1_1-2.txt_1_0" source="2.txt_1_0" target="26.txt_1_1"/>
+    <edge id="3.txt_1_0-26.txt_1_1" source="26.txt_1_1" target="3.txt_1_0"/>
+    <edge id="513573.txt_1_0-0.txt_1_1" source="0.txt_1_1" target="513573.txt_1_0"/>
+    <edge id="30.txt_1_0-19.txt_3_2" source="19.txt_3_2" target="30.txt_1_0"/>
+    <edge id="35.txt_1_3-25.txt_1_0" source="25.txt_1_0" target="35.txt_1_3"/>
+    <edge id="7.txt_1_0-36.txt_1_0" source="36.txt_1_0" target="7.txt_1_0"/>
+    <edge id="530848.txt_1_0-25.txt_1_0" source="25.txt_1_0" target="530848.txt_1_0"/>
+    <edge id="530848.txt_1_0-0.txt_1_1" source="0.txt_1_1" target="530848.txt_1_0"/>
+    <edge id="6.txt_7_0-35.txt_1_2" source="35.txt_1_2" target="6.txt_7_0"/>
+    <edge id="272237.txt_5_0-26.txt_1_1" source="26.txt_1_1" target="272237.txt_5_0"/>
+    <edge id="18.txt_1_1-34.txt_1_0" source="34.txt_1_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-34.txt_1_0" source="34.txt_1_0" target="19.txt_3_3"/>
+    <edge id="272237.txt_5_0-5.txt_1_0" source="5.txt_1_0" target="272237.txt_5_0"/>
+    <edge id="387881.txt_1_1-11.txt_3_0" source="11.txt_3_0" target="387881.txt_1_1"/>
+    <edge id="272237.txt_5_0-12.txt_1_1" source="12.txt_1_1" target="272237.txt_5_0"/>
+    <edge id="30.txt_1_0-25.txt_1_0" source="25.txt_1_0" target="30.txt_1_0"/>
+    <edge id="530848.txt_1_0-26.txt_1_0" source="26.txt_1_0" target="530848.txt_1_0"/>
+    <edge id="26.txt_1_1-19.txt_3_2" source="19.txt_3_2" target="26.txt_1_1"/>
+    <edge id="6.txt_7_0-0.txt_1_0" source="0.txt_1_0" target="6.txt_7_0"/>
+    <edge id="387881.txt_1_1-13.txt_2_0" source="13.txt_2_0" target="387881.txt_1_1"/>
+    <edge id="24.txt_1_0-0.txt_1_0" source="0.txt_1_0" target="24.txt_1_0"/>
+    <edge id="36.txt_1_0-19.txt_3_0" source="19.txt_3_0" target="36.txt_1_0"/>
+    <edge id="18.txt_1_1-18.txt_1_0" source="18.txt_1_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-18.txt_1_0" source="18.txt_1_0" target="19.txt_3_3"/>
+    <edge id="34.txt_1_0-35.txt_1_3" source="35.txt_1_3" target="34.txt_1_0"/>
+    <edge id="26.txt_1_0-13.txt_2_0" source="13.txt_2_0" target="26.txt_1_0"/>
+    <edge id="35.txt_1_3-35.txt_1_0" source="35.txt_1_0" target="35.txt_1_3"/>
+    <edge id="18.txt_1_1-513573.txt_1_0" source="513573.txt_1_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-513573.txt_1_0" source="513573.txt_1_0" target="19.txt_3_3"/>
+    <edge id="18.txt_1_1-19.txt_3_1" source="19.txt_3_1" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-19.txt_3_1" source="19.txt_3_1" target="19.txt_3_3"/>
+    <edge id="36.txt_1_0-18.txt_1_0" source="18.txt_1_0" target="36.txt_1_0"/>
+    <edge id="6.txt_7_0-25.txt_1_0" source="25.txt_1_0" target="6.txt_7_0"/>
+    <edge id="35.txt_1_3-5.txt_1_0" source="5.txt_1_0" target="35.txt_1_3"/>
+    <edge id="24.txt_1_0-12.txt_1_0" source="12.txt_1_0" target="24.txt_1_0"/>
+    <edge id="30.txt_1_0-0.txt_1_0" source="0.txt_1_0" target="30.txt_1_0"/>
+    <edge id="34.txt_1_0-35.txt_1_2" source="35.txt_1_2" target="34.txt_1_0"/>
+    <edge id="30.txt_1_0-11.txt_3_0" source="11.txt_3_0" target="30.txt_1_0"/>
+    <edge id="6.txt_7_0-530848.txt_1_0" source="530848.txt_1_0" target="6.txt_7_0"/>
+    <edge id="36.txt_1_0-12.txt_1_1" source="12.txt_1_1" target="36.txt_1_0"/>
+    <edge id="7.txt_1_0-530848.txt_1_0" source="530848.txt_1_0" target="7.txt_1_0"/>
+    <edge id="387881.txt_1_1-12.txt_1_1" source="12.txt_1_1" target="387881.txt_1_1"/>
+    <edge id="26.txt_1_1-530848.txt_1_0" source="530848.txt_1_0" target="26.txt_1_1"/>
+    <edge id="272237.txt_5_0-387881.txt_1_1" source="387881.txt_1_1" target="272237.txt_5_0"/>
+    <edge id="34.txt_1_0-7.txt_1_0" source="7.txt_1_0" target="34.txt_1_0"/>
+    <edge id="34.txt_1_0-18.txt_1_0" source="18.txt_1_0" target="34.txt_1_0"/>
+    <edge id="272237.txt_5_0-12.txt_1_0" source="12.txt_1_0" target="272237.txt_5_0"/>
+    <edge id="24.txt_1_0-34.txt_1_0" source="34.txt_1_0" target="24.txt_1_0"/>
+    <edge id="387881.txt_1_1-35.txt_1_0" source="35.txt_1_0" target="387881.txt_1_1"/>
+    <edge id="35.txt_1_3-30.txt_1_0" source="30.txt_1_0" target="35.txt_1_3"/>
+    <edge id="3.txt_1_0-34.txt_1_0" source="34.txt_1_0" target="3.txt_1_0"/>
+    <edge id="35.txt_1_3-12.txt_1_0" source="12.txt_1_0" target="35.txt_1_3"/>
+    <edge id="0.txt_1_1-0.txt_1_0" source="0.txt_1_0" target="0.txt_1_1"/>
+    <edge id="513573.txt_1_0-35.txt_2_0" source="35.txt_2_0" target="513573.txt_1_0"/>
+    <edge id="26.txt_1_1-35.txt_1_2" source="35.txt_1_2" target="26.txt_1_1"/>
+    <edge id="3.txt_1_0-19.txt_3_2" source="19.txt_3_2" target="3.txt_1_0"/>
+    <edge id="7.txt_1_0-12.txt_1_1" source="12.txt_1_1" target="7.txt_1_0"/>
+    <edge id="3.txt_1_0-7.txt_1_0" source="7.txt_1_0" target="3.txt_1_0"/>
+    <edge id="11.txt_3_1-11.txt_3_0" source="11.txt_3_0" target="11.txt_3_1"/>
+    <edge id="6.txt_7_0-35.txt_2_0" source="35.txt_2_0" target="6.txt_7_0"/>
+    <edge id="6.txt_7_0-26.txt_1_1" source="26.txt_1_1" target="6.txt_7_0"/>
+    <edge id="35.txt_1_2-12.txt_1_0" source="12.txt_1_0" target="35.txt_1_2"/>
+    <edge id="18.txt_1_1-26.txt_1_0" source="26.txt_1_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-26.txt_1_0" source="26.txt_1_0" target="19.txt_3_3"/>
+    <edge id="18.txt_1_1-387881.txt_1_1" source="387881.txt_1_1" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-387881.txt_1_1" source="387881.txt_1_1" target="19.txt_3_3"/>
+    <edge id="26.txt_1_1-13.txt_1_0" source="13.txt_1_0" target="26.txt_1_1"/>
+    <edge id="26.txt_1_1-35.txt_1_3" source="35.txt_1_3" target="26.txt_1_1"/>
+    <edge id="272237.txt_5_0-0.txt_1_0" source="0.txt_1_0" target="272237.txt_5_0"/>
+    <edge id="36.txt_1_0-387881.txt_1_1" source="387881.txt_1_1" target="36.txt_1_0"/>
+    <edge id="530848.txt_1_0-5.txt_1_0" source="5.txt_1_0" target="530848.txt_1_0"/>
+    <edge id="0.txt_1_1-18.txt_1_0" source="18.txt_1_0" target="0.txt_1_1"/>
+    <edge id="272237.txt_5_0-36.txt_1_0" source="36.txt_1_0" target="272237.txt_5_0"/>
+    <edge id="0.txt_1_1-11.txt_3_1" source="11.txt_3_1" target="0.txt_1_1"/>
+    <edge id="34.txt_1_0-530848.txt_1_0" source="530848.txt_1_0" target="34.txt_1_0"/>
+    <edge id="6.txt_7_0-36.txt_1_0" source="36.txt_1_0" target="6.txt_7_0"/>
+    <edge id="7.txt_1_0-19.txt_3_2" source="19.txt_3_2" target="7.txt_1_0"/>
+    <edge id="34.txt_1_0-0.txt_1_1" source="0.txt_1_1" target="34.txt_1_0"/>
+    <edge id="3.txt_1_0-11.txt_3_0" source="11.txt_3_0" target="3.txt_1_0"/>
+    <edge id="530848.txt_1_0-13.txt_1_0" source="13.txt_1_0" target="530848.txt_1_0"/>
+    <edge id="24.txt_1_0-0.txt_1_1" source="0.txt_1_1" target="24.txt_1_0"/>
+    <edge id="24.txt_1_0-2.txt_1_0" source="2.txt_1_0" target="24.txt_1_0"/>
+    <edge id="24.txt_1_0-11.txt_3_1" source="11.txt_3_1" target="24.txt_1_0"/>
+    <edge id="24.txt_1_0-26.txt_1_1" source="26.txt_1_1" target="24.txt_1_0"/>
+    <edge id="272237.txt_5_0-19.txt_3_1" source="19.txt_3_1" target="272237.txt_5_0"/>
+    <edge id="24.txt_1_0-7.txt_1_0" source="7.txt_1_0" target="24.txt_1_0"/>
+    <edge id="513573.txt_1_0-3.txt_1_0" source="3.txt_1_0" target="513573.txt_1_0"/>
+    <edge id="36.txt_1_0-0.txt_1_0" source="0.txt_1_0" target="36.txt_1_0"/>
+    <edge id="530848.txt_1_0-2.txt_1_0" source="2.txt_1_0" target="530848.txt_1_0"/>
+    <edge id="25.txt_1_0-13.txt_1_0" source="13.txt_1_0" target="25.txt_1_0"/>
+    <edge id="26.txt_1_1-5.txt_1_0" source="5.txt_1_0" target="26.txt_1_1"/>
+    <edge id="30.txt_1_0-18.txt_1_0" source="18.txt_1_0" target="30.txt_1_0"/>
+    <edge id="3.txt_1_0-19.txt_3_0" source="19.txt_3_0" target="3.txt_1_0"/>
+    <edge id="513573.txt_1_0-35.txt_1_1" source="35.txt_1_1" target="513573.txt_1_0"/>
+    <edge id="272237.txt_5_0-34.txt_1_0" source="34.txt_1_0" target="272237.txt_5_0"/>
+    <edge id="34.txt_1_0-35.txt_1_0" source="35.txt_1_0" target="34.txt_1_0"/>
+    <edge id="30.txt_1_0-26.txt_1_1" source="26.txt_1_1" target="30.txt_1_0"/>
+    <edge id="24.txt_1_0-19.txt_3_0" source="19.txt_3_0" target="24.txt_1_0"/>
+    <edge id="387881.txt_1_0-12.txt_1_0" source="12.txt_1_0" target="387881.txt_1_0"/>
+    <edge id="26.txt_1_1-7.txt_1_0" source="7.txt_1_0" target="26.txt_1_1"/>
+    <edge id="26.txt_1_1-36.txt_1_0" source="36.txt_1_0" target="26.txt_1_1"/>
+    <edge id="387881.txt_1_0-35.txt_1_2" source="35.txt_1_2" target="387881.txt_1_0"/>
+    <edge id="0.txt_1_1-387881.txt_1_0" source="387881.txt_1_0" target="0.txt_1_1"/>
+    <edge id="7.txt_1_0-35.txt_1_1" source="35.txt_1_1" target="7.txt_1_0"/>
+    <edge id="387881.txt_1_1-18.txt_1_1" source="18.txt_1_1" target="387881.txt_1_1"/>
+    <edge id="387881.txt_1_1-19.txt_3_3" source="19.txt_3_3" target="387881.txt_1_1"/>
+    <edge id="0.txt_1_0-12.txt_1_0" source="12.txt_1_0" target="0.txt_1_0"/>
+    <edge id="513573.txt_1_0-19.txt_3_0" source="19.txt_3_0" target="513573.txt_1_0"/>
+    <edge id="18.txt_1_1-5.txt_1_0" source="5.txt_1_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-5.txt_1_0" source="5.txt_1_0" target="19.txt_3_3"/>
+    <edge id="25.txt_1_0-513573.txt_1_0" source="513573.txt_1_0" target="25.txt_1_0"/>
+    <edge id="24.txt_1_0-5.txt_1_0" source="5.txt_1_0" target="24.txt_1_0"/>
+    <edge id="272237.txt_5_0-35.txt_1_3" source="35.txt_1_3" target="272237.txt_5_0"/>
+    <edge id="36.txt_1_0-530848.txt_1_0" source="530848.txt_1_0" target="36.txt_1_0"/>
+    <edge id="34.txt_1_0-30.txt_1_0" source="30.txt_1_0" target="34.txt_1_0"/>
+    <edge id="530848.txt_1_0-3.txt_1_0" source="3.txt_1_0" target="530848.txt_1_0"/>
+    <edge id="387881.txt_1_1-5.txt_1_0" source="5.txt_1_0" target="387881.txt_1_1"/>
+    <edge id="0.txt_1_1-387881.txt_1_1" source="387881.txt_1_1" target="0.txt_1_1"/>
+    <edge id="36.txt_1_0-35.txt_1_2" source="35.txt_1_2" target="36.txt_1_0"/>
+    <edge id="18.txt_1_1-12.txt_1_0" source="12.txt_1_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-12.txt_1_0" source="12.txt_1_0" target="19.txt_3_3"/>
+    <edge id="530848.txt_1_0-12.txt_1_0" source="12.txt_1_0" target="530848.txt_1_0"/>
+    <edge id="387881.txt_1_0-0.txt_1_0" source="0.txt_1_0" target="387881.txt_1_0"/>
+    <edge id="36.txt_1_0-19.txt_3_1" source="19.txt_3_1" target="36.txt_1_0"/>
+    <edge id="0.txt_1_1-35.txt_1_0" source="35.txt_1_0" target="0.txt_1_1"/>
+    <edge id="26.txt_1_1-25.txt_1_0" source="25.txt_1_0" target="26.txt_1_1"/>
+    <edge id="34.txt_1_0-2.txt_1_0" source="2.txt_1_0" target="34.txt_1_0"/>
+    <edge id="387881.txt_1_1-34.txt_1_0" source="34.txt_1_0" target="387881.txt_1_1"/>
+    <edge id="24.txt_1_0-26.txt_1_0" source="26.txt_1_0" target="24.txt_1_0"/>
+    <edge id="36.txt_1_0-387881.txt_1_0" source="387881.txt_1_0" target="36.txt_1_0"/>
+    <edge id="25.txt_1_0-3.txt_1_0" source="3.txt_1_0" target="25.txt_1_0"/>
+    <edge id="387881.txt_1_0-35.txt_1_0" source="35.txt_1_0" target="387881.txt_1_0"/>
+    <edge id="30.txt_1_0-13.txt_1_0" source="13.txt_1_0" target="30.txt_1_0"/>
+    <edge id="6.txt_7_0-5.txt_1_0" source="5.txt_1_0" target="6.txt_7_0"/>
+    <edge id="387881.txt_1_1-35.txt_1_2" source="35.txt_1_2" target="387881.txt_1_1"/>
+    <edge id="513573.txt_1_0-36.txt_1_0" source="36.txt_1_0" target="513573.txt_1_0"/>
+    <edge id="26.txt_1_1-35.txt_1_1" source="35.txt_1_1" target="26.txt_1_1"/>
+    <edge id="34.txt_1_0-13.txt_1_0" source="13.txt_1_0" target="34.txt_1_0"/>
+    <edge id="25.txt_1_0-2.txt_1_0" source="2.txt_1_0" target="25.txt_1_0"/>
+    <edge id="0.txt_1_0-35.txt_1_0" source="35.txt_1_0" target="0.txt_1_0"/>
+    <edge id="34.txt_1_0-26.txt_1_0" source="26.txt_1_0" target="34.txt_1_0"/>
+    <edge id="25.txt_1_0-36.txt_1_0" source="36.txt_1_0" target="25.txt_1_0"/>
+    <edge id="36.txt_1_0-34.txt_1_0" source="34.txt_1_0" target="36.txt_1_0"/>
+    <edge id="26.txt_1_1-12.txt_1_1" source="12.txt_1_1" target="26.txt_1_1"/>
+    <edge id="0.txt_1_1-13.txt_1_0" source="13.txt_1_0" target="0.txt_1_1"/>
+    <edge id="24.txt_1_0-18.txt_1_0" source="18.txt_1_0" target="24.txt_1_0"/>
+    <edge id="0.txt_1_1-25.txt_1_0" source="25.txt_1_0" target="0.txt_1_1"/>
+    <edge id="530848.txt_1_0-19.txt_3_2" source="19.txt_3_2" target="530848.txt_1_0"/>
+    <edge id="513573.txt_1_0-12.txt_1_1" source="12.txt_1_1" target="513573.txt_1_0"/>
+    <edge id="272237.txt_5_0-2.txt_1_0" source="2.txt_1_0" target="272237.txt_5_0"/>
+    <edge id="35.txt_1_3-530848.txt_1_0" source="530848.txt_1_0" target="35.txt_1_3"/>
+    <edge id="24.txt_1_0-387881.txt_1_1" source="387881.txt_1_1" target="24.txt_1_0"/>
+    <edge id="25.txt_1_0-19.txt_3_0" source="19.txt_3_0" target="25.txt_1_0"/>
+    <edge id="7.txt_1_0-387881.txt_1_1" source="387881.txt_1_1" target="7.txt_1_0"/>
+    <edge id="513573.txt_1_0-35.txt_1_3" source="35.txt_1_3" target="513573.txt_1_0"/>
+    <edge id="18.txt_1_1-11.txt_3_0" source="11.txt_3_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-11.txt_3_0" source="11.txt_3_0" target="19.txt_3_3"/>
+    <edge id="513573.txt_1_0-11.txt_3_1" source="11.txt_3_1" target="513573.txt_1_0"/>
+    <edge id="35.txt_2_0-13.txt_2_0" source="13.txt_2_0" target="35.txt_2_0"/>
+    <edge id="513573.txt_1_0-0.txt_1_0" source="0.txt_1_0" target="513573.txt_1_0"/>
+    <edge id="530848.txt_1_0-387881.txt_1_0" source="387881.txt_1_0" target="530848.txt_1_0"/>
+    <edge id="7.txt_1_0-35.txt_1_0" source="35.txt_1_0" target="7.txt_1_0"/>
+    <edge id="36.txt_1_0-25.txt_1_0" source="25.txt_1_0" target="36.txt_1_0"/>
+    <edge id="387881.txt_1_1-18.txt_1_0" source="18.txt_1_0" target="387881.txt_1_1"/>
+    <edge id="18.txt_1_1-3.txt_1_0" source="3.txt_1_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-3.txt_1_0" source="3.txt_1_0" target="19.txt_3_3"/>
+    <edge id="34.txt_1_0-36.txt_1_0" source="36.txt_1_0" target="34.txt_1_0"/>
+    <edge id="35.txt_1_3-13.txt_1_0" source="13.txt_1_0" target="35.txt_1_3"/>
+    <edge id="18.txt_1_1-12.txt_1_1" source="12.txt_1_1" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-12.txt_1_1" source="12.txt_1_1" target="19.txt_3_3"/>
+    <edge id="0.txt_1_1-513573.txt_1_0" source="513573.txt_1_0" target="0.txt_1_1"/>
+    <edge id="513573.txt_1_0-13.txt_1_0" source="13.txt_1_0" target="513573.txt_1_0"/>
+    <edge id="272237.txt_5_0-35.txt_1_2" source="35.txt_1_2" target="272237.txt_5_0"/>
+    <edge id="35.txt_1_3-0.txt_1_0" source="0.txt_1_0" target="35.txt_1_3"/>
+    <edge id="26.txt_1_1-11.txt_3_1" source="11.txt_3_1" target="26.txt_1_1"/>
+    <edge id="0.txt_1_1-26.txt_1_1" source="26.txt_1_1" target="0.txt_1_1"/>
+    <edge id="18.txt_1_1-35.txt_1_2" source="35.txt_1_2" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-35.txt_1_2" source="35.txt_1_2" target="19.txt_3_3"/>
+    <edge id="387881.txt_1_1-35.txt_2_0" source="35.txt_2_0" target="387881.txt_1_1"/>
+    <edge id="3.txt_1_0-513573.txt_1_0" source="513573.txt_1_0" target="3.txt_1_0"/>
+    <edge id="34.txt_1_0-19.txt_3_0" source="19.txt_3_0" target="34.txt_1_0"/>
+    <edge id="24.txt_1_0-387881.txt_1_0" source="387881.txt_1_0" target="24.txt_1_0"/>
+    <edge id="7.txt_1_0-18.txt_1_0" source="18.txt_1_0" target="7.txt_1_0"/>
+    <edge id="0.txt_1_1-19.txt_3_0" source="19.txt_3_0" target="0.txt_1_1"/>
+    <edge id="513573.txt_1_0-25.txt_1_0" source="25.txt_1_0" target="513573.txt_1_0"/>
+    <edge id="24.txt_1_0-13.txt_1_0" source="13.txt_1_0" target="24.txt_1_0"/>
+    <edge id="24.txt_1_0-35.txt_2_0" source="35.txt_2_0" target="24.txt_1_0"/>
+    <edge id="26.txt_1_1-0.txt_1_0" source="0.txt_1_0" target="26.txt_1_1"/>
+    <edge id="513573.txt_1_0-5.txt_1_0" source="5.txt_1_0" target="513573.txt_1_0"/>
+    <edge id="530848.txt_1_0-19.txt_3_0" source="19.txt_3_0" target="530848.txt_1_0"/>
+    <edge id="35.txt_2_0-5.txt_1_0" source="5.txt_1_0" target="35.txt_2_0"/>
+    <edge id="387881.txt_1_1-13.txt_1_0" source="13.txt_1_0" target="387881.txt_1_1"/>
+    <edge id="513573.txt_1_0-18.txt_1_1" source="18.txt_1_1" target="513573.txt_1_0"/>
+    <edge id="513573.txt_1_0-19.txt_3_3" source="19.txt_3_3" target="513573.txt_1_0"/>
+    <edge id="25.txt_1_0-12.txt_1_1" source="12.txt_1_1" target="25.txt_1_0"/>
+    <edge id="513573.txt_1_0-26.txt_1_0" source="26.txt_1_0" target="513573.txt_1_0"/>
+    <edge id="3.txt_1_0-13.txt_2_0" source="13.txt_2_0" target="3.txt_1_0"/>
+    <edge id="0.txt_1_1-35.txt_1_3" source="35.txt_1_3" target="0.txt_1_1"/>
+    <edge id="25.txt_1_0-13.txt_2_0" source="13.txt_2_0" target="25.txt_1_0"/>
+    <edge id="513573.txt_1_0-35.txt_1_2" source="35.txt_1_2" target="513573.txt_1_0"/>
+    <edge id="513573.txt_1_0-18.txt_1_0" source="18.txt_1_0" target="513573.txt_1_0"/>
+    <edge id="26.txt_1_1-13.txt_2_0" source="13.txt_2_0" target="26.txt_1_1"/>
+    <edge id="530848.txt_1_0-35.txt_1_2" source="35.txt_1_2" target="530848.txt_1_0"/>
+    <edge id="30.txt_1_0-387881.txt_1_0" source="387881.txt_1_0" target="30.txt_1_0"/>
+    <edge id="25.txt_1_0-0.txt_1_0" source="0.txt_1_0" target="25.txt_1_0"/>
+    <edge id="25.txt_1_0-12.txt_1_0" source="12.txt_1_0" target="25.txt_1_0"/>
+    <edge id="30.txt_1_0-35.txt_2_0" source="35.txt_2_0" target="30.txt_1_0"/>
+    <edge id="36.txt_1_0-26.txt_1_1" source="26.txt_1_1" target="36.txt_1_0"/>
+    <edge id="387881.txt_1_1-387881.txt_1_0" source="387881.txt_1_0" target="387881.txt_1_1"/>
+    <edge id="387881.txt_1_1-2.txt_1_0" source="2.txt_1_0" target="387881.txt_1_1"/>
+    <edge id="3.txt_1_0-35.txt_2_0" source="35.txt_2_0" target="3.txt_1_0"/>
+    <edge id="6.txt_7_0-13.txt_1_0" source="13.txt_1_0" target="6.txt_7_0"/>
+    <edge id="24.txt_1_0-13.txt_2_0" source="13.txt_2_0" target="24.txt_1_0"/>
+    <edge id="36.txt_1_0-35.txt_2_0" source="35.txt_2_0" target="36.txt_1_0"/>
+    <edge id="530848.txt_1_0-35.txt_2_0" source="35.txt_2_0" target="530848.txt_1_0"/>
+    <edge id="387881.txt_1_1-35.txt_1_3" source="35.txt_1_3" target="387881.txt_1_1"/>
+    <edge id="26.txt_1_1-513573.txt_1_0" source="513573.txt_1_0" target="26.txt_1_1"/>
+    <edge id="34.txt_1_0-513573.txt_1_0" source="513573.txt_1_0" target="34.txt_1_0"/>
+    <edge id="26.txt_1_1-3.txt_1_0" source="3.txt_1_0" target="26.txt_1_1"/>
+    <edge id="18.txt_1_1-35.txt_1_0" source="35.txt_1_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-35.txt_1_0" source="35.txt_1_0" target="19.txt_3_3"/>
+    <edge id="6.txt_7_0-513573.txt_1_0" source="513573.txt_1_0" target="6.txt_7_0"/>
+    <edge id="18.txt_1_1-19.txt_3_0" source="19.txt_3_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-19.txt_3_0" source="19.txt_3_0" target="19.txt_3_3"/>
+    <edge id="6.txt_7_0-19.txt_3_1" source="19.txt_3_1" target="6.txt_7_0"/>
+    <edge id="7.txt_1_0-19.txt_3_0" source="19.txt_3_0" target="7.txt_1_0"/>
+    <edge id="36.txt_1_0-13.txt_1_0" source="13.txt_1_0" target="36.txt_1_0"/>
+    <edge id="34.txt_1_0-12.txt_1_1" source="12.txt_1_1" target="34.txt_1_0"/>
+    <edge id="26.txt_1_1-387881.txt_1_0" source="387881.txt_1_0" target="26.txt_1_1"/>
+    <edge id="6.txt_7_0-30.txt_1_0" source="30.txt_1_0" target="6.txt_7_0"/>
+    <edge id="25.txt_1_0-35.txt_1_1" source="35.txt_1_1" target="25.txt_1_0"/>
+    <edge id="530848.txt_1_0-18.txt_1_0" source="18.txt_1_0" target="530848.txt_1_0"/>
+    <edge id="530848.txt_1_0-30.txt_1_0" source="30.txt_1_0" target="530848.txt_1_0"/>
+    <edge id="530848.txt_1_0-19.txt_3_1" source="19.txt_3_1" target="530848.txt_1_0"/>
+    <edge id="25.txt_1_0-24.txt_1_0" source="24.txt_1_0" target="25.txt_1_0"/>
+    <edge id="35.txt_1_3-35.txt_1_2" source="35.txt_1_2" target="35.txt_1_3"/>
+    <edge id="18.txt_1_1-0.txt_1_1" source="0.txt_1_1" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-0.txt_1_1" source="0.txt_1_1" target="19.txt_3_3"/>
+    <edge id="30.txt_1_0-5.txt_1_0" source="5.txt_1_0" target="30.txt_1_0"/>
+    <edge id="272237.txt_5_0-19.txt_3_2" source="19.txt_3_2" target="272237.txt_5_0"/>
+    <edge id="18.txt_1_1-35.txt_1_3" source="35.txt_1_3" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-35.txt_1_3" source="35.txt_1_3" target="19.txt_3_3"/>
+    <edge id="0.txt_1_1-35.txt_1_2" source="35.txt_1_2" target="0.txt_1_1"/>
+    <edge id="30.txt_1_0-2.txt_1_0" source="2.txt_1_0" target="30.txt_1_0"/>
+    <edge id="30.txt_1_0-530848.txt_1_0" source="530848.txt_1_0" target="30.txt_1_0"/>
+    <edge id="5.txt_1_0-13.txt_2_0" source="13.txt_2_0" target="5.txt_1_0"/>
+    <edge id="30.txt_1_0-24.txt_1_0" source="24.txt_1_0" target="30.txt_1_0"/>
+    <edge id="36.txt_1_0-3.txt_1_0" source="3.txt_1_0" target="36.txt_1_0"/>
+    <edge id="6.txt_7_0-11.txt_3_1" source="11.txt_3_1" target="6.txt_7_0"/>
+    <edge id="18.txt_1_1-2.txt_1_0" source="2.txt_1_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-2.txt_1_0" source="2.txt_1_0" target="19.txt_3_3"/>
+    <edge id="35.txt_1_3-387881.txt_1_1" source="387881.txt_1_1" target="35.txt_1_3"/>
+    <edge id="13.txt_1_0-12.txt_1_0" source="12.txt_1_0" target="13.txt_1_0"/>
+    <edge id="6.txt_7_0-3.txt_1_0" source="3.txt_1_0" target="6.txt_7_0"/>
+    <edge id="24.txt_1_0-19.txt_3_1" source="19.txt_3_1" target="24.txt_1_0"/>
+    <edge id="3.txt_1_0-0.txt_1_0" source="0.txt_1_0" target="3.txt_1_0"/>
+    <edge id="3.txt_1_0-2.txt_1_0" source="2.txt_1_0" target="3.txt_1_0"/>
+    <edge id="513573.txt_1_0-387881.txt_1_0" source="387881.txt_1_0" target="513573.txt_1_0"/>
+    <edge id="387881.txt_1_1-0.txt_1_1" source="0.txt_1_1" target="387881.txt_1_1"/>
+    <edge id="25.txt_1_0-18.txt_1_0" source="18.txt_1_0" target="25.txt_1_0"/>
+    <edge id="3.txt_1_0-18.txt_1_0" source="18.txt_1_0" target="3.txt_1_0"/>
+    <edge id="24.txt_1_0-35.txt_1_1" source="35.txt_1_1" target="24.txt_1_0"/>
+    <edge id="272237.txt_5_0-387881.txt_1_0" source="387881.txt_1_0" target="272237.txt_5_0"/>
+    <edge id="6.txt_7_0-18.txt_1_0" source="18.txt_1_0" target="6.txt_7_0"/>
+    <edge id="7.txt_1_0-35.txt_1_3" source="35.txt_1_3" target="7.txt_1_0"/>
+    <edge id="34.txt_1_0-26.txt_1_1" source="26.txt_1_1" target="34.txt_1_0"/>
+    <edge id="530848.txt_1_0-12.txt_1_1" source="12.txt_1_1" target="530848.txt_1_0"/>
+    <edge id="25.txt_1_0-26.txt_1_0" source="26.txt_1_0" target="25.txt_1_0"/>
+    <edge id="34.txt_1_0-19.txt_3_2" source="19.txt_3_2" target="34.txt_1_0"/>
+    <edge id="26.txt_1_1-19.txt_3_0" source="19.txt_3_0" target="26.txt_1_1"/>
+    <edge id="0.txt_1_0-35.txt_1_2" source="35.txt_1_2" target="0.txt_1_0"/>
+    <edge id="6.txt_7_0-35.txt_1_0" source="35.txt_1_0" target="6.txt_7_0"/>
+    <edge id="3.txt_1_0-24.txt_1_0" source="24.txt_1_0" target="3.txt_1_0"/>
+    <edge id="30.txt_1_0-19.txt_3_1" source="19.txt_3_1" target="30.txt_1_0"/>
+    <edge id="26.txt_1_1-18.txt_1_0" source="18.txt_1_0" target="26.txt_1_1"/>
+    <edge id="387881.txt_1_1-26.txt_1_1" source="26.txt_1_1" target="387881.txt_1_1"/>
+    <edge id="36.txt_1_0-35.txt_1_0" source="35.txt_1_0" target="36.txt_1_0"/>
+    <edge id="272237.txt_5_0-7.txt_1_0" source="7.txt_1_0" target="272237.txt_5_0"/>
+    <edge id="387881.txt_1_1-36.txt_1_0" source="36.txt_1_0" target="387881.txt_1_1"/>
+    <edge id="272237.txt_5_0-35.txt_1_0" source="35.txt_1_0" target="272237.txt_5_0"/>
+    <edge id="24.txt_1_0-35.txt_1_2" source="35.txt_1_2" target="24.txt_1_0"/>
+    <edge id="25.txt_1_0-11.txt_3_0" source="11.txt_3_0" target="25.txt_1_0"/>
+    <edge id="30.txt_1_0-0.txt_1_1" source="0.txt_1_1" target="30.txt_1_0"/>
+    <edge id="0.txt_1_1-19.txt_3_2" source="19.txt_3_2" target="0.txt_1_1"/>
+    <edge id="25.txt_1_0-387881.txt_1_0" source="387881.txt_1_0" target="25.txt_1_0"/>
+    <edge id="6.txt_7_0-11.txt_3_0" source="11.txt_3_0" target="6.txt_7_0"/>
+    <edge id="272237.txt_5_0-18.txt_1_0" source="18.txt_1_0" target="272237.txt_5_0"/>
+    <edge id="18.txt_1_1-0.txt_1_0" source="0.txt_1_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-0.txt_1_0" source="0.txt_1_0" target="19.txt_3_3"/>
+    <edge id="3.txt_1_0-35.txt_1_3" source="35.txt_1_3" target="3.txt_1_0"/>
+    <edge id="530848.txt_1_0-36.txt_1_0" source="36.txt_1_0" target="530848.txt_1_0"/>
+    <edge id="0.txt_1_1-19.txt_3_1" source="19.txt_3_1" target="0.txt_1_1"/>
+    <edge id="513573.txt_1_0-11.txt_3_0" source="11.txt_3_0" target="513573.txt_1_0"/>
+    <edge id="530848.txt_1_0-34.txt_1_0" source="34.txt_1_0" target="530848.txt_1_0"/>
+    <edge id="3.txt_1_0-35.txt_1_0" source="35.txt_1_0" target="3.txt_1_0"/>
+    <edge id="36.txt_1_0-7.txt_1_0" source="7.txt_1_0" target="36.txt_1_0"/>
+    <edge id="272237.txt_5_0-3.txt_1_0" source="3.txt_1_0" target="272237.txt_5_0"/>
+    <edge id="24.txt_1_0-513573.txt_1_0" source="513573.txt_1_0" target="24.txt_1_0"/>
+    <edge id="7.txt_1_0-25.txt_1_0" source="25.txt_1_0" target="7.txt_1_0"/>
+    <edge id="6.txt_7_0-35.txt_1_1" source="35.txt_1_1" target="6.txt_7_0"/>
+    <edge id="513573.txt_1_0-12.txt_1_0" source="12.txt_1_0" target="513573.txt_1_0"/>
+    <edge id="387881.txt_1_1-19.txt_3_0" source="19.txt_3_0" target="387881.txt_1_1"/>
+    <edge id="35.txt_1_3-12.txt_1_1" source="12.txt_1_1" target="35.txt_1_3"/>
+    <edge id="3.txt_1_0-30.txt_1_0" source="30.txt_1_0" target="3.txt_1_0"/>
+    <edge id="530848.txt_1_0-11.txt_3_0" source="11.txt_3_0" target="530848.txt_1_0"/>
+    <edge id="19.txt_3_2-19.txt_3_0" source="19.txt_3_0" target="19.txt_3_2"/>
+    <edge id="26.txt_1_1-11.txt_3_0" source="11.txt_3_0" target="26.txt_1_1"/>
+    <edge id="36.txt_1_0-2.txt_1_0" source="2.txt_1_0" target="36.txt_1_0"/>
+    <edge id="0.txt_1_1-24.txt_1_0" source="24.txt_1_0" target="0.txt_1_1"/>
+    <edge id="3.txt_1_0-11.txt_3_1" source="11.txt_3_1" target="3.txt_1_0"/>
+    <edge id="272237.txt_5_0-24.txt_1_0" source="24.txt_1_0" target="272237.txt_5_0"/>
+    <edge id="18.txt_1_1-13.txt_1_0" source="13.txt_1_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-13.txt_1_0" source="13.txt_1_0" target="19.txt_3_3"/>
+    <edge id="26.txt_1_1-387881.txt_1_1" source="387881.txt_1_1" target="26.txt_1_1"/>
+    <edge id="34.txt_1_0-11.txt_3_0" source="11.txt_3_0" target="34.txt_1_0"/>
+    <edge id="3.txt_1_0-387881.txt_1_1" source="387881.txt_1_1" target="3.txt_1_0"/>
+    <edge id="3.txt_1_0-0.txt_1_1" source="0.txt_1_1" target="3.txt_1_0"/>
+    <edge id="530848.txt_1_0-24.txt_1_0" source="24.txt_1_0" target="530848.txt_1_0"/>
+    <edge id="3.txt_1_0-530848.txt_1_0" source="530848.txt_1_0" target="3.txt_1_0"/>
+    <edge id="513573.txt_1_0-387881.txt_1_1" source="387881.txt_1_1" target="513573.txt_1_0"/>
+    <edge id="0.txt_1_1-35.txt_2_0" source="35.txt_2_0" target="0.txt_1_1"/>
+    <edge id="25.txt_1_0-530848.txt_1_0" source="530848.txt_1_0" target="25.txt_1_0"/>
+    <edge id="7.txt_1_0-19.txt_3_1" source="19.txt_3_1" target="7.txt_1_0"/>
+    <edge id="36.txt_1_0-18.txt_1_1" source="18.txt_1_1" target="36.txt_1_0"/>
+    <edge id="36.txt_1_0-19.txt_3_3" source="19.txt_3_3" target="36.txt_1_0"/>
+    <edge id="24.txt_1_0-3.txt_1_0" source="3.txt_1_0" target="24.txt_1_0"/>
+    <edge id="3.txt_1_0-26.txt_1_0" source="26.txt_1_0" target="3.txt_1_0"/>
+    <edge id="26.txt_1_1-19.txt_3_1" source="19.txt_3_1" target="26.txt_1_1"/>
+    <edge id="36.txt_1_0-26.txt_1_0" source="26.txt_1_0" target="36.txt_1_0"/>
+    <edge id="13.txt_1_0-12.txt_1_1" source="12.txt_1_1" target="13.txt_1_0"/>
+    <edge id="530848.txt_1_0-26.txt_1_1" source="26.txt_1_1" target="530848.txt_1_0"/>
+    <edge id="30.txt_1_0-19.txt_3_0" source="19.txt_3_0" target="30.txt_1_0"/>
+    <edge id="30.txt_1_0-36.txt_1_0" source="36.txt_1_0" target="30.txt_1_0"/>
+    <edge id="6.txt_7_0-2.txt_1_0" source="2.txt_1_0" target="6.txt_7_0"/>
+    <edge id="7.txt_1_0-387881.txt_1_0" source="387881.txt_1_0" target="7.txt_1_0"/>
+    <edge id="34.txt_1_0-25.txt_1_0" source="25.txt_1_0" target="34.txt_1_0"/>
+    <edge id="387881.txt_1_1-30.txt_1_0" source="30.txt_1_0" target="387881.txt_1_1"/>
+    <edge id="0.txt_1_1-13.txt_2_0" source="13.txt_2_0" target="0.txt_1_1"/>
+    <edge id="387881.txt_1_1-3.txt_1_0" source="3.txt_1_0" target="387881.txt_1_1"/>
+    <edge id="3.txt_1_0-18.txt_1_1" source="18.txt_1_1" target="3.txt_1_0"/>
+    <edge id="3.txt_1_0-19.txt_3_3" source="19.txt_3_3" target="3.txt_1_0"/>
+    <edge id="387881.txt_1_1-12.txt_1_0" source="12.txt_1_0" target="387881.txt_1_1"/>
+    <edge id="26.txt_1_1-18.txt_1_1" source="18.txt_1_1" target="26.txt_1_1"/>
+    <edge id="26.txt_1_1-19.txt_3_3" source="19.txt_3_3" target="26.txt_1_1"/>
+    <edge id="7.txt_1_0-0.txt_1_0" source="0.txt_1_0" target="7.txt_1_0"/>
+    <edge id="7.txt_1_0-35.txt_2_0" source="35.txt_2_0" target="7.txt_1_0"/>
+    <edge id="272237.txt_5_0-26.txt_1_0" source="26.txt_1_0" target="272237.txt_5_0"/>
+    <edge id="26.txt_1_1-35.txt_2_0" source="35.txt_2_0" target="26.txt_1_1"/>
+    <edge id="387881.txt_1_1-530848.txt_1_0" source="530848.txt_1_0" target="387881.txt_1_1"/>
+    <edge id="18.txt_1_1-24.txt_1_0" source="24.txt_1_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-24.txt_1_0" source="24.txt_1_0" target="19.txt_3_3"/>
+    <edge id="387881.txt_1_1-35.txt_1_1" source="35.txt_1_1" target="387881.txt_1_1"/>
+    <edge id="34.txt_1_0-35.txt_1_1" source="35.txt_1_1" target="34.txt_1_0"/>
+    <edge id="7.txt_1_0-513573.txt_1_0" source="513573.txt_1_0" target="7.txt_1_0"/>
+    <edge id="0.txt_1_1-34.txt_1_0" source="34.txt_1_0" target="0.txt_1_1"/>
+    <edge id="34.txt_1_0-3.txt_1_0" source="3.txt_1_0" target="34.txt_1_0"/>
+    <edge id="513573.txt_1_0-530848.txt_1_0" source="530848.txt_1_0" target="513573.txt_1_0"/>
+    <edge id="35.txt_1_1-35.txt_1_0" source="35.txt_1_0" target="35.txt_1_1"/>
+    <edge id="30.txt_1_0-35.txt_1_1" source="35.txt_1_1" target="30.txt_1_0"/>
+    <edge id="272237.txt_5_0-35.txt_2_0" source="35.txt_2_0" target="272237.txt_5_0"/>
+    <edge id="30.txt_1_0-12.txt_1_0" source="12.txt_1_0" target="30.txt_1_0"/>
+    <edge id="34.txt_1_0-35.txt_2_0" source="35.txt_2_0" target="34.txt_1_0"/>
+    <edge id="18.txt_1_1-35.txt_1_1" source="35.txt_1_1" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-35.txt_1_1" source="35.txt_1_1" target="19.txt_3_3"/>
+    <edge id="35.txt_1_3-11.txt_3_1" source="11.txt_3_1" target="35.txt_1_3"/>
+    <edge id="24.txt_1_0-19.txt_3_2" source="19.txt_3_2" target="24.txt_1_0"/>
+    <edge id="530848.txt_1_0-35.txt_1_1" source="35.txt_1_1" target="530848.txt_1_0"/>
+    <edge id="36.txt_1_0-0.txt_1_1" source="0.txt_1_1" target="36.txt_1_0"/>
+    <edge id="18.txt_1_1-25.txt_1_0" source="25.txt_1_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-25.txt_1_0" source="25.txt_1_0" target="19.txt_3_3"/>
+    <edge id="18.txt_1_1-387881.txt_1_0" source="387881.txt_1_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-387881.txt_1_0" source="387881.txt_1_0" target="19.txt_3_3"/>
+    <edge id="513573.txt_1_0-19.txt_3_2" source="19.txt_3_2" target="513573.txt_1_0"/>
+    <edge id="35.txt_1_3-13.txt_2_0" source="13.txt_2_0" target="35.txt_1_3"/>
+    <edge id="6.txt_7_0-24.txt_1_0" source="24.txt_1_0" target="6.txt_7_0"/>
+    <edge id="0.txt_1_1-35.txt_1_1" source="35.txt_1_1" target="0.txt_1_1"/>
+    <edge id="34.txt_1_0-387881.txt_1_0" source="387881.txt_1_0" target="34.txt_1_0"/>
+    <edge id="24.txt_1_0-18.txt_1_1" source="18.txt_1_1" target="24.txt_1_0"/>
+    <edge id="24.txt_1_0-19.txt_3_3" source="19.txt_3_3" target="24.txt_1_0"/>
+    <edge id="6.txt_7_0-35.txt_1_3" source="35.txt_1_3" target="6.txt_7_0"/>
+    <edge id="530848.txt_1_0-0.txt_1_0" source="0.txt_1_0" target="530848.txt_1_0"/>
+    <edge id="7.txt_1_0-5.txt_1_0" source="5.txt_1_0" target="7.txt_1_0"/>
+    <edge id="24.txt_1_0-25.txt_1_0" source="25.txt_1_0" target="24.txt_1_0"/>
+    <edge id="513573.txt_1_0-34.txt_1_0" source="34.txt_1_0" target="513573.txt_1_0"/>
+    <edge id="387881.txt_1_1-19.txt_3_2" source="19.txt_3_2" target="387881.txt_1_1"/>
+    <edge id="24.txt_1_0-12.txt_1_1" source="12.txt_1_1" target="24.txt_1_0"/>
+    <edge id="34.txt_1_0-0.txt_1_0" source="0.txt_1_0" target="34.txt_1_0"/>
+    <edge id="7.txt_1_0-35.txt_1_2" source="35.txt_1_2" target="7.txt_1_0"/>
+    <edge id="18.txt_1_1-36.txt_1_0" source="36.txt_1_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-36.txt_1_0" source="36.txt_1_0" target="19.txt_3_3"/>
+    <edge id="30.txt_1_0-18.txt_1_1" source="18.txt_1_1" target="30.txt_1_0"/>
+    <edge id="30.txt_1_0-19.txt_3_3" source="19.txt_3_3" target="30.txt_1_0"/>
+    <edge id="25.txt_1_0-5.txt_1_0" source="5.txt_1_0" target="25.txt_1_0"/>
+    <edge id="36.txt_1_0-24.txt_1_0" source="24.txt_1_0" target="36.txt_1_0"/>
+    <edge id="18.txt_1_1-11.txt_3_1" source="11.txt_3_1" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-11.txt_3_1" source="11.txt_3_1" target="19.txt_3_3"/>
+    <edge id="0.txt_1_1-530848.txt_1_0" source="530848.txt_1_0" target="0.txt_1_1"/>
+    <edge id="0.txt_1_1-2.txt_1_0" source="2.txt_1_0" target="0.txt_1_1"/>
+    <edge id="387881.txt_1_1-0.txt_1_0" source="0.txt_1_0" target="387881.txt_1_1"/>
+    <edge id="0.txt_1_1-11.txt_3_0" source="11.txt_3_0" target="0.txt_1_1"/>
+    <edge id="36.txt_1_0-13.txt_2_0" source="13.txt_2_0" target="36.txt_1_0"/>
+    <edge id="34.txt_1_0-5.txt_1_0" source="5.txt_1_0" target="34.txt_1_0"/>
+    <edge id="272237.txt_5_0-530848.txt_1_0" source="530848.txt_1_0" target="272237.txt_5_0"/>
+    <edge id="35.txt_1_3-19.txt_3_1" source="19.txt_3_1" target="35.txt_1_3"/>
+    <edge id="25.txt_1_0-26.txt_1_1" source="26.txt_1_1" target="25.txt_1_0"/>
+    <edge id="7.txt_1_0-18.txt_1_1" source="18.txt_1_1" target="7.txt_1_0"/>
+    <edge id="7.txt_1_0-19.txt_3_3" source="19.txt_3_3" target="7.txt_1_0"/>
+    <edge id="7.txt_1_0-11.txt_3_0" source="11.txt_3_0" target="7.txt_1_0"/>
+    <edge id="6.txt_7_0-26.txt_1_0" source="26.txt_1_0" target="6.txt_7_0"/>
+    <edge id="0.txt_1_1-5.txt_1_0" source="5.txt_1_0" target="0.txt_1_1"/>
+    <edge id="26.txt_1_1-34.txt_1_0" source="34.txt_1_0" target="26.txt_1_1"/>
+    <edge id="30.txt_1_0-35.txt_1_2" source="35.txt_1_2" target="30.txt_1_0"/>
+    <edge id="36.txt_1_0-12.txt_1_0" source="12.txt_1_0" target="36.txt_1_0"/>
+    <edge id="25.txt_1_0-19.txt_3_1" source="19.txt_3_1" target="25.txt_1_0"/>
+    <edge id="30.txt_1_0-34.txt_1_0" source="34.txt_1_0" target="30.txt_1_0"/>
+    <edge id="34.txt_1_0-13.txt_2_0" source="13.txt_2_0" target="34.txt_1_0"/>
+    <edge id="0.txt_1_1-12.txt_1_1" source="12.txt_1_1" target="0.txt_1_1"/>
+    <edge id="18.txt_1_1-35.txt_2_0" source="35.txt_2_0" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-35.txt_2_0" source="35.txt_2_0" target="19.txt_3_3"/>
+    <edge id="7.txt_1_0-30.txt_1_0" source="30.txt_1_0" target="7.txt_1_0"/>
+    <edge id="25.txt_1_0-34.txt_1_0" source="34.txt_1_0" target="25.txt_1_0"/>
+    <edge id="7.txt_1_0-24.txt_1_0" source="24.txt_1_0" target="7.txt_1_0"/>
+    <edge id="7.txt_1_0-26.txt_1_1" source="26.txt_1_1" target="7.txt_1_0"/>
+    <edge id="272237.txt_5_0-13.txt_1_0" source="13.txt_1_0" target="272237.txt_5_0"/>
+    <edge id="30.txt_1_0-35.txt_1_0" source="35.txt_1_0" target="30.txt_1_0"/>
+    <edge id="6.txt_7_0-13.txt_2_0" source="13.txt_2_0" target="6.txt_7_0"/>
+    <edge id="18.txt_1_1-26.txt_1_1" source="26.txt_1_1" target="18.txt_1_1"/>
+    <edge id="19.txt_3_3-26.txt_1_1" source="26.txt_1_1" target="19.txt_3_3"/>
+    <edge id="387881.txt_1_1-513573.txt_1_0" source="513573.txt_1_0" target="387881.txt_1_1"/>
+    <edge id="0.txt_1_1-3.txt_1_0" source="3.txt_1_0" target="0.txt_1_1"/>
+    <edge id="3.txt_1_0-36.txt_1_0" source="36.txt_1_0" target="3.txt_1_0"/>
+    <edge id="387881.txt_1_1-7.txt_1_0" source="7.txt_1_0" target="387881.txt_1_1"/>
+    <edge id="36.txt_1_0-35.txt_1_1" source="35.txt_1_1" target="36.txt_1_0"/>
+    <edge id="0.txt_1_1-12.txt_1_0" source="12.txt_1_0" target="0.txt_1_1"/>
+    <edge id="30.txt_1_0-7.txt_1_0" source="7.txt_1_0" target="30.txt_1_0"/>
+    <edge id="30.txt_1_0-513573.txt_1_0" source="513573.txt_1_0" target="30.txt_1_0"/>
+    <edge id="7.txt_1_0-13.txt_2_0" source="13.txt_2_0" target="7.txt_1_0"/>
+    <edge id="25.txt_1_0-7.txt_1_0" source="7.txt_1_0" target="25.txt_1_0"/>
+    <edge id="35.txt_1_3-19.txt_3_2" source="19.txt_3_2" target="35.txt_1_3"/>
+    <edge id="3.txt_1_0-12.txt_1_1" source="12.txt_1_1" target="3.txt_1_0"/>
+    <edge id="24.txt_1_0-11.txt_3_0" source="11.txt_3_0" target="24.txt_1_0"/>
+    <edge id="272237.txt_5_0-11.txt_3_0" source="11.txt_3_0" target="272237.txt_5_0"/>
+    <edge id="25.txt_1_0-35.txt_1_3" source="35.txt_1_3" target="25.txt_1_0"/>
+    <edge id="25.txt_1_0-0.txt_1_1" source="0.txt_1_1" target="25.txt_1_0"/>
+    <edge id="3.txt_1_0-19.txt_3_1" source="19.txt_3_1" target="3.txt_1_0"/>
+    <edge id="0.txt_1_1-30.txt_1_0" source="30.txt_1_0" target="0.txt_1_1"/>
+    <edge id="6.txt_7_0-272237.txt_5_0" source="272237.txt_5_0" target="6.txt_7_0"/>
+    <edge id="513573.txt_1_0-2.txt_1_0" source="2.txt_1_0" target="513573.txt_1_0"/>
+    <edge id="272237.txt_5_0-25.txt_1_0" source="25.txt_1_0" target="272237.txt_5_0"/>
+    <edge id="7.txt_1_0-0.txt_1_1" source="0.txt_1_1" target="7.txt_1_0"/>
+    <edge id="26.txt_1_1-0.txt_1_1" source="0.txt_1_1" target="26.txt_1_1"/>
+    <edge id="34.txt_1_0-24.txt_1_0" source="24.txt_1_0" target="34.txt_1_0"/>
+    <edge id="3.txt_1_0-25.txt_1_0" source="25.txt_1_0" target="3.txt_1_0"/>
+    <edge id="24.txt_1_0-30.txt_1_0" source="30.txt_1_0" target="24.txt_1_0"/>
+    <edge id="35.txt_1_3-387881.txt_1_0" source="387881.txt_1_0" target="35.txt_1_3"/>
+    <edge id="272237.txt_5_0-18.txt_1_1" source="18.txt_1_1" target="272237.txt_5_0"/>
+    <edge id="272237.txt_5_0-19.txt_3_3" source="19.txt_3_3" target="272237.txt_5_0"/>
+    <edge id="25.txt_1_0-35.txt_1_2" source="35.txt_1_2" target="25.txt_1_0"/>
+    <edge id="36.txt_1_0-11.txt_3_0" source="11.txt_3_0" target="36.txt_1_0"/>
+    <edge id="25.txt_1_0-11.txt_3_1" source="11.txt_3_1" target="25.txt_1_0"/>
+    <edge id="24.txt_1_0-35.txt_1_0" source="35.txt_1_0" target="24.txt_1_0"/>
+    <edge id="272237.txt_5_0-513573.txt_1_0" source="513573.txt_1_0" target="272237.txt_5_0"/>
+</F_entailment_graph>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="2">
+    <node id="430935.txt_1_0" modality="TRUE" explicit_context="430935.txt" implicit_context="" focus="Food" implicit_focus="">
+        <original_text>Food for lunch need to be improved</original_text>
+        <correct_text>Food for lunch needs to be improved</correct_text>
+    </node>
+    <node id="430935.txt_1_1" modality="TRUE" explicit_context="430935.txt" implicit_context="" focus="Food" implicit_focus="">
+        <original_text>Food need to be improved</original_text>
+        <correct_text>Food needs to be improved</correct_text>
+    </node>
+    <edge id="430935.txt_1_0-430935.txt_1_1" source="430935.txt_1_0" target="430935.txt_1_1"/>
+</F_entailment_graph>

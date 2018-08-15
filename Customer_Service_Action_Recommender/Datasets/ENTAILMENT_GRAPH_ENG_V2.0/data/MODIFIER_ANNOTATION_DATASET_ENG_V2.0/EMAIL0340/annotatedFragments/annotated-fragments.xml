@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Fragments fragmentNum="9">
+    <fragment id="175519.txt_1_0" modality="TRUE" explicit_context="175519.txt" implicit_context="" focus="wifi" implicit_focus="">
+        <original_text>
+            <text>It would be good to have onboard wifi</text>
+            <token id="0">It</token>
+            <token id="1">would</token>
+            <token id="2">be</token>
+            <token id="3">good</token>
+            <token id="4">to</token>
+            <token id="5">have</token>
+            <token id="6">onboard</token>
+            <token id="7">wifi</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="6"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="272237.txt_1_0" modality="FALSE" explicit_context="272237.txt" implicit_context="" focus="WiFi" implicit_focus="">
+        <original_text>
+            <text>Bring WiFi to the main carriages</text>
+            <token id="0">Bring</token>
+            <token id="1">WiFi</token>
+            <token id="2">to</token>
+            <token id="3">the</token>
+            <token id="4">main</token>
+            <token id="5">carriages</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="278254.txt_5_0" modality="FALSE" explicit_context="278254.txt" implicit_context="" focus="Internet" implicit_focus="">
+        <original_text>
+            <text>the Internet there is always tricky</text>
+            <token id="0">the</token>
+            <token id="1">Internet</token>
+            <token id="2">there</token>
+            <token id="3">is</token>
+            <token id="4">always</token>
+            <token id="5">tricky</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="2"/>
+            </modifier>
+            <modifier id="1">
+                <token_anchor id="4"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="293614.txt_1_0" modality="TRUE" explicit_context="293614.txt" implicit_context="" focus="internet" implicit_focus="">
+        <original_text>
+            <text>Need wifi internet access</text>
+            <token id="0">Need</token>
+            <token id="1">wifi</token>
+            <token id="2">internet</token>
+            <token id="3">access</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="1"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="340247.txt_4_0" modality="TRUE" explicit_context="340247.txt" implicit_context="" focus="WiFi" implicit_focus="">
+        <original_text>
+            <text>would be great to have WiFi</text>
+            <token id="0">would</token>
+            <token id="1">be</token>
+            <token id="2">great</token>
+            <token id="3">to</token>
+            <token id="4">have</token>
+            <token id="5">WiFi</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="38751.txt_4_0" modality="TRUE" explicit_context="38751.txt" implicit_context="" focus="Internet" implicit_focus="">
+        <original_text>
+            <text>Quasigo can offer better Internet</text>
+            <token id="0">Quasigo</token>
+            <token id="1">can</token>
+            <token id="2">offer</token>
+            <token id="3">better</token>
+            <token id="4">Internet</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="43733.txt_3_0" modality="FALSE" explicit_context="43733.txt" implicit_context="" focus="web service" implicit_focus="">
+        <original_text>
+            <text>better web service</text>
+            <token id="0">better</token>
+            <token id="1">web</token>
+            <token id="2">service</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="445827.txt_3_0" modality="TRUE" explicit_context="445827.txt" implicit_context="" focus="WiFi" implicit_focus="">
+        <original_text>
+            <text>WiFi in train would be nice</text>
+            <token id="0">WiFi</token>
+            <token id="1">in</token>
+            <token id="2">train</token>
+            <token id="3">would</token>
+            <token id="4">be</token>
+            <token id="5">nice</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="1"/>
+                <token_anchor id="2"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="56571.txt_5_0" modality="FALSE" explicit_context="56571.txt" implicit_context="" focus="WiFi" implicit_focus="">
+        <original_text>
+            <text>Provide WiFi service</text>
+            <token id="0">Provide</token>
+            <token id="1">WiFi</token>
+            <token id="2">service</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+</Fragments>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Fragments fragmentNum="11">
+    <fragment id="137621.txt_4_0" modality="TRUE" explicit_context="137621.txt" implicit_context="" focus="This" implicit_focus="food">
+        <original_text>
+            <text>This really has to be fixed</text>
+            <token id="0">This</token>
+            <token id="1">really</token>
+            <token id="2">has</token>
+            <token id="3">to</token>
+            <token id="4">be</token>
+            <token id="5">fixed</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="193730.txt_1_0" modality="FALSE" explicit_context="193730.txt" implicit_context="" focus="it" implicit_focus="train">
+        <original_text>
+            <text>it is too expensive</text>
+            <token id="0">it</token>
+            <token id="1">is</token>
+            <token id="2">too</token>
+            <token id="3">expensive</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="255958.txt_2_0" modality="FALSE" explicit_context="255958.txt" implicit_context="" focus="its" implicit_focus="">
+        <original_text>
+            <text>its poor</text>
+            <token id="0">its</token>
+            <token id="1">poor</token>
+        </original_text>
+        <correct_text>it's poor</correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="255958.txt_3_0" modality="FALSE" explicit_context="255958.txt" implicit_context="" focus="its" implicit_focus="">
+        <original_text>
+            <text>its limited</text>
+            <token id="0">its</token>
+            <token id="1">limited</token>
+        </original_text>
+        <correct_text>it's limited</correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="255958.txt_4_0" modality="FALSE" explicit_context="255958.txt" implicit_context="" focus="its" implicit_focus="">
+        <original_text>
+            <text>its overpriced</text>
+            <token id="0">its</token>
+            <token id="1">overpriced</token>
+        </original_text>
+        <correct_text>it's overpriced</correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="27.txt_3_0" modality="FALSE" explicit_context="27.txt" implicit_context="" focus="they" implicit_focus="">
+        <original_text>
+            <text>they Are slow</text>
+            <token id="0">they</token>
+            <token id="1">Are</token>
+            <token id="2">slow</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="30724.txt_4_0" modality="FALSE" explicit_context="30724.txt" implicit_context="" focus="It" implicit_focus="Meal">
+        <original_text>
+            <text>It was not sufficient</text>
+            <token id="0">It</token>
+            <token id="1">was</token>
+            <token id="2">not</token>
+            <token id="3">sufficient</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="379399.txt_2_0" modality="FALSE" explicit_context="379399.txt" implicit_context="" focus="its" implicit_focus="food">
+        <original_text>
+            <text>its cold</text>
+            <token id="0">its</token>
+            <token id="1">cold</token>
+        </original_text>
+        <correct_text>it's cold</correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="379399.txt_3_0" modality="FALSE" explicit_context="379399.txt" implicit_context="" focus="its" implicit_focus="food">
+        <original_text>
+            <text>its boring</text>
+            <token id="0">its</token>
+            <token id="1">boring</token>
+        </original_text>
+        <correct_text>it's boring</correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="429450.txt_6_0" modality="FALSE" explicit_context="429450.txt" implicit_context="" focus="it" implicit_focus="">
+        <original_text>
+            <text>currently it is a disgrace</text>
+            <token id="0">currently</token>
+            <token id="1">it</token>
+            <token id="2">is</token>
+            <token id="3">a</token>
+            <token id="4">disgrace</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="513573.txt_3_0" modality="FALSE" explicit_context="513573.txt" implicit_context="" focus="it" implicit_focus="food">
+        <original_text>
+            <text>very little of it</text>
+            <token id="0">very</token>
+            <token id="1">little</token>
+            <token id="2">of</token>
+            <token id="3">it</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="0"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+</Fragments>

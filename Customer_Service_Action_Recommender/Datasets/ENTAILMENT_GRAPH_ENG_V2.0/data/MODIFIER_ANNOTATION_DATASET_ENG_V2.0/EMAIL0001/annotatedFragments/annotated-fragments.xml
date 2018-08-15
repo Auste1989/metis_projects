@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Fragments fragmentNum="10">
+    <fragment id="153220.txt_1_0" modality="FALSE" explicit_context="153220.txt" implicit_context="" focus="snack" implicit_focus="">
+        <original_text>
+            <text>snack in your Standard Magnum class is ridiculous</text>
+            <token id="0">snack</token>
+            <token id="1">in</token>
+            <token id="2">your</token>
+            <token id="3">Standard</token>
+            <token id="4">Magnum</token>
+            <token id="5">class</token>
+            <token id="6">is</token>
+            <token id="7">ridiculous</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="1"/>
+                <token_anchor id="2"/>
+                <token_anchor id="3"/>
+                <token_anchor id="4"/>
+                <token_anchor id="5"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="15589.txt_7_0" modality="FALSE" explicit_context="15589.txt" implicit_context="" focus="snacks" implicit_focus="">
+        <original_text>
+            <text>no snacks offered</text>
+            <token id="0">no</token>
+            <token id="1">snacks</token>
+            <token id="2">offered</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="228464.txt_3_0" modality="TRUE" explicit_context="228464.txt" implicit_context="" focus="snacks" implicit_focus="">
+        <original_text>
+            <text>A trolley serving snacks would be a welcome addition to the economy section</text>
+            <token id="0">A</token>
+            <token id="1">trolley</token>
+            <token id="2">serving</token>
+            <token id="3">snacks</token>
+            <token id="4">would</token>
+            <token id="5">be</token>
+            <token id="6">a</token>
+            <token id="7">welcome</token>
+            <token id="8">addition</token>
+            <token id="9">to</token>
+            <token id="10">the</token>
+            <token id="11">economy</token>
+            <token id="12">section</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="0"/>
+                <token_anchor id="1"/>
+                <token_anchor id="2"/>
+            </modifier>
+            <modifier id="1">
+                <token_anchor id="9"/>
+                <token_anchor id="10"/>
+                <token_anchor id="11"/>
+                <token_anchor id="12"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="278254.txt_1_0" modality="FALSE" explicit_context="278254.txt" implicit_context="" focus="snacks" implicit_focus="">
+        <original_text>
+            <text>Savory snacks in the waiting room in Moonport - horrible</text>
+            <token id="0">Savory</token>
+            <token id="1">snacks</token>
+            <token id="2">in</token>
+            <token id="3">the</token>
+            <token id="4">waiting</token>
+            <token id="5">room</token>
+            <token id="6">in</token>
+            <token id="7">Moonport</token>
+            <token id="8">-</token>
+            <token id="9">horrible</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="6"/>
+                <token_anchor id="7"/>
+            </modifier>
+            <modifier id="1">
+                <token_anchor id="0"/>
+            </modifier>
+            <modifier id="2">
+                <token_anchor id="2"/>
+                <token_anchor id="3"/>
+                <token_anchor id="4"/>
+                <token_anchor id="5"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="373217.txt_1_0" modality="TRUE" explicit_context="373217.txt" implicit_context="" focus="snacks" implicit_focus="">
+        <original_text>
+            <text>Hot snacks would be an improvement as opposed to cold buffet items</text>
+            <token id="0">Hot</token>
+            <token id="1">snacks</token>
+            <token id="2">would</token>
+            <token id="3">be</token>
+            <token id="4">an</token>
+            <token id="5">improvement</token>
+            <token id="6">as</token>
+            <token id="7">opposed</token>
+            <token id="8">to</token>
+            <token id="9">cold</token>
+            <token id="10">buffet</token>
+            <token id="11">items</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="6"/>
+                <token_anchor id="7"/>
+                <token_anchor id="8"/>
+                <token_anchor id="9"/>
+                <token_anchor id="10"/>
+                <token_anchor id="11"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="38058.txt_8_0" modality="FALSE" explicit_context="38058.txt" implicit_context="" focus="snacks" implicit_focus="">
+        <original_text>
+            <text>have snacks available</text>
+            <token id="0">have</token>
+            <token id="1">snacks</token>
+            <token id="2">available</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="411441.txt_4_0" modality="TRUE" explicit_context="411441.txt" implicit_context="" focus="snacks" implicit_focus="">
+        <original_text>
+            <text>it would be better if there were staff walking around selling snacks</text>
+            <token id="0">it</token>
+            <token id="1">would</token>
+            <token id="2">be</token>
+            <token id="3">better</token>
+            <token id="4">if</token>
+            <token id="5">there</token>
+            <token id="6">were</token>
+            <token id="7">staff</token>
+            <token id="8">walking</token>
+            <token id="9">around</token>
+            <token id="10">selling</token>
+            <token id="11">snacks</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="428613.txt_5_0" modality="FALSE" explicit_context="428613.txt" implicit_context="" focus="sandwiches" implicit_focus="">
+        <original_text>
+            <text>Low fat sandwiches</text>
+            <token id="0">Low</token>
+            <token id="1">fat</token>
+            <token id="2">sandwiches</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="473655.txt_2_0" modality="FALSE" explicit_context="473655.txt" implicit_context="" focus="snacks" implicit_focus="">
+        <original_text>
+            <text>List of available snacks</text>
+            <token id="0">List</token>
+            <token id="1">of</token>
+            <token id="2">available</token>
+            <token id="3">snacks</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="56571.txt_2_0" modality="FALSE" explicit_context="56571.txt" implicit_context="" focus="snacks" implicit_focus="">
+        <original_text>
+            <text>Offer a wider variety of snacks</text>
+            <token id="0">Offer</token>
+            <token id="1">a</token>
+            <token id="2">wider</token>
+            <token id="3">variety</token>
+            <token id="4">of</token>
+            <token id="5">snacks</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+</Fragments>

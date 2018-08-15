@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Fragments fragmentNum="4">
+    <fragment id="105536.txt_5_0" modality="FALSE" explicit_context="105536.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>
+            <text>food was not delivered properly</text>
+            <token id="0">food</token>
+            <token id="1">was</token>
+            <token id="2">not</token>
+            <token id="3">delivered</token>
+            <token id="4">properly</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="220190.txt_1_0" modality="FALSE" explicit_context="220190.txt" implicit_context="" focus="meal" implicit_focus="">
+        <original_text>
+            <text>our meal was not delivered with a smile</text>
+            <token id="0">our</token>
+            <token id="1">meal</token>
+            <token id="2">was</token>
+            <token id="3">not</token>
+            <token id="4">delivered</token>
+            <token id="5">with</token>
+            <token id="6">a</token>
+            <token id="7">smile</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="326254.txt_1_0" modality="TRUE" explicit_context="326254.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>
+            <text>You could improve by bringuing food closer to me</text>
+            <token id="0">You</token>
+            <token id="1">could</token>
+            <token id="2">improve</token>
+            <token id="3">by</token>
+            <token id="4">bringuing</token>
+            <token id="5">food</token>
+            <token id="6">closer</token>
+            <token id="7">to</token>
+            <token id="8">me</token>
+        </original_text>
+        <correct_text>You could improve by bringing food closer to me</correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="464852.txt_1_0" modality="FALSE" explicit_context="464852.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>
+            <text>Service food depends on who it is some better then others</text>
+            <token id="0">Service</token>
+            <token id="1">food</token>
+            <token id="2">depends</token>
+            <token id="3">on</token>
+            <token id="4">who</token>
+            <token id="5">it</token>
+            <token id="6">is</token>
+            <token id="7">some</token>
+            <token id="8">better</token>
+            <token id="9">then</token>
+            <token id="10">others</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+</Fragments>

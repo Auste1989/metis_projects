@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="1">
+    <node id="56571.txt_5_0" modality="FALSE" explicit_context="56571.txt" implicit_context="" focus="WiFi" implicit_focus="">
+        <original_text>Provide WiFi service</original_text>
+        <correct_text></correct_text>
+    </node>
+</F_entailment_graph>

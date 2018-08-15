@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="3">
+    <node id="228464.txt_3_0" modality="TRUE" explicit_context="228464.txt" implicit_context="" focus="snacks" implicit_focus="">
+        <original_text>A trolley serving snacks would be a welcome addition to the economy section</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="228464.txt_3_1" modality="TRUE" explicit_context="228464.txt" implicit_context="" focus="snacks" implicit_focus="">
+        <original_text>snacks would be a welcome addition to the economy section</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="228464.txt_3_2" modality="TRUE" explicit_context="228464.txt" implicit_context="" focus="snacks" implicit_focus="">
+        <original_text>snacks would be a welcome addition</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="228464.txt_3_0-228464.txt_3_1" source="228464.txt_3_0" target="228464.txt_3_1"/>
+    <edge id="228464.txt_3_1-228464.txt_3_2" source="228464.txt_3_1" target="228464.txt_3_2"/>
+    <edge id="228464.txt_3_0-228464.txt_3_2" source="228464.txt_3_0" target="228464.txt_3_2"/>
+</F_entailment_graph>

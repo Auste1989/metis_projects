@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="8">
+    <node id="57576.txt_13_0" modality="FALSE" explicit_context="57576.txt" implicit_context="" focus="Service" implicit_focus="">
+        <original_text>Service was a bit stressed out today due to busy holiday travel</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="57576.txt_13_1" modality="FALSE" explicit_context="57576.txt" implicit_context="" focus="Service" implicit_focus="">
+        <original_text>Service was a bit stressed out due to busy holiday travel</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="57576.txt_13_2" modality="FALSE" explicit_context="57576.txt" implicit_context="" focus="Service" implicit_focus="">
+        <original_text>Service was a bit stressed out today</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="57576.txt_13_3" modality="FALSE" explicit_context="57576.txt" implicit_context="" focus="Service" implicit_focus="">
+        <original_text>Service was stressed out today due to busy holiday travel</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="57576.txt_13_4" modality="FALSE" explicit_context="57576.txt" implicit_context="" focus="Service" implicit_focus="">
+        <original_text>Service was a bit stressed out</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="57576.txt_13_5" modality="FALSE" explicit_context="57576.txt" implicit_context="" focus="Service" implicit_focus="">
+        <original_text>Service was stressed out due to busy holiday travel</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="57576.txt_13_6" modality="FALSE" explicit_context="57576.txt" implicit_context="" focus="Service" implicit_focus="">
+        <original_text>Service was stressed out today</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="57576.txt_13_7" modality="FALSE" explicit_context="57576.txt" implicit_context="" focus="Service" implicit_focus="">
+        <original_text>Service was stressed out</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="57576.txt_13_0-57576.txt_13_1" source="57576.txt_13_0" target="57576.txt_13_1"/>
+    <edge id="57576.txt_13_0-57576.txt_13_2" source="57576.txt_13_0" target="57576.txt_13_2"/>
+    <edge id="57576.txt_13_0-57576.txt_13_3" source="57576.txt_13_0" target="57576.txt_13_3"/>
+    <edge id="57576.txt_13_1-57576.txt_13_4" source="57576.txt_13_1" target="57576.txt_13_4"/>
+    <edge id="57576.txt_13_2-57576.txt_13_4" source="57576.txt_13_2" target="57576.txt_13_4"/>
+    <edge id="57576.txt_13_0-57576.txt_13_4" source="57576.txt_13_0" target="57576.txt_13_4"/>
+    <edge id="57576.txt_13_1-57576.txt_13_5" source="57576.txt_13_1" target="57576.txt_13_5"/>
+    <edge id="57576.txt_13_3-57576.txt_13_5" source="57576.txt_13_3" target="57576.txt_13_5"/>
+    <edge id="57576.txt_13_0-57576.txt_13_5" source="57576.txt_13_0" target="57576.txt_13_5"/>
+    <edge id="57576.txt_13_2-57576.txt_13_6" source="57576.txt_13_2" target="57576.txt_13_6"/>
+    <edge id="57576.txt_13_3-57576.txt_13_6" source="57576.txt_13_3" target="57576.txt_13_6"/>
+    <edge id="57576.txt_13_0-57576.txt_13_6" source="57576.txt_13_0" target="57576.txt_13_6"/>
+    <edge id="57576.txt_13_4-57576.txt_13_7" source="57576.txt_13_4" target="57576.txt_13_7"/>
+    <edge id="57576.txt_13_5-57576.txt_13_7" source="57576.txt_13_5" target="57576.txt_13_7"/>
+    <edge id="57576.txt_13_6-57576.txt_13_7" source="57576.txt_13_6" target="57576.txt_13_7"/>
+    <edge id="57576.txt_13_2-57576.txt_13_7" source="57576.txt_13_2" target="57576.txt_13_7"/>
+    <edge id="57576.txt_13_3-57576.txt_13_7" source="57576.txt_13_3" target="57576.txt_13_7"/>
+    <edge id="57576.txt_13_0-57576.txt_13_7" source="57576.txt_13_0" target="57576.txt_13_7"/>
+    <edge id="57576.txt_13_1-57576.txt_13_7" source="57576.txt_13_1" target="57576.txt_13_7"/>
+</F_entailment_graph>

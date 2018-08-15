@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="1">
+    <node id="52781.txt_9_0" modality="FALSE" explicit_context="52781.txt" implicit_context="" focus="train" implicit_focus="">
+        <original_text>Appalling crush to board train</original_text>
+        <correct_text></correct_text>
+    </node>
+</F_entailment_graph>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="4">
+    <node id="149639.txt_1_0" modality="FALSE" explicit_context="149639.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>on board food is v . unhealthy</original_text>
+        <correct_text>on board food is very unhealthy</correct_text>
+    </node>
+    <node id="149639.txt_1_1" modality="FALSE" explicit_context="149639.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>food is v . unhealthy</original_text>
+        <correct_text>food is very unhealthy</correct_text>
+    </node>
+    <node id="149639.txt_1_2" modality="FALSE" explicit_context="149639.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>on board food is unhealthy</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="149639.txt_1_3" modality="FALSE" explicit_context="149639.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>food is unhealthy</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="149639.txt_1_0-149639.txt_1_1" source="149639.txt_1_0" target="149639.txt_1_1"/>
+    <edge id="149639.txt_1_0-149639.txt_1_2" source="149639.txt_1_0" target="149639.txt_1_2"/>
+    <edge id="149639.txt_1_1-149639.txt_1_3" source="149639.txt_1_1" target="149639.txt_1_3"/>
+    <edge id="149639.txt_1_2-149639.txt_1_3" source="149639.txt_1_2" target="149639.txt_1_3"/>
+    <edge id="149639.txt_1_0-149639.txt_1_3" source="149639.txt_1_0" target="149639.txt_1_3"/>
+</F_entailment_graph>

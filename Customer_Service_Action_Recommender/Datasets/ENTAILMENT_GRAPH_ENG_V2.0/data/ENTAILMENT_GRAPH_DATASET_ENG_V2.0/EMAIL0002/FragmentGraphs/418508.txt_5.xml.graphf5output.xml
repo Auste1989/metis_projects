@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="2">
+    <node id="418508.txt_5_0" modality="TRUE" explicit_context="418508.txt" implicit_context="" focus="expresso" implicit_focus="">
+        <original_text>There should be a proper expresso machine , not that horrible nespresso</original_text>
+        <correct_text>There should be a proper espresso machine , not that horrible nespresso</correct_text>
+    </node>
+    <node id="418508.txt_5_1" modality="TRUE" explicit_context="418508.txt" implicit_context="" focus="expresso" implicit_focus="">
+        <original_text>There should be a proper expresso machine ,</original_text>
+        <correct_text>There should be a proper espresso machine</correct_text>
+    </node>
+    <edge id="418508.txt_5_0-418508.txt_5_1" source="418508.txt_5_0" target="418508.txt_5_1"/>
+</F_entailment_graph>

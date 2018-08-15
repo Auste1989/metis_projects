@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="3">
+    <node id="46653.txt_8_0" modality="TRUE" explicit_context="46653.txt" implicit_context="" focus="charging points" implicit_focus="">
+        <original_text>Phone charging points on train would be good</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="46653.txt_8_1" modality="TRUE" explicit_context="46653.txt" implicit_context="" focus="charging points" implicit_focus="">
+        <original_text>charging points on train would be good</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="46653.txt_8_2" modality="TRUE" explicit_context="46653.txt" implicit_context="" focus="charging points" implicit_focus="">
+        <original_text>charging points would be good</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="46653.txt_8_0-46653.txt_8_1" source="46653.txt_8_0" target="46653.txt_8_1"/>
+    <edge id="46653.txt_8_1-46653.txt_8_2" source="46653.txt_8_1" target="46653.txt_8_2"/>
+    <edge id="46653.txt_8_0-46653.txt_8_2" source="46653.txt_8_0" target="46653.txt_8_2"/>
+</F_entailment_graph>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="27">
+    <node id="169586.txt_4_0">
+        <original_text>Complete rip off</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="169586.txt_3_0">
+        <original_text>Zero value for money</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="106746.txt_1_0">
+        <original_text>trains could use some updating</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="215790.txt_1_0">
+        <original_text>Time for the trains to be updated</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="433561.txt_1_0">
+        <original_text>New updated train would be nice</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="273791.txt_3_0">
+        <original_text>trains need refurbishment</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="72187.txt_1_0">
+        <original_text>modernize the train</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="142421.txt_7_1">
+        <original_text>The Quasigo train was dirty</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="190617.txt_1_0">
+        <original_text>Quasigo is filthy</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="273791.txt_2_0">
+        <original_text>trains are quite shabby</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="493530.txt_4_0">
+        <original_text>consider an adults only quiet coach</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="440663.txt_9_0">
+        <original_text>have quiet coaches</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="273791.txt_2_1">
+        <original_text>trains are shabby</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="190617.txt_2_0">
+        <original_text>Quasigo is horrible</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="52781.txt_9_0">
+        <original_text>Appalling crush to board train</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="401238.txt_7_0">
+        <original_text>The interior of the train could be modernised</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="440557.txt_2_0">
+        <original_text>The trains are badly lit</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="440557.txt_1_0">
+        <original_text>The trains are drab</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="440557.txt_5_0">
+        <original_text>The decor is pretty depressing</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="440557.txt_5_1">
+        <original_text>The decor is depressing</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="142421.txt_8_0">
+        <original_text>The Quasigo train was very tatty</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="142421.txt_8_1">
+        <original_text>The Quasigo train was tatty</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="522350.txt_1_0">
+        <original_text>Cleaner interior</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="109435.txt_4_0">
+        <original_text>train too often delays</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="109435.txt_4_1">
+        <original_text>train delays</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="142421.txt_7_0">
+        <original_text>The Quasigo train was very dirty</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="169586.txt_4_1">
+        <original_text>rip off</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="440557.txt_5_1-440557.txt_5_0" source="440557.txt_5_0" target="440557.txt_5_1"/>
+    <edge id="433561.txt_1_0-142421.txt_8_0" source="142421.txt_8_0" target="433561.txt_1_0"/>
+    <edge id="433561.txt_1_0-72187.txt_1_0" source="72187.txt_1_0" target="433561.txt_1_0"/>
+    <edge id="169586.txt_4_1-169586.txt_4_0" source="169586.txt_4_0" target="169586.txt_4_1"/>
+    <edge id="169586.txt_3_0-169586.txt_4_0" source="169586.txt_4_0" target="169586.txt_3_0"/>
+    <edge id="106746.txt_1_0-273791.txt_2_1" source="273791.txt_2_1" target="106746.txt_1_0"/>
+    <edge id="106746.txt_1_0-273791.txt_3_0" source="273791.txt_3_0" target="106746.txt_1_0"/>
+    <edge id="273791.txt_3_0-215790.txt_1_0" source="215790.txt_1_0" target="273791.txt_3_0"/>
+    <edge id="215790.txt_1_0-440557.txt_5_1" source="440557.txt_5_1" target="215790.txt_1_0"/>
+    <edge id="72187.txt_1_0-142421.txt_8_0" source="142421.txt_8_0" target="72187.txt_1_0"/>
+    <edge id="433561.txt_1_0-215790.txt_1_0" source="215790.txt_1_0" target="433561.txt_1_0"/>
+    <edge id="215790.txt_1_0-440557.txt_1_0" source="440557.txt_1_0" target="215790.txt_1_0"/>
+    <edge id="72187.txt_1_0-142421.txt_8_1" source="142421.txt_8_1" target="72187.txt_1_0"/>
+    <edge id="433561.txt_1_0-273791.txt_3_0" source="273791.txt_3_0" target="433561.txt_1_0"/>
+    <edge id="72187.txt_1_0-273791.txt_2_1" source="273791.txt_2_1" target="72187.txt_1_0"/>
+    <edge id="106746.txt_1_0-273791.txt_2_0" source="273791.txt_2_0" target="106746.txt_1_0"/>
+    <edge id="433561.txt_1_0-273791.txt_2_0" source="273791.txt_2_0" target="433561.txt_1_0"/>
+    <edge id="72187.txt_1_0-401238.txt_7_0" source="401238.txt_7_0" target="72187.txt_1_0"/>
+    <edge id="142421.txt_8_1-142421.txt_8_0" source="142421.txt_8_0" target="142421.txt_8_1"/>
+    <edge id="273791.txt_2_1-273791.txt_2_0" source="273791.txt_2_0" target="273791.txt_2_1"/>
+    <edge id="273791.txt_3_0-72187.txt_1_0" source="72187.txt_1_0" target="273791.txt_3_0"/>
+    <edge id="273791.txt_2_1-142421.txt_8_0" source="142421.txt_8_0" target="273791.txt_2_1"/>
+    <edge id="440557.txt_1_0-440557.txt_5_1" source="440557.txt_5_1" target="440557.txt_1_0"/>
+    <edge id="106746.txt_1_0-401238.txt_7_0" source="401238.txt_7_0" target="106746.txt_1_0"/>
+    <edge id="106746.txt_1_0-440557.txt_5_0" source="440557.txt_5_0" target="106746.txt_1_0"/>
+    <edge id="109435.txt_4_1-109435.txt_4_0" source="109435.txt_4_0" target="109435.txt_4_1"/>
+    <edge id="440663.txt_9_0-493530.txt_4_0" source="493530.txt_4_0" target="440663.txt_9_0"/>
+    <edge id="169586.txt_4_0-169586.txt_3_0" source="169586.txt_3_0" target="169586.txt_4_0"/>
+    <edge id="433561.txt_1_0-440557.txt_5_0" source="440557.txt_5_0" target="433561.txt_1_0"/>
+    <edge id="215790.txt_1_0-72187.txt_1_0" source="72187.txt_1_0" target="215790.txt_1_0"/>
+    <edge id="142421.txt_7_1-190617.txt_1_0" source="190617.txt_1_0" target="142421.txt_7_1"/>
+    <edge id="433561.txt_1_0-142421.txt_8_1" source="142421.txt_8_1" target="433561.txt_1_0"/>
+    <edge id="273791.txt_3_0-440557.txt_5_1" source="440557.txt_5_1" target="273791.txt_3_0"/>
+    <edge id="433561.txt_1_0-273791.txt_2_1" source="273791.txt_2_1" target="433561.txt_1_0"/>
+    <edge id="215790.txt_1_0-142421.txt_8_0" source="142421.txt_8_0" target="215790.txt_1_0"/>
+    <edge id="215790.txt_1_0-273791.txt_2_1" source="273791.txt_2_1" target="215790.txt_1_0"/>
+    <edge id="190617.txt_1_0-142421.txt_7_0" source="142421.txt_7_0" target="190617.txt_1_0"/>
+    <edge id="106746.txt_1_0-215790.txt_1_0" source="215790.txt_1_0" target="106746.txt_1_0"/>
+    <edge id="273791.txt_3_0-401238.txt_7_0" source="401238.txt_7_0" target="273791.txt_3_0"/>
+    <edge id="215790.txt_1_0-401238.txt_7_0" source="401238.txt_7_0" target="215790.txt_1_0"/>
+    <edge id="72187.txt_1_0-440557.txt_5_0" source="440557.txt_5_0" target="72187.txt_1_0"/>
+    <edge id="433561.txt_1_0-440557.txt_5_1" source="440557.txt_5_1" target="433561.txt_1_0"/>
+    <edge id="273791.txt_3_0-440557.txt_1_0" source="440557.txt_1_0" target="273791.txt_3_0"/>
+    <edge id="142421.txt_7_1-142421.txt_7_0" source="142421.txt_7_0" target="142421.txt_7_1"/>
+    <edge id="106746.txt_1_0-72187.txt_1_0" source="72187.txt_1_0" target="106746.txt_1_0"/>
+    <edge id="215790.txt_1_0-433561.txt_1_0" source="433561.txt_1_0" target="215790.txt_1_0"/>
+    <edge id="273791.txt_3_0-440557.txt_5_0" source="440557.txt_5_0" target="273791.txt_3_0"/>
+    <edge id="273791.txt_2_0-142421.txt_8_0" source="142421.txt_8_0" target="273791.txt_2_0"/>
+    <edge id="273791.txt_3_0-273791.txt_2_1" source="273791.txt_2_1" target="273791.txt_3_0"/>
+    <edge id="215790.txt_1_0-440557.txt_5_0" source="440557.txt_5_0" target="215790.txt_1_0"/>
+    <edge id="433561.txt_1_0-401238.txt_7_0" source="401238.txt_7_0" target="433561.txt_1_0"/>
+    <edge id="72187.txt_1_0-440557.txt_5_1" source="440557.txt_5_1" target="72187.txt_1_0"/>
+    <edge id="273791.txt_3_0-273791.txt_2_0" source="273791.txt_2_0" target="273791.txt_3_0"/>
+    <edge id="72187.txt_1_0-273791.txt_2_0" source="273791.txt_2_0" target="72187.txt_1_0"/>
+    <edge id="273791.txt_3_0-142421.txt_8_1" source="142421.txt_8_1" target="273791.txt_3_0"/>
+    <edge id="440557.txt_1_0-440557.txt_5_0" source="440557.txt_5_0" target="440557.txt_1_0"/>
+    <edge id="106746.txt_1_0-142421.txt_8_1" source="142421.txt_8_1" target="106746.txt_1_0"/>
+    <edge id="215790.txt_1_0-273791.txt_3_0" source="273791.txt_3_0" target="215790.txt_1_0"/>
+    <edge id="273791.txt_3_0-106746.txt_1_0" source="106746.txt_1_0" target="273791.txt_3_0"/>
+    <edge id="72187.txt_1_0-106746.txt_1_0" source="106746.txt_1_0" target="72187.txt_1_0"/>
+    <edge id="433561.txt_1_0-440557.txt_1_0" source="440557.txt_1_0" target="433561.txt_1_0"/>
+    <edge id="273791.txt_2_1-142421.txt_8_1" source="142421.txt_8_1" target="273791.txt_2_1"/>
+    <edge id="72187.txt_1_0-273791.txt_3_0" source="273791.txt_3_0" target="72187.txt_1_0"/>
+    <edge id="72187.txt_1_0-215790.txt_1_0" source="215790.txt_1_0" target="72187.txt_1_0"/>
+    <edge id="215790.txt_1_0-106746.txt_1_0" source="106746.txt_1_0" target="215790.txt_1_0"/>
+    <edge id="215790.txt_1_0-142421.txt_8_1" source="142421.txt_8_1" target="215790.txt_1_0"/>
+    <edge id="190617.txt_1_0-142421.txt_7_1" source="142421.txt_7_1" target="190617.txt_1_0"/>
+    <edge id="273791.txt_3_0-142421.txt_8_0" source="142421.txt_8_0" target="273791.txt_3_0"/>
+    <edge id="106746.txt_1_0-440557.txt_5_1" source="440557.txt_5_1" target="106746.txt_1_0"/>
+    <edge id="106746.txt_1_0-142421.txt_8_0" source="142421.txt_8_0" target="106746.txt_1_0"/>
+    <edge id="106746.txt_1_0-433561.txt_1_0" source="433561.txt_1_0" target="106746.txt_1_0"/>
+    <edge id="273791.txt_3_0-433561.txt_1_0" source="433561.txt_1_0" target="273791.txt_3_0"/>
+    <edge id="215790.txt_1_0-273791.txt_2_0" source="273791.txt_2_0" target="215790.txt_1_0"/>
+    <edge id="72187.txt_1_0-433561.txt_1_0" source="433561.txt_1_0" target="72187.txt_1_0"/>
+    <edge id="433561.txt_1_0-106746.txt_1_0" source="106746.txt_1_0" target="433561.txt_1_0"/>
+    <edge id="169586.txt_4_1-169586.txt_3_0" source="169586.txt_3_0" target="169586.txt_4_1"/>
+    <edge id="72187.txt_1_0-440557.txt_1_0" source="440557.txt_1_0" target="72187.txt_1_0"/>
+    <edge id="106746.txt_1_0-440557.txt_1_0" source="440557.txt_1_0" target="106746.txt_1_0"/>
+</F_entailment_graph>

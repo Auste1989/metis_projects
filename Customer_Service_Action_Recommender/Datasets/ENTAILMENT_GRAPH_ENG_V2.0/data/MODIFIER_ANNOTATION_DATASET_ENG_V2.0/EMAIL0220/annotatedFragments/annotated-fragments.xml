@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Fragments fragmentNum="4">
+    <fragment id="317673.txt_1_0" modality="FALSE" explicit_context="317673.txt" implicit_context="" focus="Seating" implicit_focus="">
+        <original_text>
+            <text>Seating is very cramped</text>
+            <token id="0">Seating</token>
+            <token id="1">is</token>
+            <token id="2">very</token>
+            <token id="3">cramped</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="2"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="327999.txt_1_0" modality="FALSE" explicit_context="327999.txt" implicit_context="" focus="seats" implicit_focus="">
+        <original_text>
+            <text>seats are too small</text>
+            <token id="0">seats</token>
+            <token id="1">are</token>
+            <token id="2">too</token>
+            <token id="3">small</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="2"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="443092.txt_1_0" modality="FALSE" explicit_context="443092.txt" implicit_context="" focus="Spaces" implicit_focus="">
+        <original_text>
+            <text>Spaces between seats are very narrow</text>
+            <token id="0">Spaces</token>
+            <token id="1">between</token>
+            <token id="2">seats</token>
+            <token id="3">are</token>
+            <token id="4">very</token>
+            <token id="5">narrow</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="4"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="72187.txt_2_0" modality="FALSE" explicit_context="72187.txt" implicit_context="" focus="seats" implicit_focus="">
+        <original_text>
+            <text>make some space in seats</text>
+            <token id="0">make</token>
+            <token id="1">some</token>
+            <token id="2">space</token>
+            <token id="3">in</token>
+            <token id="4">seats</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="1"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+</Fragments>

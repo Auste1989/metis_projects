@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Fragments fragmentNum="10">
+    <fragment id="193730.txt_4_0" modality="FALSE" explicit_context="193730.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>
+            <text>food is finished too early</text>
+            <token id="0">food</token>
+            <token id="1">is</token>
+            <token id="2">finished</token>
+            <token id="3">too</token>
+            <token id="4">early</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="193730.txt_7_0" modality="FALSE" explicit_context="193730.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>
+            <text>more food</text>
+            <token id="0">more</token>
+            <token id="1">food</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="305036.txt_2_0" modality="TRUE" explicit_context="305036.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>
+            <text>I wished the food would be more consistant in terms of quantity</text>
+            <token id="0">I</token>
+            <token id="1">wished</token>
+            <token id="2">the</token>
+            <token id="3">food</token>
+            <token id="4">would</token>
+            <token id="5">be</token>
+            <token id="6">more</token>
+            <token id="7">consistant</token>
+            <token id="8">in</token>
+            <token id="9">terms</token>
+            <token id="10">of</token>
+            <token id="11">quantity</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="305036.txt_3_0" modality="FALSE" explicit_context="305036.txt" implicit_context="" focus="portions" implicit_focus="">
+        <original_text>
+            <text>the portions are getting rather smaller each time</text>
+            <token id="0">the</token>
+            <token id="1">portions</token>
+            <token id="2">are</token>
+            <token id="3">getting</token>
+            <token id="4">rather</token>
+            <token id="5">smaller</token>
+            <token id="6">each</token>
+            <token id="7">time</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="6"/>
+                <token_anchor id="7"/>
+            </modifier>
+            <modifier id="1">
+                <token_anchor id="4"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="399686.txt_1_0" modality="FALSE" explicit_context="399686.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>
+            <text>Standard magnum food portions are absurdly small</text>
+            <token id="0">Standard</token>
+            <token id="1">magnum</token>
+            <token id="2">food</token>
+            <token id="3">portions</token>
+            <token id="4">are</token>
+            <token id="5">absurdly</token>
+            <token id="6">small</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="5"/>
+            </modifier>
+            <modifier id="1">
+                <token_anchor id="0"/>
+                <token_anchor id="1"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="399686.txt_2_0" modality="FALSE" explicit_context="399686.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>
+            <text>Standard magnum food portions are insultingly small</text>
+            <token id="0">Standard</token>
+            <token id="1">magnum</token>
+            <token id="2">food</token>
+            <token id="3">portions</token>
+            <token id="4">are</token>
+            <token id="5">insultingly</token>
+            <token id="6">small</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="5"/>
+            </modifier>
+            <modifier id="1">
+                <token_anchor id="0"/>
+                <token_anchor id="1"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="428613.txt_3_0" modality="FALSE" explicit_context="428613.txt" implicit_context="" focus="salads" implicit_focus="">
+        <original_text>
+            <text>Bigger salads</text>
+            <token id="0">Bigger</token>
+            <token id="1">salads</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="57576.txt_2_0" modality="FALSE" explicit_context="57576.txt" implicit_context="" focus="Food" implicit_focus="">
+        <original_text>
+            <text>Food quantity has declined over time</text>
+            <token id="0">Food</token>
+            <token id="1">quantity</token>
+            <token id="2">has</token>
+            <token id="3">declined</token>
+            <token id="4">over</token>
+            <token id="5">time</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="57576.txt_4_0" modality="FALSE" explicit_context="57576.txt" implicit_context="" focus="drink" implicit_focus="">
+        <original_text>
+            <text>drink quantity has declined over time</text>
+            <token id="0">drink</token>
+            <token id="1">quantity</token>
+            <token id="2">has</token>
+            <token id="3">declined</token>
+            <token id="4">over</token>
+            <token id="5">time</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="77304.txt_2_0" modality="TRUE" explicit_context="77304.txt" implicit_context="" focus="meals" implicit_focus="">
+        <original_text>
+            <text>It could be improved by making the portions of the meals larger</text>
+            <token id="0">It</token>
+            <token id="1">could</token>
+            <token id="2">be</token>
+            <token id="3">improved</token>
+            <token id="4">by</token>
+            <token id="5">making</token>
+            <token id="6">the</token>
+            <token id="7">portions</token>
+            <token id="8">of</token>
+            <token id="9">the</token>
+            <token id="10">meals</token>
+            <token id="11">larger</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+</Fragments>

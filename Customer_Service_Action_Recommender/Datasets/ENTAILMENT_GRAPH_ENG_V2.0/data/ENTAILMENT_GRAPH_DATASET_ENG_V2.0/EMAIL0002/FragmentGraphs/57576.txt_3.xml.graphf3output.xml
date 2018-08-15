@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="1">
+    <node id="57576.txt_3_0" modality="FALSE" explicit_context="57576.txt" implicit_context="" focus="drink" implicit_focus="">
+        <original_text>drink quality has declined over time</original_text>
+        <correct_text></correct_text>
+    </node>
+</F_entailment_graph>

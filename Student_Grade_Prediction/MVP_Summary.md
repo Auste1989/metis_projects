@@ -60,6 +60,13 @@ Overall, This is not so much of a business problem, but rather a social responsi
 ### Data analysis
 
 * Figured out the hyper-parameters for 7 different models :thumbsup:  
+  1. K-Nearest Neighbors (KNN)
+  2. Logistic Regression
+  3. Random Forest
+  4. Naive Bayes (Gaussian)
+  5. Naive Bayes (Bernoulli)
+  6. Support Vector Classifier (SVC)
+  7. Stochastic Gradient Descent (SGD)  
 * Compared all the models with their best hyper-parameters (Random Forest did the best on Cross Validation comparing AUC score and second best in precision) :thumbsup:  
 * Random Forest was showing signs of overfitting initially, but after adding min_samples_leaf limit to 3, the score improved.  
 * Need to do forward feature selection (**15 features left**) :thumbsup:

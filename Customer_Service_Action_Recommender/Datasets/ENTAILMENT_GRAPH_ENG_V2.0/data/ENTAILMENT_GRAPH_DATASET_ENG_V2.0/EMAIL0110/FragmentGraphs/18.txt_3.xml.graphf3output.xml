@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="2">
+    <node id="18.txt_3_0" modality="FALSE" explicit_context="18.txt" implicit_context="" focus="seats" implicit_focus="">
+        <original_text>Help when booking seats so as many as possible can be spaced out / not next to another passenger</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="18.txt_3_1" modality="FALSE" explicit_context="18.txt" implicit_context="" focus="seats" implicit_focus="">
+        <original_text>Help when booking seats</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="18.txt_3_0-18.txt_3_1" source="18.txt_3_0" target="18.txt_3_1"/>
+</F_entailment_graph>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="13">
+    <node id="461540.txt_4_1">
+        <original_text>better taxi service</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="52781.txt_12_1">
+        <original_text>ruins the notion of a leisurely trip</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="461540.txt_4_0">
+        <original_text>better taxi service at the other end</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="52781.txt_12_0">
+        <original_text>Absolutely ruins the notion of a leisurely trip</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="179281.txt_2_2">
+        <original_text>simple first aid kit</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="179281.txt_2_3">
+        <original_text>first aid kit</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="522262.txt_1_0">
+        <original_text>I would like a smoking area</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="179281.txt_2_1">
+        <original_text>first aid kit at Stars Bridge station</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="179281.txt_2_0">
+        <original_text>simple first aid kit at Stars Bridge station</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="92454.txt_5_1">
+        <original_text>You should have more connections</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="193822.txt_4_0">
+        <original_text>taxi service through Quasigo not available</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="193822.txt_4_1">
+        <original_text>taxi service not available</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="92454.txt_5_0">
+        <original_text>You should have more connections into europe</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="461540.txt_4_1-193822.txt_4_1" source="193822.txt_4_1" target="461540.txt_4_1"/>
+    <edge id="461540.txt_4_1-193822.txt_4_0" source="193822.txt_4_0" target="461540.txt_4_1"/>
+    <edge id="179281.txt_2_3-179281.txt_2_1" source="179281.txt_2_1" target="179281.txt_2_3"/>
+    <edge id="179281.txt_2_3-179281.txt_2_0" source="179281.txt_2_0" target="179281.txt_2_3"/>
+    <edge id="193822.txt_4_1-193822.txt_4_0" source="193822.txt_4_0" target="193822.txt_4_1"/>
+    <edge id="179281.txt_2_1-179281.txt_2_0" source="179281.txt_2_0" target="179281.txt_2_1"/>
+    <edge id="92454.txt_5_1-92454.txt_5_0" source="92454.txt_5_0" target="92454.txt_5_1"/>
+    <edge id="461540.txt_4_1-461540.txt_4_0" source="461540.txt_4_0" target="461540.txt_4_1"/>
+    <edge id="52781.txt_12_1-52781.txt_12_0" source="52781.txt_12_0" target="52781.txt_12_1"/>
+    <edge id="179281.txt_2_3-179281.txt_2_2" source="179281.txt_2_2" target="179281.txt_2_3"/>
+    <edge id="179281.txt_2_2-179281.txt_2_0" source="179281.txt_2_0" target="179281.txt_2_2"/>
+</F_entailment_graph>

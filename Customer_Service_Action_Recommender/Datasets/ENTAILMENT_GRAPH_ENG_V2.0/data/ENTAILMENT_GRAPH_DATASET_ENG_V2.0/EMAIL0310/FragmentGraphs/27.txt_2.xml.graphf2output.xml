@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="4">
+    <node id="27.txt_2_0" modality="FALSE" explicit_context="27.txt" implicit_context="" focus="stuff" implicit_focus="">
+        <original_text>the stuff in the ticket office is not helpful at all</original_text>
+        <correct_text>the staff in the tickets office is not helpful at all</correct_text>
+    </node>
+    <node id="27.txt_2_1" modality="FALSE" explicit_context="27.txt" implicit_context="" focus="stuff" implicit_focus="">
+        <original_text>the stuff in the ticket office is not helpful</original_text>
+        <correct_text>the staff in the tickets office is not helpful</correct_text>
+    </node>
+    <node id="27.txt_2_2" modality="FALSE" explicit_context="27.txt" implicit_context="" focus="stuff" implicit_focus="">
+        <original_text>the stuff is not helpful at all</original_text>
+        <correct_text>the staff is not helpful at all</correct_text>
+    </node>
+    <node id="27.txt_2_3" modality="FALSE" explicit_context="27.txt" implicit_context="" focus="stuff" implicit_focus="">
+        <original_text>the stuff is not helpful</original_text>
+        <correct_text>the staff is not helpful</correct_text>
+    </node>
+    <edge id="27.txt_2_0-27.txt_2_1" source="27.txt_2_0" target="27.txt_2_1"/>
+    <edge id="27.txt_2_0-27.txt_2_2" source="27.txt_2_0" target="27.txt_2_2"/>
+    <edge id="27.txt_2_1-27.txt_2_3" source="27.txt_2_1" target="27.txt_2_3"/>
+    <edge id="27.txt_2_2-27.txt_2_3" source="27.txt_2_2" target="27.txt_2_3"/>
+    <edge id="27.txt_2_0-27.txt_2_3" source="27.txt_2_0" target="27.txt_2_3"/>
+</F_entailment_graph>

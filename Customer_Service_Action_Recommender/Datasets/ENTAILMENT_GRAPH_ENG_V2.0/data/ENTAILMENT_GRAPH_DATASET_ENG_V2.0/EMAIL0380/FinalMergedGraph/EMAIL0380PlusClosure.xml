@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="12">
+    <node id="327783.txt_6_1">
+        <original_text>toilets were dirty</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="187987.txt_2_0">
+        <original_text>toilets cleaned</original_text>
+        <correct_text>toilets need to be cleaned</correct_text>
+    </node>
+    <node id="327783.txt_6_0">
+        <original_text>toilets were very dirty</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="330688.txt_4_0">
+        <original_text>toilet hygiene non existing</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="457080.txt_2_0">
+        <original_text>toilet floor dirty</original_text>
+        <correct_text>toilet floor is dirty</correct_text>
+    </node>
+    <node id="127257.txt_1_0">
+        <original_text>Toilets / washrooms sometimes disappointing</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="16005.txt_4_1">
+        <original_text>Toilet tissue quality is bad</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="16005.txt_4_0">
+        <original_text>Toilet tissue quality is famously bad</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="483394.txt_5_0">
+        <original_text>not enough ladies toilets at Stars Bridge</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="483394.txt_5_1">
+        <original_text>not enough toilets at Stars Bridge</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="483394.txt_5_2">
+        <original_text>not enough ladies toilets</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="483394.txt_5_3">
+        <original_text>not enough toilets</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="327783.txt_6_1-327783.txt_6_0" source="327783.txt_6_0" target="327783.txt_6_1"/>
+    <edge id="127257.txt_1_0-187987.txt_2_0" source="187987.txt_2_0" target="127257.txt_1_0"/>
+    <edge id="483394.txt_5_1-483394.txt_5_0" source="483394.txt_5_0" target="483394.txt_5_1"/>
+    <edge id="483394.txt_5_3-483394.txt_5_2" source="483394.txt_5_2" target="483394.txt_5_3"/>
+    <edge id="127257.txt_1_0-327783.txt_6_1" source="327783.txt_6_1" target="127257.txt_1_0"/>
+    <edge id="187987.txt_2_0-457080.txt_2_0" source="457080.txt_2_0" target="187987.txt_2_0"/>
+    <edge id="187987.txt_2_0-327783.txt_6_0" source="327783.txt_6_0" target="187987.txt_2_0"/>
+    <edge id="127257.txt_1_0-457080.txt_2_0" source="457080.txt_2_0" target="127257.txt_1_0"/>
+    <edge id="483394.txt_5_2-483394.txt_5_0" source="483394.txt_5_0" target="483394.txt_5_2"/>
+    <edge id="187987.txt_2_0-330688.txt_4_0" source="330688.txt_4_0" target="187987.txt_2_0"/>
+    <edge id="127257.txt_1_0-330688.txt_4_0" source="330688.txt_4_0" target="127257.txt_1_0"/>
+    <edge id="127257.txt_1_0-16005.txt_4_1" source="16005.txt_4_1" target="127257.txt_1_0"/>
+    <edge id="327783.txt_6_1-187987.txt_2_0" source="187987.txt_2_0" target="327783.txt_6_1"/>
+    <edge id="483394.txt_5_3-483394.txt_5_1" source="483394.txt_5_1" target="483394.txt_5_3"/>
+    <edge id="127257.txt_1_0-16005.txt_4_0" source="16005.txt_4_0" target="127257.txt_1_0"/>
+    <edge id="127257.txt_1_0-327783.txt_6_0" source="327783.txt_6_0" target="127257.txt_1_0"/>
+    <edge id="330688.txt_4_0-327783.txt_6_0" source="327783.txt_6_0" target="330688.txt_4_0"/>
+    <edge id="327783.txt_6_1-330688.txt_4_0" source="330688.txt_4_0" target="327783.txt_6_1"/>
+    <edge id="327783.txt_6_0-330688.txt_4_0" source="330688.txt_4_0" target="327783.txt_6_0"/>
+    <edge id="187987.txt_2_0-327783.txt_6_1" source="327783.txt_6_1" target="187987.txt_2_0"/>
+    <edge id="16005.txt_4_1-16005.txt_4_0" source="16005.txt_4_0" target="16005.txt_4_1"/>
+    <edge id="483394.txt_5_3-483394.txt_5_0" source="483394.txt_5_0" target="483394.txt_5_3"/>
+    <edge id="327783.txt_6_1-457080.txt_2_0" source="457080.txt_2_0" target="327783.txt_6_1"/>
+</F_entailment_graph>

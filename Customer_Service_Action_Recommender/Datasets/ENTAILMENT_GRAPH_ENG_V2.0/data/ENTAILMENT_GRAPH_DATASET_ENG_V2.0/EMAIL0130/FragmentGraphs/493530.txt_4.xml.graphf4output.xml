@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="1">
+    <node id="493530.txt_4_0" modality="FALSE" explicit_context="493530.txt" implicit_context="" focus="coach" implicit_focus="">
+        <original_text>consider an adults only quiet coach</original_text>
+        <correct_text></correct_text>
+    </node>
+</F_entailment_graph>

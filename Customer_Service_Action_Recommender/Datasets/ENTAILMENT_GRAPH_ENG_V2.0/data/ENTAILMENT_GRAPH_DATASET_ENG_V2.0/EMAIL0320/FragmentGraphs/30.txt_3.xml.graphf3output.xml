@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="2">
+    <node id="30.txt_3_0" modality="FALSE" explicit_context="30.txt" implicit_context="" focus="luggage" implicit_focus="">
+        <original_text>limited luggage space so would not recommend if travelling with large</original_text>
+        <correct_text>limited luggage space, so would not recommend if travelling with large luggage</correct_text>
+    </node>
+    <node id="30.txt_3_1" modality="FALSE" explicit_context="30.txt" implicit_context="" focus="luggage" implicit_focus="">
+        <original_text>limited luggage space</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="30.txt_3_0-30.txt_3_1" source="30.txt_3_0" target="30.txt_3_1"/>
+</F_entailment_graph>

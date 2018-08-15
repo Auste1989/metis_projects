@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="2">
+    <node id="179281.txt_1_0" modality="FALSE" explicit_context="179281.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>Better food at Stars Bridge station</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="179281.txt_1_1" modality="FALSE" explicit_context="179281.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>Better food</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="179281.txt_1_0-179281.txt_1_1" source="179281.txt_1_0" target="179281.txt_1_1"/>
+</F_entailment_graph>

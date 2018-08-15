@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="2">
+    <node id="473384.txt_2_0" modality="FALSE" explicit_context="473384.txt" implicit_context="" focus="space" implicit_focus="">
+        <original_text>Improve the space at Frowntown</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="473384.txt_2_1" modality="FALSE" explicit_context="473384.txt" implicit_context="" focus="space" implicit_focus="">
+        <original_text>Improve the space</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="473384.txt_2_0-473384.txt_2_1" source="473384.txt_2_0" target="473384.txt_2_1"/>
+</F_entailment_graph>

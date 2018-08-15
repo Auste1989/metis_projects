@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Fragments fragmentNum="4">
+    <fragment id="183009.txt_1_0" modality="TRUE" explicit_context="183009.txt" implicit_context="" focus="Seating" implicit_focus="">
+        <original_text>
+            <text>Seating could be more comfortable</text>
+            <token id="0">Seating</token>
+            <token id="1">could</token>
+            <token id="2">be</token>
+            <token id="3">more</token>
+            <token id="4">comfortable</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="190617.txt_6_0" modality="FALSE" explicit_context="190617.txt" implicit_context="" focus="seats" implicit_focus="">
+        <original_text>
+            <text>seats are stunningly uncomfortable</text>
+            <token id="0">seats</token>
+            <token id="1">are</token>
+            <token id="2">stunningly</token>
+            <token id="3">uncomfortable</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="2"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="212549.txt_4_0" modality="FALSE" explicit_context="212549.txt" implicit_context="" focus="seats" implicit_focus="">
+        <original_text>
+            <text>Ecomony seats not very comfortableGenerally</text>
+            <token id="0">Ecomony</token>
+            <token id="1">seats</token>
+            <token id="2">not</token>
+            <token id="3">very</token>
+            <token id="4">comfortableGenerally</token>
+        </original_text>
+        <correct_text>Economy seats not very comfortable</correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="3"/>
+            </modifier>
+            <modifier id="1">
+                <token_anchor id="0"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="411441.txt_1_0" modality="FALSE" explicit_context="411441.txt" implicit_context="" focus="Seats" implicit_focus="">
+        <original_text>
+            <text>Seats need to be more comfortable</text>
+            <token id="0">Seats</token>
+            <token id="1">need</token>
+            <token id="2">to</token>
+            <token id="3">be</token>
+            <token id="4">more</token>
+            <token id="5">comfortable</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+</Fragments>

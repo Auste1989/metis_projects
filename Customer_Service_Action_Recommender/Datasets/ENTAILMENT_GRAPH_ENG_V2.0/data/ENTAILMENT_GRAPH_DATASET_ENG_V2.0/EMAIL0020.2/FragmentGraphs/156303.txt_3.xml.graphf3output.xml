@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="2">
+    <node id="156303.txt_3_0" modality="FALSE" explicit_context="156303.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>food was very mediocre</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="156303.txt_3_1" modality="FALSE" explicit_context="156303.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>food was mediocre</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="156303.txt_3_0-156303.txt_3_1" source="156303.txt_3_0" target="156303.txt_3_1"/>
+</F_entailment_graph>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="2">
+    <node id="277071.txt_4_0" modality="FALSE" explicit_context="277071.txt" implicit_context="" focus="" implicit_focus="check in">
+        <original_text>very slow</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="277071.txt_4_1" modality="FALSE" explicit_context="277071.txt" implicit_context="" focus="" implicit_focus="check in">
+        <original_text>slow</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="277071.txt_4_0-277071.txt_4_1" source="277071.txt_4_0" target="277071.txt_4_1"/>
+</F_entailment_graph>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="1">
+    <node id="429450.txt_6_0" modality="FALSE" explicit_context="429450.txt" implicit_context="" focus="it" implicit_focus="">
+        <original_text>currently it is a disgrace</original_text>
+        <correct_text></correct_text>
+    </node>
+</F_entailment_graph>

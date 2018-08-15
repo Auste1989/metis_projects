@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="1">
+    <node id="32676.txt_5_0" modality="FALSE" explicit_context="32676.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>I always get the same tasteless food</original_text>
+        <correct_text></correct_text>
+    </node>
+</F_entailment_graph>

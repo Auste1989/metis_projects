@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="1">
+    <node id="193822.txt_8_0" modality="FALSE" explicit_context="193822.txt" implicit_context="" focus="carte blanche" implicit_focus="">
+        <original_text>not happy with changes to carte blanche system</original_text>
+        <correct_text></correct_text>
+    </node>
+</F_entailment_graph>

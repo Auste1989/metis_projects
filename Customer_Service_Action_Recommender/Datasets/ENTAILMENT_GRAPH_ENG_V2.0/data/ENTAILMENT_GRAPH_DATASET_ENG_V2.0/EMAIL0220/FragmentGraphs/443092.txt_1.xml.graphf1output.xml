@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="2">
+    <node id="443092.txt_1_0" modality="FALSE" explicit_context="443092.txt" implicit_context="" focus="Spaces" implicit_focus="">
+        <original_text>Spaces between seats are very narrow</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="443092.txt_1_1" modality="FALSE" explicit_context="443092.txt" implicit_context="" focus="Spaces" implicit_focus="">
+        <original_text>Spaces between seats are narrow</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="443092.txt_1_0-443092.txt_1_1" source="443092.txt_1_0" target="443092.txt_1_1"/>
+</F_entailment_graph>

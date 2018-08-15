@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="1">
+    <node id="423204.txt_3_0" modality="FALSE" explicit_context="423204.txt" implicit_context="" focus="wine" implicit_focus="">
+        <original_text>wine selection poor</original_text>
+        <correct_text>wine selection is poor</correct_text>
+    </node>
+</F_entailment_graph>

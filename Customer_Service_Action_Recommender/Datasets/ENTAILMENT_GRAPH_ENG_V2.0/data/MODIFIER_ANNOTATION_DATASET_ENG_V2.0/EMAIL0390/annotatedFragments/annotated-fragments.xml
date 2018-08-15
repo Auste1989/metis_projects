@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Fragments fragmentNum="6">
+    <fragment id="179281.txt_2_0" modality="FALSE" explicit_context="179281.txt" implicit_context="" focus="first aid" implicit_focus="">
+        <original_text>
+            <text>simple first aid kit at Stars Bridge station</text>
+            <token id="0">simple</token>
+            <token id="1">first</token>
+            <token id="2">aid</token>
+            <token id="3">kit</token>
+            <token id="4">at</token>
+            <token id="5">Stars</token>
+            <token id="6">Bridge</token>
+            <token id="7">station</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="0"/>
+            </modifier>
+            <modifier id="1">
+                <token_anchor id="4"/>
+                <token_anchor id="5"/>
+                <token_anchor id="6"/>
+                <token_anchor id="7"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="193822.txt_4_0" modality="FALSE" explicit_context="193822.txt" implicit_context="" focus="taxi" implicit_focus="">
+        <original_text>
+            <text>taxi service through Quasigo not available</text>
+            <token id="0">taxi</token>
+            <token id="1">service</token>
+            <token id="2">through</token>
+            <token id="3">Quasigo</token>
+            <token id="4">not</token>
+            <token id="5">available</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="2"/>
+                <token_anchor id="3"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="461540.txt_4_0" modality="FALSE" explicit_context="461540.txt" implicit_context="" focus="taxi" implicit_focus="">
+        <original_text>
+            <text>better taxi service at the other end</text>
+            <token id="0">better</token>
+            <token id="1">taxi</token>
+            <token id="2">service</token>
+            <token id="3">at</token>
+            <token id="4">the</token>
+            <token id="5">other</token>
+            <token id="6">end</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="3"/>
+                <token_anchor id="4"/>
+                <token_anchor id="5"/>
+                <token_anchor id="6"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="522262.txt_1_0" modality="TRUE" explicit_context="522262.txt" implicit_context="" focus="smoking" implicit_focus="">
+        <original_text>
+            <text>I would like a smoking area</text>
+            <token id="0">I</token>
+            <token id="1">would</token>
+            <token id="2">like</token>
+            <token id="3">a</token>
+            <token id="4">smoking</token>
+            <token id="5">area</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="52781.txt_12_0" modality="FALSE" explicit_context="52781.txt" implicit_context="" focus="trip" implicit_focus="">
+        <original_text>
+            <text>Absolutely ruins the notion of a leisurely trip</text>
+            <token id="0">Absolutely</token>
+            <token id="1">ruins</token>
+            <token id="2">the</token>
+            <token id="3">notion</token>
+            <token id="4">of</token>
+            <token id="5">a</token>
+            <token id="6">leisurely</token>
+            <token id="7">trip</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="0"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="92454.txt_5_0" modality="TRUE" explicit_context="92454.txt" implicit_context="" focus="connections" implicit_focus="">
+        <original_text>
+            <text>You should have more connections into europe</text>
+            <token id="0">You</token>
+            <token id="1">should</token>
+            <token id="2">have</token>
+            <token id="3">more</token>
+            <token id="4">connections</token>
+            <token id="5">into</token>
+            <token id="6">europe</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="5"/>
+                <token_anchor id="6"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+</Fragments>

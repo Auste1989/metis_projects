@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="4">
+    <node id="179281.txt_2_0" modality="FALSE" explicit_context="179281.txt" implicit_context="" focus="first aid" implicit_focus="">
+        <original_text>simple first aid kit at Stars Bridge station</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="179281.txt_2_1" modality="FALSE" explicit_context="179281.txt" implicit_context="" focus="first aid" implicit_focus="">
+        <original_text>first aid kit at Stars Bridge station</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="179281.txt_2_2" modality="FALSE" explicit_context="179281.txt" implicit_context="" focus="first aid" implicit_focus="">
+        <original_text>simple first aid kit</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="179281.txt_2_3" modality="FALSE" explicit_context="179281.txt" implicit_context="" focus="first aid" implicit_focus="">
+        <original_text>first aid kit</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="179281.txt_2_0-179281.txt_2_1" source="179281.txt_2_0" target="179281.txt_2_1"/>
+    <edge id="179281.txt_2_0-179281.txt_2_2" source="179281.txt_2_0" target="179281.txt_2_2"/>
+    <edge id="179281.txt_2_1-179281.txt_2_3" source="179281.txt_2_1" target="179281.txt_2_3"/>
+    <edge id="179281.txt_2_2-179281.txt_2_3" source="179281.txt_2_2" target="179281.txt_2_3"/>
+    <edge id="179281.txt_2_0-179281.txt_2_3" source="179281.txt_2_0" target="179281.txt_2_3"/>
+</F_entailment_graph>

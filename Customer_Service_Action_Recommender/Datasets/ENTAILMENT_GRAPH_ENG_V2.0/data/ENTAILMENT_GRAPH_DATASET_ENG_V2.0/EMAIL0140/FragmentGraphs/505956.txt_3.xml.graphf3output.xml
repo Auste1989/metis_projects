@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="1">
+    <node id="505956.txt_3_0" modality="TRUE" explicit_context="505956.txt" implicit_context="" focus="air - conditioning" implicit_focus="terminal">
+        <original_text>better air - conditioning would make a lot of difference</original_text>
+        <correct_text></correct_text>
+    </node>
+</F_entailment_graph>

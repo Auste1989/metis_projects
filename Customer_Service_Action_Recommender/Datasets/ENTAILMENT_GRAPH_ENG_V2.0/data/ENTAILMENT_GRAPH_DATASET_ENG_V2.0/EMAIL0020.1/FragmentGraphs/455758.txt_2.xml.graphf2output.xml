@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="1">
+    <node id="455758.txt_2_0" modality="FALSE" explicit_context="455758.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>The food Is of awful quality</original_text>
+        <correct_text></correct_text>
+    </node>
+</F_entailment_graph>

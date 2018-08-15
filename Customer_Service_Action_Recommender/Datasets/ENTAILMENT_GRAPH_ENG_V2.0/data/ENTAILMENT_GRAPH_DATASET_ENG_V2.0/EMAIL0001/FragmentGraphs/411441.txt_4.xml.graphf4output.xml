@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="1">
+    <node id="411441.txt_4_0" modality="TRUE" explicit_context="411441.txt" implicit_context="" focus="snacks" implicit_focus="">
+        <original_text>it would be better if there were staff walking around selling snacks</original_text>
+        <correct_text></correct_text>
+    </node>
+</F_entailment_graph>

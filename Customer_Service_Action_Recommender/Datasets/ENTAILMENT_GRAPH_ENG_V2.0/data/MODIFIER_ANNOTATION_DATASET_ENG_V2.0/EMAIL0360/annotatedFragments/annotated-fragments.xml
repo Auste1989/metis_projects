@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Fragments fragmentNum="6">
+    <fragment id="196991.txt_3_0" modality="FALSE" explicit_context="196991.txt" implicit_context="" focus="Terminal" implicit_focus="">
+        <original_text>
+            <text>Terminal in Stars Bridge is really dirty</text>
+            <token id="0">Terminal</token>
+            <token id="1">in</token>
+            <token id="2">Stars</token>
+            <token id="3">Bridge</token>
+            <token id="4">is</token>
+            <token id="5">really</token>
+            <token id="6">dirty</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="5"/>
+            </modifier>
+            <modifier id="1">
+                <token_anchor id="1"/>
+                <token_anchor id="2"/>
+                <token_anchor id="3"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="242866.txt_3_0" modality="FALSE" explicit_context="242866.txt" implicit_context="" focus="facilities" implicit_focus="">
+        <original_text>
+            <text>The facilities at st peter are horrible</text>
+            <token id="0">The</token>
+            <token id="1">facilities</token>
+            <token id="2">at</token>
+            <token id="3">st</token>
+            <token id="4">peter</token>
+            <token id="5">are</token>
+            <token id="6">horrible</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="2"/>
+                <token_anchor id="3"/>
+                <token_anchor id="4"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="308568.txt_3_0" modality="FALSE" explicit_context="308568.txt" implicit_context="" focus="facilities" implicit_focus="">
+        <original_text>
+            <text>Poor facilities at St Peter</text>
+            <token id="0">Poor</token>
+            <token id="1">facilities</token>
+            <token id="2">at</token>
+            <token id="3">St</token>
+            <token id="4">Peter</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="2"/>
+                <token_anchor id="3"/>
+                <token_anchor id="4"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="31.txt_1_0" modality="FALSE" explicit_context="31.txt" implicit_context="" focus="Waiting room" implicit_focus="">
+        <original_text>
+            <text>Stars Bridge Waiting room is not big enough for people in full train</text>
+            <token id="0">Stars</token>
+            <token id="1">Bridge</token>
+            <token id="2">Waiting</token>
+            <token id="3">room</token>
+            <token id="4">is</token>
+            <token id="5">not</token>
+            <token id="6">big</token>
+            <token id="7">enough</token>
+            <token id="8">for</token>
+            <token id="9">people</token>
+            <token id="10">in</token>
+            <token id="11">full</token>
+            <token id="12">train</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="8"/>
+                <token_anchor id="9"/>
+                <token_anchor id="10"/>
+                <token_anchor id="11"/>
+                <token_anchor id="12"/>
+            </modifier>
+            <modifier id="1">
+                <token_anchor id="0"/>
+                <token_anchor id="1"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="38751.txt_5_0" modality="TRUE" explicit_context="38751.txt" implicit_context="" focus="facilities" implicit_focus="">
+        <original_text>
+            <text>Quasigo can offer better facilities</text>
+            <token id="0">Quasigo</token>
+            <token id="1">can</token>
+            <token id="2">offer</token>
+            <token id="3">better</token>
+            <token id="4">facilities</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="46653.txt_5_0" modality="FALSE" explicit_context="46653.txt" implicit_context="" focus="waiting area" implicit_focus="">
+        <original_text>
+            <text>it wasn't very comfortable inside the waiting area</text>
+            <token id="0">it</token>
+            <token id="1">wasn't</token>
+            <token id="2">very</token>
+            <token id="3">comfortable</token>
+            <token id="4">inside</token>
+            <token id="5">the</token>
+            <token id="6">waiting</token>
+            <token id="7">area</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="2"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+</Fragments>

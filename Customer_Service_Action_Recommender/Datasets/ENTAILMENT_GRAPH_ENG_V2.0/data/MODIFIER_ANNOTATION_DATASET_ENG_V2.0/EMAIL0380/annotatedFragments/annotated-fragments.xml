@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Fragments fragmentNum="6">
+    <fragment id="127257.txt_1_0" modality="FALSE" explicit_context="127257.txt" implicit_context="" focus="Toilets washrooms" implicit_focus="">
+        <original_text>
+            <text>Toilets / washrooms sometimes disappointing</text>
+            <token id="0">Toilets</token>
+            <token id="1">/</token>
+            <token id="2">washrooms</token>
+            <token id="3">sometimes</token>
+            <token id="4">disappointing</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="16005.txt_4_0" modality="FALSE" explicit_context="16005.txt" implicit_context="" focus="Toilet" implicit_focus="">
+        <original_text>
+            <text>Toilet tissue quality is famously bad</text>
+            <token id="0">Toilet</token>
+            <token id="1">tissue</token>
+            <token id="2">quality</token>
+            <token id="3">is</token>
+            <token id="4">famously</token>
+            <token id="5">bad</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="4"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="187987.txt_2_0" modality="TRUE" explicit_context="187987.txt" implicit_context="" focus="toilets" implicit_focus="">
+        <original_text>
+            <text>toilets cleaned</text>
+            <token id="0">toilets</token>
+            <token id="1">cleaned</token>
+        </original_text>
+        <correct_text>toilets need to be cleaned</correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="327783.txt_6_0" modality="FALSE" explicit_context="327783.txt" implicit_context="" focus="toilets" implicit_focus="">
+        <original_text>
+            <text>toilets were very dirty</text>
+            <token id="0">toilets</token>
+            <token id="1">were</token>
+            <token id="2">very</token>
+            <token id="3">dirty</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="2"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="330688.txt_4_0" modality="FALSE" explicit_context="330688.txt" implicit_context="" focus="toilet" implicit_focus="">
+        <original_text>
+            <text>toilet hygiene non existing</text>
+            <token id="0">toilet</token>
+            <token id="1">hygiene</token>
+            <token id="2">non</token>
+            <token id="3">existing</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="483394.txt_5_0" modality="FALSE" explicit_context="483394.txt" implicit_context="" focus="toilets" implicit_focus="">
+        <original_text>
+            <text>not enough ladies toilets at Stars Bridge</text>
+            <token id="0">not</token>
+            <token id="1">enough</token>
+            <token id="2">ladies</token>
+            <token id="3">toilets</token>
+            <token id="4">at</token>
+            <token id="5">Stars</token>
+            <token id="6">Bridge</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="2"/>
+            </modifier>
+            <modifier id="1">
+                <token_anchor id="4"/>
+                <token_anchor id="5"/>
+                <token_anchor id="6"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+</Fragments>

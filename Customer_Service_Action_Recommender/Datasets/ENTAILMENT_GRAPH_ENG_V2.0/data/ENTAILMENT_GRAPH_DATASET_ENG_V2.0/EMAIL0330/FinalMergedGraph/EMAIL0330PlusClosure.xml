@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="7">
+    <node id="217842.txt_3_0">
+        <original_text>more news papers</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="217842.txt_4_0">
+        <original_text>more magazines</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="472607.txt_9_0">
+        <original_text>Magazines for children</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="38058.txt_4_0">
+        <original_text>poor selection of English mags</original_text>
+        <correct_text>poor selection of English magazines</correct_text>
+    </node>
+    <node id="152552.txt_2_0">
+        <original_text>More magazines in the lounge</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="38058.txt_5_0">
+        <original_text>poor selection of English papers</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="513560.txt_5_0">
+        <original_text>Magazine selection too French</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="217842.txt_3_0-38058.txt_5_0" source="38058.txt_5_0" target="217842.txt_3_0"/>
+    <edge id="217842.txt_4_0-152552.txt_2_0" source="152552.txt_2_0" target="217842.txt_4_0"/>
+    <edge id="217842.txt_4_0-472607.txt_9_0" source="472607.txt_9_0" target="217842.txt_4_0"/>
+    <edge id="217842.txt_4_0-38058.txt_4_0" source="38058.txt_4_0" target="217842.txt_4_0"/>
+</F_entailment_graph>

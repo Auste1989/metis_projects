@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="2">
+    <node id="12.txt_1_0" modality="FALSE" explicit_context="12.txt" implicit_context="" focus="tickets" implicit_focus="">
+        <original_text>semi - flexible tickets that are much cheaper</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="12.txt_1_1" modality="FALSE" explicit_context="12.txt" implicit_context="" focus="tickets" implicit_focus="">
+        <original_text>semi - flexible tickets that are cheaper</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="12.txt_1_0-12.txt_1_1" source="12.txt_1_0" target="12.txt_1_1"/>
+</F_entailment_graph>

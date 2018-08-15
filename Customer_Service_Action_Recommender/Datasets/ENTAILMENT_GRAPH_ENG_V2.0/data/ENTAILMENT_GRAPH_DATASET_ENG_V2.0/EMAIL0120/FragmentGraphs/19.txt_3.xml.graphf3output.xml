@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="4">
+    <node id="19.txt_3_0" modality="FALSE" explicit_context="19.txt" implicit_context="" focus="tickets" implicit_focus="">
+        <original_text>cheaper standard tickets on friday</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="19.txt_3_1" modality="FALSE" explicit_context="19.txt" implicit_context="" focus="tickets" implicit_focus="">
+        <original_text>cheaper tickets on friday</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="19.txt_3_2" modality="FALSE" explicit_context="19.txt" implicit_context="" focus="tickets" implicit_focus="">
+        <original_text>cheaper standard tickets</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="19.txt_3_3" modality="FALSE" explicit_context="19.txt" implicit_context="" focus="tickets" implicit_focus="">
+        <original_text>cheaper tickets</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="19.txt_3_0-19.txt_3_1" source="19.txt_3_0" target="19.txt_3_1"/>
+    <edge id="19.txt_3_0-19.txt_3_2" source="19.txt_3_0" target="19.txt_3_2"/>
+    <edge id="19.txt_3_1-19.txt_3_3" source="19.txt_3_1" target="19.txt_3_3"/>
+    <edge id="19.txt_3_2-19.txt_3_3" source="19.txt_3_2" target="19.txt_3_3"/>
+    <edge id="19.txt_3_0-19.txt_3_3" source="19.txt_3_0" target="19.txt_3_3"/>
+</F_entailment_graph>

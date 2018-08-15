@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="1">
+    <node id="215790.txt_1_0" modality="FALSE" explicit_context="215790.txt" implicit_context="" focus="trains" implicit_focus="">
+        <original_text>Time for the trains to be updated</original_text>
+        <correct_text></correct_text>
+    </node>
+</F_entailment_graph>

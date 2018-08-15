@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="17">
+    <node id="15589.txt_7_0">
+        <original_text>no snacks offered</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="228464.txt_3_2">
+        <original_text>snacks would be a welcome addition</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="38058.txt_8_0">
+        <original_text>have snacks available</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="411441.txt_4_0">
+        <original_text>it would be better if there were staff walking around selling snacks</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="56571.txt_2_0">
+        <original_text>Offer a wider variety of snacks</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="228464.txt_3_1">
+        <original_text>snacks would be a welcome addition to the economy section</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="278254.txt_1_0">
+        <original_text>Savory snacks in the waiting room in Moonport - horrible</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="473655.txt_2_0">
+        <original_text>List of available snacks</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="428613.txt_5_0">
+        <original_text>Low fat sandwiches</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="228464.txt_3_0">
+        <original_text>A trolley serving snacks would be a welcome addition to the economy section</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="153220.txt_1_1">
+        <original_text>snack is ridiculous</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="373217.txt_1_1">
+        <original_text>Hot snacks would be an improvement</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="153220.txt_1_0">
+        <original_text>snack in your Standard Magnum class is ridiculous</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="278254.txt_1_3">
+        <original_text>snacks - horrible</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="373217.txt_1_0">
+        <original_text>Hot snacks would be an improvement as opposed to cold buffet items</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="278254.txt_1_2">
+        <original_text>Savory snacks - horrible</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="278254.txt_1_1">
+        <original_text>Savory snacks in the waiting room - horrible</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="278254.txt_1_2-278254.txt_1_0" source="278254.txt_1_0" target="278254.txt_1_2"/>
+    <edge id="56571.txt_2_0-428613.txt_5_0" source="428613.txt_5_0" target="56571.txt_2_0"/>
+    <edge id="38058.txt_8_0-228464.txt_3_0" source="228464.txt_3_0" target="38058.txt_8_0"/>
+    <edge id="56571.txt_2_0-373217.txt_1_1" source="373217.txt_1_1" target="56571.txt_2_0"/>
+    <edge id="373217.txt_1_1-373217.txt_1_0" source="373217.txt_1_0" target="373217.txt_1_1"/>
+    <edge id="278254.txt_1_1-278254.txt_1_0" source="278254.txt_1_0" target="278254.txt_1_1"/>
+    <edge id="228464.txt_3_2-15589.txt_7_0" source="15589.txt_7_0" target="228464.txt_3_2"/>
+    <edge id="228464.txt_3_2-38058.txt_8_0" source="38058.txt_8_0" target="228464.txt_3_2"/>
+    <edge id="56571.txt_2_0-373217.txt_1_0" source="373217.txt_1_0" target="56571.txt_2_0"/>
+    <edge id="278254.txt_1_3-278254.txt_1_1" source="278254.txt_1_1" target="278254.txt_1_3"/>
+    <edge id="228464.txt_3_2-228464.txt_3_0" source="228464.txt_3_0" target="228464.txt_3_2"/>
+    <edge id="228464.txt_3_2-228464.txt_3_1" source="228464.txt_3_1" target="228464.txt_3_2"/>
+    <edge id="411441.txt_4_0-228464.txt_3_0" source="228464.txt_3_0" target="411441.txt_4_0"/>
+    <edge id="278254.txt_1_3-278254.txt_1_2" source="278254.txt_1_2" target="278254.txt_1_3"/>
+    <edge id="38058.txt_8_0-411441.txt_4_0" source="411441.txt_4_0" target="38058.txt_8_0"/>
+    <edge id="278254.txt_1_3-278254.txt_1_0" source="278254.txt_1_0" target="278254.txt_1_3"/>
+    <edge id="15589.txt_7_0-38058.txt_8_0" source="38058.txt_8_0" target="15589.txt_7_0"/>
+    <edge id="38058.txt_8_0-15589.txt_7_0" source="15589.txt_7_0" target="38058.txt_8_0"/>
+    <edge id="15589.txt_7_0-228464.txt_3_0" source="228464.txt_3_0" target="15589.txt_7_0"/>
+    <edge id="228464.txt_3_1-228464.txt_3_0" source="228464.txt_3_0" target="228464.txt_3_1"/>
+    <edge id="228464.txt_3_2-411441.txt_4_0" source="411441.txt_4_0" target="228464.txt_3_2"/>
+    <edge id="153220.txt_1_1-153220.txt_1_0" source="153220.txt_1_0" target="153220.txt_1_1"/>
+    <edge id="38058.txt_8_0-228464.txt_3_2" source="228464.txt_3_2" target="38058.txt_8_0"/>
+    <edge id="15589.txt_7_0-228464.txt_3_1" source="228464.txt_3_1" target="15589.txt_7_0"/>
+    <edge id="15589.txt_7_0-228464.txt_3_2" source="228464.txt_3_2" target="15589.txt_7_0"/>
+    <edge id="15589.txt_7_0-411441.txt_4_0" source="411441.txt_4_0" target="15589.txt_7_0"/>
+    <edge id="278254.txt_1_2-278254.txt_1_1" source="278254.txt_1_1" target="278254.txt_1_2"/>
+    <edge id="38058.txt_8_0-228464.txt_3_1" source="228464.txt_3_1" target="38058.txt_8_0"/>
+</F_entailment_graph>

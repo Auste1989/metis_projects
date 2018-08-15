@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="1">
+    <node id="472607.txt_9_0" modality="FALSE" explicit_context="472607.txt" implicit_context="" focus="Magazines" implicit_focus="">
+        <original_text>Magazines for children</original_text>
+        <correct_text></correct_text>
+    </node>
+</F_entailment_graph>

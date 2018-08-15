@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<F_entailment_graph nodeNum="2">
+    <node id="472607.txt_4_0" modality="FALSE" explicit_context="472607.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>In Magnum the food proposed is not child friendly</original_text>
+        <correct_text></correct_text>
+    </node>
+    <node id="472607.txt_4_1" modality="FALSE" explicit_context="472607.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>the food proposed is not child friendly</original_text>
+        <correct_text></correct_text>
+    </node>
+    <edge id="472607.txt_4_0-472607.txt_4_1" source="472607.txt_4_0" target="472607.txt_4_1"/>
+</F_entailment_graph>

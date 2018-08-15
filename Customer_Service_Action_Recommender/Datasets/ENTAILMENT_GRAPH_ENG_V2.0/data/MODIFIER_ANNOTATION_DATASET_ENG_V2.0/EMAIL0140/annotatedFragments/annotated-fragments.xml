@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Fragments fragmentNum="16">
+    <fragment id="189492.txt_1_0" modality="TRUE" explicit_context="189492.txt" implicit_context="" focus="power supply" implicit_focus="">
+        <original_text>
+            <text>need power supply at every seat in business</text>
+            <token id="0">need</token>
+            <token id="1">power</token>
+            <token id="2">supply</token>
+            <token id="3">at</token>
+            <token id="4">every</token>
+            <token id="5">seat</token>
+            <token id="6">in</token>
+            <token id="7">business</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="3"/>
+                <token_anchor id="4"/>
+                <token_anchor id="5"/>
+                <token_anchor id="6"/>
+                <token_anchor id="7"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="3.txt_2_0" modality="FALSE" explicit_context="3.txt" implicit_context="" focus="lights" implicit_focus="">
+        <original_text>
+            <text>possibility to close the lights in the morning train</text>
+            <token id="0">possibility</token>
+            <token id="1">to</token>
+            <token id="2">close</token>
+            <token id="3">the</token>
+            <token id="4">lights</token>
+            <token id="5">in</token>
+            <token id="6">the</token>
+            <token id="7">morning</token>
+            <token id="8">train</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="7"/>
+            </modifier>
+            <modifier id="1">
+                <token_anchor id="5"/>
+                <token_anchor id="6"/>
+                <token_anchor id="8"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="30.txt_2_0" modality="FALSE" explicit_context="30.txt" implicit_context="" focus="Passageway" implicit_focus="">
+        <original_text>
+            <text>Passageway within train too narrow for people to get through with luggage</text>
+            <token id="0">Passageway</token>
+            <token id="1">within</token>
+            <token id="2">train</token>
+            <token id="3">too</token>
+            <token id="4">narrow</token>
+            <token id="5">for</token>
+            <token id="6">people</token>
+            <token id="7">to</token>
+            <token id="8">get</token>
+            <token id="9">through</token>
+            <token id="10">with</token>
+            <token id="11">luggage</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="1"/>
+                <token_anchor id="2"/>
+            </modifier>
+            <modifier id="1">
+                <token_anchor id="5"/>
+                <token_anchor id="6"/>
+                <token_anchor id="7"/>
+                <token_anchor id="8"/>
+                <token_anchor id="9"/>
+                <token_anchor id="10"/>
+                <token_anchor id="11"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="305036.txt_4_0" modality="FALSE" explicit_context="305036.txt" implicit_context="" focus="timetable" implicit_focus="">
+        <original_text>
+            <text>timetable is not always accurate</text>
+            <token id="0">timetable</token>
+            <token id="1">is</token>
+            <token id="2">not</token>
+            <token id="3">always</token>
+            <token id="4">accurate</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="305036.txt_5_0" modality="FALSE" explicit_context="305036.txt" implicit_context="" focus="train" implicit_focus="">
+        <original_text>
+            <text>train is often very late</text>
+            <token id="0">train</token>
+            <token id="1">is</token>
+            <token id="2">often</token>
+            <token id="3">very</token>
+            <token id="4">late</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="3"/>
+            </modifier>
+            <modifier id="1">
+                <token_anchor id="2"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="440663.txt_10_0" modality="FALSE" explicit_context="440663.txt" implicit_context="" focus="coaches" implicit_focus="">
+        <original_text>
+            <text>have kid - friendly coaches</text>
+            <token id="0">have</token>
+            <token id="1">kid</token>
+            <token id="2">-</token>
+            <token id="3">friendly</token>
+            <token id="4">coaches</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="445370.txt_2_0" modality="FALSE" explicit_context="445370.txt" implicit_context="" focus="plugs" implicit_focus="">
+        <original_text>
+            <text>Not much plugs to work</text>
+            <token id="0">Not</token>
+            <token id="1">much</token>
+            <token id="2">plugs</token>
+            <token id="3">to</token>
+            <token id="4">work</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="3"/>
+                <token_anchor id="4"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="445370.txt_3_0" modality="FALSE" explicit_context="445370.txt" implicit_context="" focus="tables" implicit_focus="">
+        <original_text>
+            <text>Not much tables to work</text>
+            <token id="0">Not</token>
+            <token id="1">much</token>
+            <token id="2">tables</token>
+            <token id="3">to</token>
+            <token id="4">work</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="3"/>
+                <token_anchor id="4"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="446012.txt_1_0" modality="TRUE" explicit_context="446012.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>
+            <text>Would be a plus if food was hot in standard magnum</text>
+            <token id="0">Would</token>
+            <token id="1">be</token>
+            <token id="2">a</token>
+            <token id="3">plus</token>
+            <token id="4">if</token>
+            <token id="5">food</token>
+            <token id="6">was</token>
+            <token id="7">hot</token>
+            <token id="8">in</token>
+            <token id="9">standard</token>
+            <token id="10">magnum</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="8"/>
+                <token_anchor id="9"/>
+                <token_anchor id="10"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="446012.txt_2_0" modality="TRUE" explicit_context="446012.txt" implicit_context="" focus="food" implicit_focus="">
+        <original_text>
+            <text>Would be a plus if food was warm in standard magnum</text>
+            <token id="0">Would</token>
+            <token id="1">be</token>
+            <token id="2">a</token>
+            <token id="3">plus</token>
+            <token id="4">if</token>
+            <token id="5">food</token>
+            <token id="6">was</token>
+            <token id="7">warm</token>
+            <token id="8">in</token>
+            <token id="9">standard</token>
+            <token id="10">magnum</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="8"/>
+                <token_anchor id="9"/>
+                <token_anchor id="10"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="461540.txt_7_0" modality="FALSE" explicit_context="461540.txt" implicit_context="" focus="charging" implicit_focus="">
+        <original_text>
+            <text>better charging for electronics</text>
+            <token id="0">better</token>
+            <token id="1">charging</token>
+            <token id="2">for</token>
+            <token id="3">electronics</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="46653.txt_8_0" modality="TRUE" explicit_context="46653.txt" implicit_context="" focus="charging points" implicit_focus="">
+        <original_text>
+            <text>Phone charging points on train would be good</text>
+            <token id="0">Phone</token>
+            <token id="1">charging</token>
+            <token id="2">points</token>
+            <token id="3">on</token>
+            <token id="4">train</token>
+            <token id="5">would</token>
+            <token id="6">be</token>
+            <token id="7">good</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="0"/>
+            </modifier>
+            <modifier id="1">
+                <token_anchor id="3"/>
+                <token_anchor id="4"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="472607.txt_1_0" modality="FALSE" explicit_context="472607.txt" implicit_context="" focus="child" implicit_focus="">
+        <original_text>
+            <text>More child friendly</text>
+            <token id="0">More</token>
+            <token id="1">child</token>
+            <token id="2">friendly</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="505956.txt_3_0" modality="TRUE" explicit_context="505956.txt" implicit_context="" focus="air - conditioning" implicit_focus="terminal">
+        <original_text>
+            <text>better air - conditioning would make a lot of difference</text>
+            <token id="0">better</token>
+            <token id="1">air</token>
+            <token id="2">-</token>
+            <token id="3">conditioning</token>
+            <token id="4">would</token>
+            <token id="5">make</token>
+            <token id="6">a</token>
+            <token id="7">lot</token>
+            <token id="8">of</token>
+            <token id="9">difference</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list/>
+    </fragment>
+    <fragment id="524160.txt_2_0" modality="TRUE" explicit_context="524160.txt" implicit_context="" focus="electricity points" implicit_focus="">
+        <original_text>
+            <text>could do with more electricity points to charge laptop</text>
+            <token id="0">could</token>
+            <token id="1">do</token>
+            <token id="2">with</token>
+            <token id="3">more</token>
+            <token id="4">electricity</token>
+            <token id="5">points</token>
+            <token id="6">to</token>
+            <token id="7">charge</token>
+            <token id="8">laptop</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="6"/>
+                <token_anchor id="7"/>
+                <token_anchor id="8"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+    <fragment id="8.txt_2_0" modality="FALSE" explicit_context="8.txt" implicit_context="" focus="carriages" implicit_focus="">
+        <original_text>
+            <text>Allocated carriages on certain trains for people travelling with dogs</text>
+            <token id="0">Allocated</token>
+            <token id="1">carriages</token>
+            <token id="2">on</token>
+            <token id="3">certain</token>
+            <token id="4">trains</token>
+            <token id="5">for</token>
+            <token id="6">people</token>
+            <token id="7">travelling</token>
+            <token id="8">with</token>
+            <token id="9">dogs</token>
+        </original_text>
+        <correct_text></correct_text>
+        <modifiers_list>
+            <modifier id="0">
+                <token_anchor id="2"/>
+                <token_anchor id="3"/>
+                <token_anchor id="4"/>
+            </modifier>
+        </modifiers_list>
+    </fragment>
+</Fragments>
