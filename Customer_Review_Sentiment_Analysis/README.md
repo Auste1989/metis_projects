@@ -1,11 +1,13 @@
-## Customer Service Action Recommender
+## Customer Review Sentiment Analysis
 
 ### Problem:
+Proactive Customer Churn Management
 
 #### Description:
-
+Analyze customer reviews, assign a sentiment (and a confidence score) and cluster them into 5-10 categories (food, legroom, delays, etc.)
 
 ### Why?
+Customer churn is often an overlooked metric in a sales oriented organization, which, in my opinion, is a big mistake. Landing a new customer consumes much more resources and time than retaining an existing customer would. Therefore, with this project I intend to explore ways to decrease customer churn using NLP and unsupervised learning techniques.
 
 
 ### Plan of Action
@@ -13,9 +15,9 @@
 
 ### About The Dataset:
 
-**Number of datasets:**  
-**Format**:   
-**Total observations:**   
+**Number of datasets:** 1  
+**Format**: csv / SQLite database   
+**Total observations:** 14,640   
 **Missing values:**   
 **Dataset makeup:**   
 **Target variable (label):**   
@@ -25,7 +27,10 @@
 **Dropped features after Random Forest analysis:**  
 
 ### Known Unknowns
-
+* Number of categories
+* The distribution of the sentiments (potentially mostly negative)
+* Could airline be used for clustering?
+* Can I interpret emojis in my NLP analysis?
 
 ### Data analysis
 
