@@ -1,4 +1,4 @@
-## Customer Service Sentiment Analysis
+## Customer Review Sentiment Analysis
 
 ### Problem:
 Proactive Customer Churn Management
