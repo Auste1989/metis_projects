@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<F_entailment_graph nodeNum="1">
-    <node id="56571.txt_2_0" modality="FALSE" explicit_context="56571.txt" implicit_context="" focus="snacks" implicit_focus="">
-        <original_text>Offer a wider variety of snacks</original_text>
-        <correct_text></correct_text>
-    </node>
-</F_entailment_graph>

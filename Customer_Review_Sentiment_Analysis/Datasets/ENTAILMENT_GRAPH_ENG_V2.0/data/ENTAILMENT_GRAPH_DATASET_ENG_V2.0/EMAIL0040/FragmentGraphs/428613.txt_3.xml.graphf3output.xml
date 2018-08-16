@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<F_entailment_graph nodeNum="1">
-    <node id="428613.txt_3_0" modality="FALSE" explicit_context="428613.txt" implicit_context="" focus="salads" implicit_focus="">
-        <original_text>Bigger salads</original_text>
-        <correct_text></correct_text>
-    </node>
-</F_entailment_graph>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<F_entailment_graph nodeNum="1">
-    <node id="2.txt_1_0" modality="TRUE" explicit_context="2.txt" implicit_context="" focus="ticket" implicit_focus="">
-        <original_text>ticket prices can sometimes be too expensive</original_text>
-        <correct_text></correct_text>
-    </node>
-</F_entailment_graph>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<F_entailment_graph nodeNum="1">
-    <node id="401238.txt_7_0" modality="TRUE" explicit_context="401238.txt" implicit_context="" focus="interior" implicit_focus="">
-        <original_text>The interior of the train could be modernised</original_text>
-        <correct_text></correct_text>
-    </node>
-</F_entailment_graph>

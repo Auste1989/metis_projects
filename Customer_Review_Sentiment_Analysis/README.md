@@ -20,14 +20,15 @@ Customer churn is often an overlooked metric in a sales oriented organization, w
 6. Use TextBlob for sentiment analysis and confidence score
 7. Store the results of the sentiment analysis in a separate column
 8. Filter only on negative tweets
-9. Cluster the negative tweets into categories
-10. Assign an action to each category
-11. Write a recommendation function to advice an action based on the cluster the tweet falls into
-12. Test the model on my test dataset and assess the results
-13. Summarize the findings
-14. If time allows, generate recommendations based on review category
-15. Build the presentation
-16. Practice, practice, practice
+9. Do dimensionality reduction (try LSA, NMF and LDA)
+10. Cluster negative tweets into categories (use T-SNE to plot the results)
+11. Assign an action to each category
+12. Write a recommendation function to advice an action based on the cluster the tweet falls into
+13. Test the model on my test dataset and assess the results
+14. Summarize the findings
+15. If time allows, generate recommendations based on review category
+16. Build the presentation
+17. Practice, practice, practice
 
 ### About The Dataset:
 

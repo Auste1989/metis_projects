@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<F_entailment_graph nodeNum="1">
-    <node id="38058.txt_5_0" modality="FALSE" explicit_context="38058.txt" implicit_context="" focus="papers" implicit_focus="">
-        <original_text>poor selection of English papers</original_text>
-        <correct_text></correct_text>
-    </node>
-</F_entailment_graph>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<F_entailment_graph nodeNum="1">
-    <node id="169586.txt_3_0" modality="FALSE" explicit_context="169586.txt" implicit_context="" focus="" implicit_focus="train">
-        <original_text>Zero value for money</original_text>
-        <correct_text></correct_text>
-    </node>
-</F_entailment_graph>

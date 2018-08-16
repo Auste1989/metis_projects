@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<F_entailment_graph nodeNum="1">
-    <node id="511484.txt_2_0" modality="TRUE" explicit_context="511484.txt" implicit_context="" focus="boarding" implicit_focus="">
-        <original_text>Would welcome priority boarding for pushchairs</original_text>
-        <correct_text></correct_text>
-    </node>
-</F_entailment_graph>

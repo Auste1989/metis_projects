@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<F_entailment_graph nodeNum="1">
-    <node id="35.txt_2_0" modality="FALSE" explicit_context="35.txt" implicit_context="" focus="special deals" implicit_focus="">
-        <original_text>Not enough special deals</original_text>
-        <correct_text></correct_text>
-    </node>
-</F_entailment_graph>

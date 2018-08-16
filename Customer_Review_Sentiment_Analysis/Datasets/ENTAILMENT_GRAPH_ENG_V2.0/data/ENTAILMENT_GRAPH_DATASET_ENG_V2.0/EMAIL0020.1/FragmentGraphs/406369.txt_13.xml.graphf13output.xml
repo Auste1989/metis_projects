@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<F_entailment_graph nodeNum="1">
-    <node id="406369.txt_13_0" modality="FALSE" explicit_context="406369.txt" implicit_context="" focus="Food" implicit_focus="">
-        <original_text>Food too fat</original_text>
-        <correct_text>Food is too fat</correct_text>
-    </node>
-</F_entailment_graph>

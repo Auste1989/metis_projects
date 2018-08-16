@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<F_entailment_graph nodeNum="1">
-    <node id="272237.txt_1_0" modality="FALSE" explicit_context="272237.txt" implicit_context="" focus="WiFi" implicit_focus="">
-        <original_text>Bring WiFi to the main carriages</original_text>
-        <correct_text></correct_text>
-    </node>
-</F_entailment_graph>

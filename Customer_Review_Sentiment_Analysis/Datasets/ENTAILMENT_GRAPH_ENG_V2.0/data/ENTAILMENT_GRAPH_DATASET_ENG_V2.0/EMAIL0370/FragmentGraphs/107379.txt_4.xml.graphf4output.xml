@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<F_entailment_graph nodeNum="1">
-    <node id="107379.txt_4_0" modality="FALSE" explicit_context="107379.txt" implicit_context="" focus="announcements" implicit_focus="">
-        <original_text>quieter announcements</original_text>
-        <correct_text></correct_text>
-    </node>
-</F_entailment_graph>

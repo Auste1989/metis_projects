@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<F_entailment_graph nodeNum="1">
-    <node id="38.txt_1_0" modality="FALSE" explicit_context="38.txt" implicit_context="" focus="internet tickets" implicit_focus="">
-        <original_text>Too long internet tickets</original_text>
-        <correct_text></correct_text>
-    </node>
-</F_entailment_graph>

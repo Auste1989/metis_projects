@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<F_entailment_graph nodeNum="1">
-    <node id="106746.txt_1_0" modality="TRUE" explicit_context="106746.txt" implicit_context="" focus="trains" implicit_focus="">
-        <original_text>trains could use some updating</original_text>
-        <correct_text></correct_text>
-    </node>
-</F_entailment_graph>

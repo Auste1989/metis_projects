@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<F_entailment_graph nodeNum="1">
-    <node id="470062.txt_5_0" modality="FALSE" explicit_context="470062.txt" implicit_context="" focus="" implicit_focus="legroom">
-        <original_text>I 'm 6ft 5 and cannot sit comfortably</original_text>
-        <correct_text></correct_text>
-    </node>
-</F_entailment_graph>

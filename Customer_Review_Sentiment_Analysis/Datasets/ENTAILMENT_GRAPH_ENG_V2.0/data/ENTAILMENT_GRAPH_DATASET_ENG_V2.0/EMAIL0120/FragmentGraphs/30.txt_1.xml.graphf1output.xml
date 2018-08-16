@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<F_entailment_graph nodeNum="1">
-    <node id="30.txt_1_0" modality="FALSE" explicit_context="30.txt" implicit_context="" focus="Ticket" implicit_focus="">
-        <original_text>Ticket was expensive</original_text>
-        <correct_text></correct_text>
-    </node>
-</F_entailment_graph>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<F_entailment_graph nodeNum="1">
-    <node id="305036.txt_4_0" modality="FALSE" explicit_context="305036.txt" implicit_context="" focus="timetable" implicit_focus="">
-        <original_text>timetable is not always accurate</original_text>
-        <correct_text></correct_text>
-    </node>
-</F_entailment_graph>

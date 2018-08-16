@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<F_entailment_graph nodeNum="1">
-    <node id="187987.txt_2_0" modality="TRUE" explicit_context="187987.txt" implicit_context="" focus="toilets" implicit_focus="">
-        <original_text>toilets cleaned</original_text>
-        <correct_text>toilets need to be cleaned</correct_text>
-    </node>
-</F_entailment_graph>

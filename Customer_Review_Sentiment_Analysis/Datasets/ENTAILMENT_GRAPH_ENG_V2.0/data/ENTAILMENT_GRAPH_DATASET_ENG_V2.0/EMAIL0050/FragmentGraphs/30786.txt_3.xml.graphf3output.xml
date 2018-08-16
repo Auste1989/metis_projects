@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<F_entailment_graph nodeNum="1">
-    <node id="30786.txt_3_0" modality="FALSE" explicit_context="30786.txt" implicit_context="" focus="Price" implicit_focus="">
-        <original_text>Price are going up</original_text>
-        <correct_text>Prices are going up</correct_text>
-    </node>
-</F_entailment_graph>

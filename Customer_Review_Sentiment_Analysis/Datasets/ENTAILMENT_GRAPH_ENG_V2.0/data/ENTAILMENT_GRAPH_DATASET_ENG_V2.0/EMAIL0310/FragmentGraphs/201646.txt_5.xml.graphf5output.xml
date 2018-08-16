@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<F_entailment_graph nodeNum="1">
-    <node id="201646.txt_5_0" modality="FALSE" explicit_context="201646.txt" implicit_context="" focus="adviceThe" implicit_focus="">
-        <original_text>There was no one at Sunnyport who seemed interested in offering any adviceThe</original_text>
-        <correct_text>There was no one at Sunnyport who seemed interested in offering any advice.</correct_text>
-    </node>
-</F_entailment_graph>
