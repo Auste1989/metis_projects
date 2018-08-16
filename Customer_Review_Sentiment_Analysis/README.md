@@ -13,7 +13,7 @@ Customer churn is often an overlooked metric in a sales oriented organization, w
 ### Plan of Action
 1. Explore the datasets
 2. Clean up the data in pandas
-3. Store the information either in my own SQL database
+3. Pickle the final clean dataset
 4. Set aside a test set
 5. Use CountVectorizer and TF-IDF to vectorize my data (exclude stop words and punctuation)
   * Look into vectorizing emojis
