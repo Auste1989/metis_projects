@@ -11,14 +11,30 @@ Customer churn is often an overlooked metric in a sales oriented organization, w
 
 
 ### Plan of Action
-
+1. Explore the datasets
+2. Clean up the data in pandas
+3. Store the information either in my own SQL database
+4. Set aside a test set
+5. Use CountVectorizer and TF-IDF to vectorize my data (exclude stop words and punctuation)
+  * Look into vectorizing emojis
+6. Use TextBlob for sentiment analysis and confidence score
+7. Store the results of the sentiment analysis in a separate column
+8. Filter only on negative tweets
+9. Cluster the negative tweets into categories
+10. Assign an action to each category
+11. Write a recommendation function to advice an action based on the cluster the tweet falls into
+12. Test the model on my test dataset and assess the results
+13. Summarize the findings
+14. If time allows, generate recommendations based on review category
+15. Build the presentation
+16. Practice, practice, practice
 
 ### About The Dataset:
 
 **Number of datasets:** 1  
 **Format**: csv / SQLite database   
 **Total observations:** 14,640   
-**Missing values:**   
+**Missing values:** None  
 **Dataset makeup:** A column with the tweet (text), Airline column  
 **Target variable (label):** sentiment, category  
 **Features to be excluded:** airline_sentiment,	airline_sentiment_confidence,	negativereason,	negativereason_confidence,	airline_sentiment_gold  
@@ -38,21 +54,3 @@ Customer churn is often an overlooked metric in a sales oriented organization, w
 
 
 ### Random stuff
-*this will be useful*
-import os
-
-class MySentences(object):
-    # a memory-friendly way to load a large corpora
-     def __init__(self, dirname):
-            self.dirname = dirname
-
-     def __iter__(self):
-        # iterate through all file names in our directory
-         for fname in os.listdir(self.dirname):
-                for line in open(os.path.join(self.dirname, fname), encoding="ISO-8859-1"):
-                    word=line.lower().split()
-                    if word not in stop:
-                        yield word
-
-sentences = MySentences('data/gutenberg')
-model = gensim.models.Word2Vec(sentences,size=100,min_count=3,workers=4)

@@ -19,6 +19,25 @@ My approach would be to first identify the sentiment of the review (tweet) and t
 I am planning to store my data either in mongodb or SQL database (SQLite database for this is available on Kaggle).
 I have not had a chance to think about the techniques I will use.
 
+#### Plan of Action
+1. Explore the datasets
+2. Clean up the data in pandas
+3. Store the information either in my own SQL database
+4. Set aside a test set
+5. Use CountVectorizer and TF-IDF to vectorize my data (exclude stop words and punctuation)
+  * Look into vectorizing emojis
+6. Use TextBlob for sentiment analysis and confidence score
+7. Store the results of the sentiment analysis in a separate column
+8. Filter only on negative tweets
+9. Cluster the negative tweets into categories
+10. Assign an action to each category
+11. Write a recommendation function to advice an action based on the cluster the tweet falls into
+12. Test the model on my test dataset and assess the results
+13. Summarize the findings
+14. If time allows, generate recommendations based on review category
+15. Build the presentation
+16. Practice, practice, practice
+
 ### Known Unknowns
 * Number of categories
 * The distribution of the sentiments (potentially mostly negative)
