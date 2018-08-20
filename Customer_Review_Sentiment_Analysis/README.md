@@ -11,30 +11,46 @@ Customer churn is often an overlooked metric in a sales oriented organization, w
 
 
 ### Plan of Action
-1. Explore the datasets
-2. Clean up the data in pandas
-3. Pickle the final clean dataset
-4. Set aside a test set
-5. Use CountVectorizer and TF-IDF to vectorize my data (exclude stop words and punctuation)
-  * Look into vectorizing emojis
-6. Use TextBlob for sentiment analysis and confidence score
-7. Store the results of the sentiment analysis in a separate column
-8. Filter only on negative tweets
+1. Explore the datasets :thumbsup:
+2. Set aside a test set :thumbsup:
+3. Use TextBlob / Vader / external APIs for sentiment analysis and confidence score :thumbsup:
+4. Store the results of the sentiment analysis in a separate column :thumbsup:
+5. Clean up the data in pandas :thumbsup:  
+      **Removed the following text items:**
+      * all "@" sign preceding text
+      * hashtags
+      * codes and numbers
+      * urls
+      * locations
+      * months
+      * emojis
+      * airport codes
+6. Pickle the clean training dataset :thumbsup:
+7. Filter only on negative tweets :thumbsup:
+8. Use CountVectorizer and TF-IDF to vectorize my data (exclude stop words and punctuation)
+  * Look into vectorizing emojis ***decided not to for MVP***
 9. Do dimensionality reduction (try LSA, NMF and LDA)
-10. Cluster negative tweets into categories (use T-SNE to plot the results)
+10. Cluster negative tweets into categories  
+  **Techniques to try out:**
+    * KMeans
+    * DBSCAN
+    * Multinomial Naive Bayes
+    * SpectralClustering
+    * MeanShift
+    * Nearest Neighbors
+11. Use T-SNE to plot the results
 11. Assign an action to each category
 12. Write a recommendation function to advice an action based on the cluster the tweet falls into
 13. Test the model on my test dataset and assess the results
 14. Summarize the findings
-15. If time allows, generate recommendations based on review category
-16. Build the presentation
-17. Practice, practice, practice
+15. Create the presentation
+16. Practice, practice, practice
 
 ### About The Dataset:
 
 **Number of datasets:** 1  
 **Format**: csv / SQLite database   
-**Total observations:** 14,640   
+**Total observations:** 14,885  
 **Missing values:** None  
 **Dataset makeup:** A column with the tweet (text), Airline column  
 **Target variable (label):** sentiment, category  
