@@ -29,7 +29,9 @@ Customer churn is often an overlooked metric in a sales oriented organization, w
 7. Filter only on negative tweets :thumbsup:
 8. Use CountVectorizer and TF-IDF to vectorize my data (exclude stop words and punctuation)
   * Look into vectorizing emojis ***decided not to for MVP***
-9. Do dimensionality reduction (try LSA, NMF and LDA)
+9. Do dimensionality reduction (try LSA, NMF and LDA) :thumbsup:
+    * TF-IDF plus LDA initially seems to work best
+    * **Need to explore stemming, lemming and other techniques**
 10. Cluster negative tweets into categories  
   **Techniques to try out:**
     * KMeans
