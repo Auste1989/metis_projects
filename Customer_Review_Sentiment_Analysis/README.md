@@ -27,20 +27,19 @@ Customer churn is often an overlooked metric in a sales oriented organization, w
       * airport codes
 6. Pickle the clean training dataset :thumbsup:
 7. Filter only on negative tweets :thumbsup:
-8. Use CountVectorizer and TF-IDF to vectorize my data (exclude stop words and punctuation)
+8. Use CountVectorizer and TF-IDF to vectorize my data (exclude stop words and punctuation) :thumbsup:
   * Look into vectorizing emojis ***decided not to for MVP***
-9. Do dimensionality reduction (try LSA, NMF and LDA) :thumbsup:
+9. Do dimensionality reduction (tried LSA, NMF, PCA and LDA) :thumbsup:
     * TF-IDF plus LDA initially seems to work best
-    * **Need to explore stemming, lemming and other techniques**
+    * After lemmatizing and singularizing, TF-IDF + LDA seems the best (even better after processing words)
 10. Cluster negative tweets into categories  
   **Techniques to try out:**
     * KMeans
-    * DBSCAN
     * Multinomial Naive Bayes
+    * DBSCAN
     * SpectralClustering
     * MeanShift
-    * Nearest Neighbors
-11. Use T-SNE to plot the results
+11. Use T-SNE to plot the results :thumbsup:
 11. Assign an action to each category
 12. Write a recommendation function to advice an action based on the cluster the tweet falls into
 13. Test the model on my test dataset and assess the results
