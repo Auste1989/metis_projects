@@ -28,7 +28,7 @@ Customer churn is often an overlooked metric in a sales oriented organization, w
 7. Filter only on negative tweets :thumbsup:
 8. Process the words to lemmatize and singularize :thumbsup:
 9. Use CountVectorizer and TF-IDF to vectorize my data (exclude stop words and punctuation) :thumbsup:
-  * Look into vectorizing emojis ***decided not to for MVP***
+      * Look into vectorizing emojis ***decided not to for MVP***
 10. Do dimensionality reduction (tried LSA, NMF, PCA and LDA) :thumbsup:
     * TF-IDF with LDA initially seemed to work best, but after using tSNE to plot, I noticed that Count Vectorizer with NMF technique produced clearer topics, so I settled with Count Vectorizer + NMF model :wink:
 11. Cluster negative tweets into categories  
@@ -42,20 +42,18 @@ Customer churn is often an overlooked metric in a sales oriented organization, w
 18. Practice, practice, practice :smirk:
 
 ### About The Dataset:
-
-**Number of datasets:** 1  
-**Format**: csv / SQLite database   
-**Total observations:** 14,885  
-**Missing values:** None  
-**Dataset makeup:** A column with the tweet (text), Airline column  
-**Target variable (label):** sentiment, category  
-**Features to be excluded:** airline_sentiment,	airline_sentiment_confidence,	negativereason,	negativereason_confidence,	airline_sentiment_gold  
-**Added features:** None  
-**Dummified features:** None  
+| **Number of datasets:** | 1 |  
+| --- | --- |
+| **Format** | csv / SQLite database |   
+| **Total observations** | 14,885 |
+| **Missing values** | None |  
+| **Dataset makeup** | A column with the tweet (text), Airline  column |  
+| **Target variable (label)** | sentiment, category |  
+| **Features to be excluded** | airline_sentiment,	airline_sentiment_confidence,	negativereason,	negativereason_confidence,	airline_sentiment_gold |    
 
 ### Known Unknowns
-* Number of categories :ballot_box_with_check:
-* The distribution of the sentiments (potentially mostly negative) ***The distribution was pretty even***
+* Number of categories :white_check_mark:
+* The distribution of the sentiments (potentially mostly negative) :white_check_mark: ***The distribution was pretty even*** 
 * Could airline be used for clustering? ***Didn't explore***
 * Can I interpret emojis in my NLP analysis? ***Wasn't needed***
 
