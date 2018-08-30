@@ -50,7 +50,7 @@ The general plan is to get the data into postgreSQL database on AWS, clean & mas
 *Depending on the results, I'll have to try out other modelling techniques.*
 
 #### Plan of Action
-1. Get the data using City of Chicago API
+1. Get the data using City of Chicago API and NOAA service (for weather)
 2. Store the information in a postgreSQL database on AWS
 3. Do thorough analysis of the data
 4. Take appropriate cleaning steps (including dummification):
