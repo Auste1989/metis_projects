@@ -1,4 +1,4 @@
-Drop-off## Transit Time and Rate Calculator
+## Transit Time and Rate Calculator
 
 ### Problem:
 How long will it take you to get to your destination and how much will it cost?
