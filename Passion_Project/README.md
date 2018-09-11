@@ -37,16 +37,17 @@ The general plan is to get the data into postgreSQL database, clean & massage it
 6. Difference the time series data :thumbsup:
 7. Run Autocorrelation analysis to understand how many lags should be included as features :thumbsup:
 8. Try moving average technique
-9. Scale the data before modelling (to avoid inflation of the importance of certain features)
-10. Run a CV search for the best model and parameters
-11. Get Cross-Validation scores for the best model
-12. Examine the learning curve and train the model with more data, if needed
-13. Test the model on the test dataset and assess the results
-14. Write a helper function that would allow to easily convert addresses (based on postal codes) to lat-longs
-15. Summarize the findings
-16. Build a Flask app
-17. Build the presentation
-18. Practice, practice, practice
+9. Assess the results of time series OLS
+10. Scale the data before modelling (to avoid inflation of the importance of certain features)
+11. Run a CV search for the best model and parameters
+12. Get Cross-Validation scores for the best model
+13. Examine the learning curve and train the model with more data, if needed
+14. Test the model on the test dataset and assess the results
+15. Write a helper function that would allow to easily convert addresses (based on postal codes) to lat-longs
+16. Summarize the findings
+17. Build a Flask app
+18. Build the presentation
+19. Practice, practice, practice
 
 
 ### Progress Notes
@@ -59,3 +60,5 @@ The general plan is to get the data into postgreSQL database, clean & massage it
 5. I worked on only 2016 data for training the model and used 2017 Jan-Aug dataset as test set  
 6. Dickey-Fuller test indicated that my time series data wasn't stationary (SHOCKER! :astonished:). This suggests that differencing is needed to remove the trend / pattern. A quick test showed that differencing once is an optimal solution (standard deviation is at the minimum after differencing once).  
 7. Partial Autocorrelation plot indicated that in order to capture historical demand effects I should take 7 first lags, 96th lag and 672nd lag (corresponding to last 1h 45min, same time yesterday and same time a week ago).  
+8. Average moving technique is not needed, due to already implemented differencing and lagging techniques.  
+9. 
