@@ -39,11 +39,21 @@ The general plan is to get the data into postgreSQL database, clean & massage it
 8. Try moving average technique
 9. Assess the results of time series OLS
 10. Scale the data before modelling (to avoid inflation of the importance of certain features)
-11. Run a CV search for the best model and parameters
-12. Get Cross-Validation scores for the best model
-13. Examine the learning curve and train the model with more data, if needed
-14. Test the model on the test dataset and assess the results
-15. Write a helper function that would allow to easily convert addresses (based on postal codes) to lat-longs
+11. Run a GridSearch for the parameters for each of the following models:
+    * Linear Regression
+    * Ridge
+    * Lasso
+    * Extra Trees
+    * Random Forest
+    * XGBoost  
+12. Get Cross-Validation RMSE scores for the each model
+13. Choose the best model
+13. Check the learning curve (???)
+14. Test the model on the test set and assess the results
+15. Write a few helper functions:
+    * Convert an address to lat-longs :thumbsup:
+    * Generate date and time of now :thumbsup:
+    * Plot the route using GoogleMaps API
 16. Summarize the findings
 17. Build a Flask app
 18. Build the presentation
@@ -61,8 +71,8 @@ The general plan is to get the data into postgreSQL database, clean & massage it
 6. Dickey-Fuller test indicated that my time series data wasn't stationary (SHOCKER! :astonished:). This suggests that differencing is needed to remove the trend / pattern. A quick test showed that differencing once is an optimal solution (standard deviation is at the minimum after differencing once).  
 7. Partial Autocorrelation plot indicated that in order to capture historical demand effects I should take 7 first lags, 96th lag and 672nd lag (corresponding to last 1h 45min, same time yesterday and same time a week ago).  
 8. Average moving technique is not needed, due to already implemented differencing and lagging techniques.  
-9.
-10. My feature space as follows:
+9. Time series model with above mentioned lags produces RMSE score of 32.0 (less than 1 standard deviation)
+10. My feature space is as follows:
     * trip_start_timestamp (datetime)
     * trip_miles (float)
     * pickup_centroid_latitude (float)
