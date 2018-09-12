@@ -71,9 +71,9 @@ The general plan is to get the data into postgreSQL database, clean & massage it
 6. Dickey-Fuller test indicated that my time series data wasn't stationary (SHOCKER! :astonished:). This suggests that differencing is needed to remove the trend / pattern. A quick test showed that differencing once is an optimal solution (standard deviation is at the minimum after differencing once).  
 7. Partial Autocorrelation plot indicated that in order to capture historical demand effects I should take 7 first lags, 96th lag and 672nd lag (corresponding to last 1h 45min, same time yesterday and same time a week ago).  
 8. Average moving technique is not needed, due to already implemented differencing and lagging techniques.  
-9. Time series model with above mentioned lags produces RMSE score of 32.0 (less than 1 standard deviation)
+9. Time series model with above mentioned lags produces RMSE score of 32.0 (less than 1 standard deviation). I would like to also try facebook's prophet *(installing it crashed my matplotlib), so I'll try again if there's time*.  
 10. My feature space is as follows:
-    * trip_start_timestamp (datetime)
+    * trip_start_timestamp (**float**)
     * trip_miles (float)
     * pickup_centroid_latitude (float)
     * pickup_centroid_longitude (float)
@@ -83,5 +83,5 @@ The general plan is to get the data into postgreSQL database, clean & massage it
     * fog (boolean)
     * rain (boolean)
     * snow (boolean)
-I scaled all the features to avoid inflating the importance of features that have higher numeric values.  
-11.
+First go is without scaling. I will try and scale all the features to avoid inflating the importance of variables that have higher numeric values.  
+11. 
