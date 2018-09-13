@@ -40,11 +40,10 @@ The general plan is to get the data into postgreSQL database, clean & massage it
 9. Assess the results of time series OLS
 10. Scale the data before modelling (to avoid inflation of the importance of certain features)
 11. Run a GridSearch for the parameters for each of the following models:
-    * Linear Regression
-    * Ridge
-    * Lasso
-    * Extra Trees
-    * Random Forest
+    * Linear Regression :thumbsdown:
+    * Ridge :thumbsdown:
+    * Lasso :thumbsdown:
+    * Random Forest :thumbsdown:
     * XGBoost  
 12. Get Cross-Validation RMSE scores for the each model
 13. Choose the best model
@@ -73,7 +72,9 @@ The general plan is to get the data into postgreSQL database, clean & massage it
 8. Average moving technique is not needed, due to already implemented differencing and lagging techniques.  
 9. Time series model with above mentioned lags produces RMSE score of 32.0 (less than 1 standard deviation). I would like to also try facebook's prophet *(installing it crashed my matplotlib), so I'll try again if there's time*.  
 10. My feature space is as follows:
-    * trip_start_timestamp (**float**)
+    * weekday (**float**)
+    * time of day *to be added!!!*
+    * 9 demand lags
     * trip_miles (float)
     * pickup_centroid_latitude (float)
     * pickup_centroid_longitude (float)
@@ -84,4 +85,10 @@ The general plan is to get the data into postgreSQL database, clean & massage it
     * rain (boolean)
     * snow (boolean)
 First go is without scaling. I will try and scale all the features to avoid inflating the importance of variables that have higher numeric values.  
-11. 
+12. Here are the RMSE scores:
+    * Linear Regression **44%**
+    * Ridge **44%**
+    * Lasso **44%**
+    * Random Forest **36%**
+    * XGBoost  
+13.
