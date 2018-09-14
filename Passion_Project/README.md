@@ -43,19 +43,19 @@ The general plan is to get the data into postgreSQL database, clean & massage it
     * Linear Regression :thumbsdown:
     * Ridge :thumbsdown:
     * Lasso :thumbsdown:
-    * Random Forest :thumbsdown:
+    * Random Forest :thumbsup:
     * XGBoost  
-12. Get Cross-Validation RMSE scores for the each model
+12. Get Cross-Validation RMSE scores for each model
 13. Choose the best model
-13. Check the learning curve (???)
+13. Check the learning curve
 14. Test the model on the test set and assess the results
 15. Write a few helper functions:
     * Convert an address to lat-longs :thumbsup:
     * Generate date and time of now :thumbsup:
     * Plot the route using GoogleMaps API
 16. Summarize the findings
-17. Build a Flask app
-18. Build the presentation
+17. Build a Flask app *in progress*
+18. Build the presentation :thumbsup:
 19. Practice, practice, practice
 
 
@@ -85,10 +85,10 @@ The general plan is to get the data into postgreSQL database, clean & massage it
     * rain (boolean)
     * snow (boolean)
 First go is without scaling. I will try and scale all the features to avoid inflating the importance of variables that have higher numeric values.  
-12. Here are the RMSE scores:
+11. Here are the RMSE scores:
     * Linear Regression **44%**
     * Ridge **44%**
     * Lasso **44%**
     * Random Forest **36%**
     * XGBoost  
-13.
+12.
