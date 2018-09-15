@@ -1,5 +1,6 @@
 from flask import Flask, abort, render_template, jsonify, request
 from taxi_api import make_prediction
+from taxi_api import plot_the_map
 
 app = Flask('TimeIsMoney')
 

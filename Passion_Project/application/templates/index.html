@@ -150,26 +150,26 @@
         </div>
     </div>
 
-  <div class="form-group" style="display: none; font-size: 18pt; border: 2px solid #03b4c8; padding: 5px;" id='the_result_div'>
+  <div class="form-group" style="display: none; font-size: 18pt; border: 2px solid #03b4c8; padding: 5px;" id='result_div'>
 
     <div>
-      You will arrive at <span id="ETA"></span>
-      <img src='' id='img'>
+      You will arrive to your destination around <span id="ETA"></span>
+    </div>
+
     <div>
       It will cost approximately $ <b><span id="fare"></span></b>.
     </div>
-    </div>
 
-        </div>
-      </div>
+  </div>
+</div>
 
-    </div>
+</div>
 
   </div>
 
     <div class="container" style="margin-top:30px; padding: 10px;">
 
-    <!-- Place holder for the map and results -->
+    <!-- Place holder for the map -->
 
     </div>
   </body>
@@ -181,8 +181,9 @@
 
   function predict(){
     let features = {
-      'origin': +$('#origin').val(),
+      'origin': $('#origin').val(),
       'destination': $('#destination').val(),
+      'time': $('time').val(),
       'year': +$('#year').val(),
       'month': +$('#month').val(),
       'day': +$('#day').val(),
@@ -200,9 +201,9 @@
     async: true,
     data: JSON.stringify(features),
     success: (result_div) => {
-      $('#hard_predict').html(result_div['ETA']);
-      $('#soft_predict').html(result_div['fare']);
-      $('#the_result_div').show();
+      $('#ETA').html(result_div['ETA']);
+      $('#fare').html(result_div['fare']);
+      $('#result_div').show();
     },
     error: (the_result_div) => {
       alert('You messed it up, BIG TIME!');

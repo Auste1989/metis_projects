@@ -44,15 +44,15 @@ The general plan is to get the data into postgreSQL database, clean & massage it
     * Ridge :thumbsdown:
     * Lasso :thumbsdown:
     * Random Forest :thumbsup:
-    * XGBoost  
-12. Get Cross-Validation RMSE scores for each model
-13. Choose the best model
-13. Check the learning curve
+    * XGBoost :thumbsdown:
+12. Get Cross-Validation RMSE scores for each model :thumbsup:
+13. Choose the best model :thumbsup:
+13. Check the learning curve :thumbsup:
 14. Test the model on the test set and assess the results
 15. Write a few helper functions:
     * Convert an address to lat-longs :thumbsup:
     * Generate date and time of now :thumbsup:
-    * Plot the route using GoogleMaps API
+    * Plot the route using GoogleMaps API :smirk: *plotted the points, but no route*
 16. Summarize the findings
 17. Build a Flask app *in progress*
 18. Build the presentation :thumbsup:
@@ -73,8 +73,7 @@ The general plan is to get the data into postgreSQL database, clean & massage it
 9. Time series model with above mentioned lags produces RMSE score of 32.0 (less than 1 standard deviation). I would like to also try facebook's prophet *(installing it crashed my matplotlib), so I'll try again if there's time*.  
 10. My feature space is as follows:
     * weekday (**float**)
-    * time of day *to be added!!!*
-    * 9 demand lags
+    * predicted demand
     * trip_miles (float)
     * pickup_centroid_latitude (float)
     * pickup_centroid_longitude (float)
@@ -85,10 +84,15 @@ The general plan is to get the data into postgreSQL database, clean & massage it
     * rain (boolean)
     * snow (boolean)
 First go is without scaling. I will try and scale all the features to avoid inflating the importance of variables that have higher numeric values.  
-11. Here are the RMSE scores:
+12. Here are the RMSE scores:
     * Linear Regression **44%**
     * Ridge **44%**
     * Lasso **44%**
     * Random Forest **36%**
-    * XGBoost  
-12.
+    * XGBoost  **86%** *terrible!*
+13. Going for Random Forest for both ETA and fare. It performed the best given the amount of time I had to play around with hyper-parameters
+14. Learning curve was good, not a lot of discrepancy between training and testing scores. More data would likely make the model slightly better, so I might train the final model with 2 month's worth of data instead of 1.
+17. Some fun facts:
+  * Interestingly, when looking at feature importance, for ETA prediction demand seems to be the seconds most important feature after distance, whereas it is pretty insignificant when estimating the fare. This is clearly the result of lack of transparency in the regular taxi business (unlike Lyft / Uber).   
+  * Out of all the features, weather related variables have close to no influence on the either duration or fare of a taxi trip.
+  * 
