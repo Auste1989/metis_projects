@@ -14,6 +14,23 @@
 		};
 		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 
+var PolylineCoordinates = [
+new google.maps.LatLng(41.888901, -87.626425),
+new google.maps.LatLng(41.876247, -87.653048),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#0000FF",
+strokeOpacity: 1.000000,
+strokeWeight: 2
+});
+
+Path.setMap(map);
+
+
 var coords = [
 new google.maps.LatLng(41.890698, -87.626425),
 new google.maps.LatLng(41.890671, -87.626844),

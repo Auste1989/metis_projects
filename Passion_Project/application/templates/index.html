@@ -14,26 +14,28 @@
   <body style="background-color: #E8F7FD;">
     <div class=title>
     <div class="jumbotron text-center" style="padding: 30px; height:180px; text-align: center; background-color: #041F30">
-      <h1 style="font-size: 54pt; color: #FFFFFF;">Time Is Money</h1> <img src="/static/images/clock_icon.png" alt="Clock">
+      <h1 style="font-size: 54pt; color: #FFFFFF;">Time Is Money</h1> <img src="../static/images/clock_icon.png" alt="Clock">
     </div>
     </div>
 
     <div class="container" style="margin-top:30px; border: 2px solid #041F30; padding: 10px;">
           <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm">
               <h3>Where are you heading?</h3>
               <hr class="d-sm-none">
 
                   Origin Address
-                  <input id='origin'>
+                  <input style="width: 250px; height: 25px;" id='origin'>
 
                   <div></div>
 
                   Destination Address
-                  <input id='destination'>
+                  <input style="width: 210px; height: 25px;" id='destination'>
 
                   <div style="font-size: 10pt; font-style: italic"> e.g. 1033 West Van Buren Street, Chicago</div>
+            </div>
 
+            <div class="col-sm">
                   <h3>When do you wish to travel?</h3>
                   <hr class="d-sm-none">
 
@@ -44,8 +46,8 @@
                       <option value='other'> No </option>
                     </select>
 
-<!-- THIS SECTION SHOULD ONLY APPEAR IF No IS SELECTED -->
-<div class="form-group" style="display: none; font-size: 18pt; border: 2px solid #03b4c8; padding: 5px;" id='time_selection'>
+                    <!-- THIS SECTION SHOULD ONLY APPEAR IF No IS SELECTED -->
+                    <!-- <div class="form-group" style="display: none; font-size: 18pt; border: 2px solid #03b4c8; padding: 5px;" id='time_selection'> -->
 
                     <div>Please specify date and time:</div>
                     <!-- Year -->
@@ -140,10 +142,11 @@
 
               </div>
 
-          <div class="button">
-            <button id="submit" style="height: 50; width: 150; margin-left: 950px; margin-bottom: 15px;background-color: #F40F1B; color: white; font: 28;">LET'S GO</button>
-          </div>
+            <div class="button">
+              <button id="submit" style="height: 50; width: 150; margin-left: 950px; margin-bottom: 15px;background-color: #F40F1B; color: white; font: 28;">LET'S GO</button>
+            </div>
 
+          </div>
         </div>
     </div>
 
@@ -164,31 +167,17 @@
 
   </div>
 
+    <div class="container" style="margin-top:30px; padding: 10px;">
+
+    <!-- Place holder for the map and results -->
+
+    </div>
   </body>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script>
 
-  $('#submit').click( () => { predict();
-                              render_image(); });
-
-  function render_image(prediction){
-
-        let img = document.getElementById('img');
-        console.log('the prediction is' + prediction);
-        switch (prediction === 1) {
-
-          case true:
-           console.log('this is true ' + prediction)
-           img.src='/static/images/content.png';
-           break;
-
-          case false:
-           console.log('this is false ' + prediction)
-           img.src='/static/images/saddened.png';
-           break;
-        }
-      };
+  $('#submit').click( () => { predict();});
 
   function predict(){
     let features = {
@@ -210,12 +199,10 @@
     dataType: "json",
     async: true,
     data: JSON.stringify(features),
-    success: (the_result_div) => {
-      $('#hard_predict').html(the_result_div['prediction'] ? '<b>Pass</b>' : '<b>Fail</b>' );
-      $('#soft_predict').html(the_result_div['prob_pass']);
+    success: (result_div) => {
+      $('#hard_predict').html(result_div['ETA']);
+      $('#soft_predict').html(result_div['fare']);
       $('#the_result_div').show();
-
-      render_image(the_result_div['prediction']);
     },
     error: (the_result_div) => {
       alert('You messed it up, BIG TIME!');
