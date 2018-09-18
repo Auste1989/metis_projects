@@ -38,12 +38,12 @@ def get_longitude(address):
 
 def get_coordinates(origin, destination):
     """Takes origin and destination addresses and returns two lists, one with latitudes, second with longitudes"""
-    latitudes = [get_latitude(origin), get_latitude(destination)]
-    longitudes = [get_longitude(origin), get_longitude(destination)]
+    origin_coord = [get_latitude(origin), get_longitude(origin)]
+    destination_coord = [get_latitude(destination), get_longitude(destination)]
 
-    result = {'latitudes': latitudes,
-                'longitudes': longitudes}
-    return result
+    coordinates = [origin_coord, destination_coord]
+
+    return coordinates
 
 def get_distance(origin_address, destination_address):
     """Takes origin and destination addresses, converts them into geopoints and returns distance (in miles).
@@ -127,7 +127,7 @@ def get_ETA(trip_duration, start_time=dt.datetime.now()):
     ETA = ETA.strftime("%Y-%m-%d %I:%M%p")
     return ETA
 
-def plot_route(origin, destination):
+def plot_point_on_map(origin, destination):
     """Takes origin and destination coordinates and generates a route on Chicago City map.
     Generates a plot with origin and destination marked and a straight line between the two points."""
     latitudes = [get_latitude(origin), get_latitude(destination)]
@@ -142,7 +142,7 @@ def plot_route(origin, destination):
 #     taxi_route.plot(latitudes, longitudes, 'blue', edge_width = 2.5)
 
     # Draw
-    taxi_route.draw("./Chicago_taxi_route.html")
+    taxi_route.draw("./Chicago_taxi_points.html")
 
 def time_is_money(origin, destination, now, year=0, month=0, day=0, hours=0, minutes=0, ampm='AM'):
     """This functions takes origin and destination addresses (in Chicago) and a date and time.
@@ -170,11 +170,11 @@ def time_is_money(origin, destination, now, year=0, month=0, day=0, hours=0, min
     demand_last_week_diffed = get_hist_demand(get_demand(time_week_ago, desired_time))
 
     #Pull in trained linear regression model to predict current demand
-    with open('../LinearRegression_demand.pkl', 'rb') as pickle_demand:
-        LinReg_demand = pickle.load(pickle_demand)
+    with open('../Models/Demand_predictor.pkl', 'rb') as pickle_demand:
+        Demand_predictor = pickle.load(pickle_demand)
 
     #Predict demand growth / decline
-    predicted_demand_diff = list(LinReg_demand.predict(demand_last_week_diffed))
+    predicted_demand_diff = list(Demand_predictor.predict(demand_last_week_diffed))
 
     #Design feature space
     weekday = desired_time.weekday()
@@ -194,18 +194,18 @@ def time_is_money(origin, destination, now, year=0, month=0, day=0, hours=0, min
     scaled_features = get_scaled_features(features)
 
     #Pull in trained Random Forest models to predict personalized ETA and fare based on the locations and time
-    with open('../RandomForest_ETA_predictor.pkl', 'rb') as pickle_ETA:
-        RandomForest_ETA_predictor = pickle.load(pickle_ETA)
-    with open('../RandomForest_fare_predictor.pkl', 'rb') as pickle_fare:
-        RandomForest_fare_predictor = pickle.load(pickle_fare)
+    with open('../Models/ETA_predictor.pkl', 'rb') as pickle_ETA:
+        ETA_predictor = pickle.load(pickle_ETA)
+    with open('../Models/Fare_predictor.pkl', 'rb') as pickle_fare:
+        Fare_predictor = pickle.load(pickle_fare)
 
     #Predict the log duration, exponentiate to get seconds and convert to an ETA
-    seconds_log = RandomForest_ETA_predictor.predict(scaled_features)
+    seconds_log = ETA_predictor.predict(scaled_features)
     seconds = np.exp(seconds_log)
     ETA = get_ETA(int(seconds), desired_time)
 
     #Predict the log fare, exponentiate to get dollars
-    fare_log = RandomForest_fare_predictor.predict(scaled_features)
+    fare_log = Fare_predictor.predict(scaled_features)
     fare = round(np.exp(int(fare_log)), 2)
 
     return {'ETA': ETA, 'Fare': fare}
@@ -223,6 +223,15 @@ def make_prediction(features):
     result = {'ETA': ETA,
                 'fare': fare}
     return result
+
+# def map_points(features):
+#     feat_space = {'origin': features['origin'], 'destination': features['destination']}
+#
+#     plot_point_on_map(feat_space['origin'], feat_space['destination'])
+#     result = get_coordinates(feat_space['origin'], feat_space['destination'])
+#
+#     return result
+
 
 if __name__ == '__main__':
     print(make_prediction(test_ride))

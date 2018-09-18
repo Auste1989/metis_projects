@@ -14,15 +14,15 @@ def gen_prediction():
 
     return jsonify(response)
 
-# @app.route('/predict')
+# @app.route('/predict', methods=['POST'])
 # def plot_map():
 #     if not request.json:
 #         abort(400)
 #     points = request.json
 #
-#     response =
+#     response = map_points(points)
 #
-#   return render_template('Chicago_taxi_route.html', points = [[37.771135,-122.461689]]);
+#   return render_template('Chicago_taxi_points.html', points = [response]);
 
 @app.route('/')
 def index():
