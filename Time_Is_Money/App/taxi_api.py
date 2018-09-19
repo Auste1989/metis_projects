@@ -200,13 +200,13 @@ def time_is_money(origin, destination, now, year=0, month=0, day=0, hours=0, min
         Fare_predictor = pickle.load(pickle_fare)
 
     #Predict the log duration, exponentiate to get seconds and convert to an ETA
-    seconds_log = ETA_predictor.predict(scaled_features)
-    seconds = np.exp(seconds_log)
-    ETA = get_ETA(int(seconds), desired_time)
+    seconds_log = list(ETA_predictor.predict(scaled_features))
+    seconds = np.exp(seconds_log[0])
+    ETA = get_ETA(seconds, desired_time)
 
     #Predict the log fare, exponentiate to get dollars
-    fare_log = Fare_predictor.predict(scaled_features)
-    fare = round(np.exp(int(fare_log)), 2)
+    fare_log = list(Fare_predictor.predict(scaled_features))
+    fare = round(np.exp(fare_log[0]), 2)
 
     return {'ETA': ETA, 'Fare': fare}
 

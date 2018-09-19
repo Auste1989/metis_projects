@@ -10,17 +10,13 @@ I will be analyzing Chicago City Taxi Ride dataset combined with weather data in
 Accurate pricing and potential delay detection due to weather are some of the most pressing issues in transportation industry. As a representative of this industry, I see a lot of potential for such application at my current employer.
 
 ### About The Dataset
-I am using Chicago City **Taxi Ride** dataset. It's very large, I am using 2015, 2016 for training and 2017-01 to 2017-08 for testing, which is roughly 20GB. I have started off with working on my local machine, but might have to put it up on the cloud or work with pySpark (or both).
+I am using Chicago City **Taxi Ride** dataset. It's very large, I am using 2016 for training and 2017-01 and 2017-02 for testing, which is roughly 20GB and 22 mln records. I have started off with working on my local machine, but might have to put it up on the cloud or work with pySpark (or both).
 
-Some cleanup has already been done, but more EDA effort will certainly be needed.  
-*I am not planning to use all of the data, but potentially take a subset of it, to begin with.*  
+Some cleanup has already been done, but more EDA effort will certainly be needed.   
 More information about the **taxi ride** dataset can be found [here](https://digital.cityofchicago.org/index.php/chicago-taxi-data-released/).
 
 The **Weather dataset** contains daily precipitation, snowfall, snow depth, maximum / minimum temperatures and flag for weather tags (such as thunder, heavy fog, tornado, etc.).  
-More information about **weather** dataset can found [here](https://www.ncdc.noaa.gov/).
-
-Another small dataset will be needed for converting addresses to lat/longs.
-Also I will need shape files for Chicago city map and roads to be able to plot and potentially map out the routes.
+More information about **weather** dataset can be found [here](https://www.ncdc.noaa.gov/).
 
 ### Approach
 The general plan is to get the data into postgreSQL database, clean & massage it, form one dataset (combined taxi ride and weather info) and train a multiple linear regression model to estimate an ETA and fare.
@@ -95,4 +91,4 @@ First go is without scaling. I will try and scale all the features to avoid infl
 17. Some fun facts:
   * Interestingly, when looking at feature importance, for ETA prediction demand seems to be the seconds most important feature after distance, whereas it is pretty insignificant when estimating the fare. This is clearly the result of lack of transparency in the regular taxi business (unlike Lyft / Uber).   
   * Out of all the features, weather related variables have close to no influence on the either duration or fare of a taxi trip.
-  * 
+  *
