@@ -91,4 +91,3 @@ First go is without scaling. I will try and scale all the features to avoid infl
 17. Some fun facts:
   * Interestingly, when looking at feature importance, for ETA prediction demand seems to be the seconds most important feature after distance, whereas it is pretty insignificant when estimating the fare. This is clearly the result of lack of transparency in the regular taxi business (unlike Lyft / Uber).   
   * Out of all the features, weather related variables have close to no influence on the either duration or fare of a taxi trip.
-  *
